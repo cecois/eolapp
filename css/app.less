@@ -82,6 +82,20 @@
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 
+.cv-info-block{
+   font-style: italic;
+  // margin-top:20px;
+  margin-bottom:30px;
+// padding: 25px;
+// width: 90%;
+margin-left: 5%;
+  // font-style: italic;
+  // border-radius:2px;
+  white-space: pre;
+}
+
+.email::after{ content:'c.carl.miller@gmail.com'; }
+
 /* --------------------------------------- TITLES/HEADERS -------------- */
 
 body{
@@ -138,6 +152,16 @@ body{
 
 }
 
+.cvjek-title{
+  font-size:3em;
+  // letter-spacing: 5px;
+}
+.cvjek-title-sub{
+  font-size:2em;
+  // letter-spacing: 5px;
+}
+
+
 h3,h4,h5{
   // font-family: 'PT Sans Narrow', sans-serif;
   // color:@titlecopy;
@@ -193,6 +217,24 @@ h3,h4,h5{
 /* --------------------------------------- POST-LIST -------------- */
 .post-list{
   color:@bodycopy;
+
+h4{
+  margin-top:32px;
+  margin-left:2%;
+}
+h3{
+  margin-top:32px;
+  margin-left:1%;
+}
+
+ul{
+  list-style: none;
+  li{
+    list-style: none;
+    left:5%;
+    margin-bottom:15px;
+  }
+}
   // li{
   //   &:hover{
   //     color:black;
@@ -380,8 +422,12 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
   right:-55%;
   } //collapsed
 
-  /* ------------------------------------------------------------------------------------ BHOECHIE OVERRIDES -- */
+  /* ------------------------------------------------------------------------------------ MASONRY -- */
 
+.grid-item { width: 200px; }
+.grid-item--width2 { width: 400px; }
+
+  /* ------------------------------------------------------------------------------------ BHOECHIE OVERRIDES -- */
 
   .list-group-item {
     padding: 3px 5px;

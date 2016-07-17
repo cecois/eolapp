@@ -1,4 +1,4 @@
-er ---
+---
 layout: post
 title: 'Current & Past Positions'
 date: 2016-03-21 02:18:42.000000000 -04:00
@@ -17,34 +17,36 @@ first_name: C.C.
 last_name: Miller
 ---
 
-#### Current Position:
+### Current Position:
 
-##### GIS Specialist/Systems Administrator, 2012-present
+#### GIS Specialist/Systems Administrator, 2012-present
 
-Knowledge Services Sector
-<span class="copy-trigger" data-type="gob" data-id="gD19">Massachusetts Institute of Technology - Lincoln Laboratory</span>
+<div class="cv-info-block">
+Knowledge Services Sector<br/>
+<span class="copy-trigger" data-type="gob" data-id="gD19">Massachusetts Institute of Technology - Lincoln Laboratory</span><br/>
 244 Wood St., Lexington, Mass
+</div>
 
-#### Previous Positions:
+### Previous Positions:
 
-##### Associate Professor of Library Science/GIS Specialist, 2012
+#### Associate Professor of Library Science/GIS Specialist, 2012
 
-<span class="copy-trigger" data-type="gob" data-id="gD16">Purdue University Libraries</span>
-504 West State Street
-West Lafayette, IN 47907-2058
+<div class="cv-info-block"><span class="copy-trigger" data-type="gob" data-id="gD16">Purdue University Libraries</span><br/>
+504 West State Street<br/>
+West Lafayette, IN 47907-2058<br/></div>
 
-##### Assistant Professor of Library Science/GIS Specialist, 2006-2012
+#### Assistant Professor of Library Science/GIS Specialist, 2006-2012
 
-<span class="copy-trigger" data-type="gob" data-id="gD16">Purdue University Libraries</span>
-504 West State Street
-West Lafayette, IN 47907-2058
+<div class="cv-info-block"><span class="copy-trigger" data-type="gob" data-id="gD16">Purdue University Libraries</span><br/>
+504 West State Street<br/>
+West Lafayette, IN 47907-2058<br/></div>
 
-##### Assistant Professor/Government Documents Librarian, 2003-2006
+#### Assistant Professor/Government Documents Librarian, 2003-2006
 
-<span class="copy-trigger" data-type="gob" data-id="gD17">Sue & Radcliffe Killam Library</span>
-Texas A&M International University
-5201 University Blvd, Laredo, TX 78041
+<div class="cv-info-block"><span class="copy-trigger" data-type="gob" data-id="gD17">Sue & Radcliffe Killam Library</span><br/>
+Texas A&M International University<br/>
+5201 University Blvd, Laredo, TX 78041<br/></div>
 
-#### Education:
+### Education:
 * M.L.S. – <span class="copy-trigger" data-type="gob" data-id="gD18">University of Iowa</span> School of Library & Information Science 2002
 * B.A. in English (with Honors, History minor) – <span class="copy-trigger" data-type="gob" data-id="gD18">University of Iowa</span> 2000

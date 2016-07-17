@@ -19,10 +19,13 @@ github_username:  null
 markdown: kramdown
 # =======
 # Site settings
-title: akdnla
-tag_text: akdnla
-description: adflkn
-url: "http://127.0.0.1:4000"
+# title: C.C. Miller - web app CV
+title: wacv
+# tag_text: C.C. Miller - web app CV
+tag_text: wacv
+# description: C.C. Miller - web app CV
+description: wacv
+url: "http://localhost/cvjek"
 
 # Build settings
 markdown: kramdown

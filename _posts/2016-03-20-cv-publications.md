@@ -17,10 +17,11 @@ first_name: C.C.
 last_name: Miller
 ---
 
-#### Peer-Reviewed Publications
+### Peer-Reviewed Publications
 
-(for multiple authors, \* denotes major author/contributor where balance is uneven)
+(for multiple authors, \* denotes major author/contributor)
 
+* \*Weber, Nicole; \*Dyehouse, Melissa; Miller, Christopher C.; Fang, Jun; Hua, Inez; Strobel, Johannes; Impact of Household Location on First-Year Engineering Students' Environmental Awareness and Resistance to Change. Journal of Engineering Education. Vol. 102, No. 4, 603–625, October 2013. DOI: 10.1002/jee.20028
 * Carlson, J., Fosmire, M., Miller, C. C, & Sapp­-Nelson, M.. Determining Data Information Literacy Needs: A Study of Students and Research Faculty. portal: Libraries and the Academy. Retrieved from http://goo.gl/BXVO9
 * Newton, M. P., Miller, C. C, & Bracke, M. S. (2011). Librarian Roles in Institutional Repository Data Set Collecting: Outcomes of a Research Library Task Force. Collection Management. 36(1), 53­67. Retrieved from http://www.informaworld.com/10.1080/01462679.2011.530546
 * \*Chen, S., Florax, R. J. G. M., Snyder, S., & Miller, C. C. (2010). Obesity and Access to Chain Grocers. Economic Geography, 86(4), 431–452. Retrieved from http://bit.ly/fUyhoh
@@ -32,7 +33,7 @@ last_name: Miller
 * Miller, C. C. (2006). A Beast in the Field: The Google Maps Mashup as GIS/2. Cartographica, 41(3), 187–199. Retrieved from http://bit.ly/hhxuoq
 
 
-#### Other (Select) Publications
+### Other (Select) Publications
 
 * Kocur\*, L. A., Glotzbach, R. J., Schulze, D. G., & Miller, C. C. "Usability of educational soil mapping software," in process at Proceedings of the 22nd international conference of the Society for Information Technology and Teacher Education (SITE 2011).
 * Miller, C.C. “Library applications, collaborations, and courses for geodata and geoinformatics” in 31st Annual International Association of Scientific and Technological University Libraries Conference, Proceedings, 2010. <http://docs.lib.purdue.edu/iatul2010/conf/day2/6/>
@@ -51,25 +52,24 @@ last_name: Miller
 * Lugar, Dick. "Dear Colleague" Letter distributed to U.S. Senate, April 2008. (Letter itself seems to not have been distributed electronically, but references are online at the following: <http://lugar.senate.gov/news/record.cfm?id=296502&&>, <http://www.thefranklinonline.com/blog/nation_world/intern_attains_positive_reaction_regarding_letter_at_co mmittee_meeting>
 * Battles, Matthew. "From C to shining C – A new map gives a detailed picture of America's carbon emissions." The Boston Globe. (27 April 2008).
 * "'Revolutionary' Carbon Dioxide Maps Zoom In On Greenhouse Gas Sources." ScienceDaily. (April 8, 2008). <http://www.sciencedaily.com/releases/2008/04/080407172656.htm>
-* Revkin, Andrew C. "Dot Earth: Breath of a Nation ­­ Animated CO2 Map." The New York Times (April 7,
-* 2008; Section A; Column 0) <http://dotearth.blogs.nytimes.com/2008/04/07/breath­of­a­nation­animated­ co2­map>
+* Revkin, Andrew C. "Dot Earth: Breath of a Nation ­­ Animated CO2 Map." The New York Times (April 7, 2008; Section A; Column 0) <http://dotearth.blogs.nytimes.com/2008/04/07/breath­of­a­nation­animated­ co2­map>
 * Madrigal, Alexis. "Scientists Unveil High­Res Map of the U.S. Carbon Footprint," Wired Science, (April 07, 2008). <http://blog.wired.com/wiredscience/2008/04/scientists­unve.html>
 * Miller, C.C. "Why You Gotta Break My Heart? Using Web Feature Services." Base line: a newsletter of the Map & Geography Roundtable. 29, No. 1, February 2008.
 * Miller, C.C. "I Might Be the Reason Libraries are Slow to Innovate" Base line: a newsletter of the Map and Geography Round Table. October 2007.
 * Miller, C.C. "Is Street View Anything? Or, is it Really GIS if All We're Doing is Looking for Pictures of Naked People?" Base line: a newsletter of the Map and Geography Round Table. August 2007.
 
 
-#### Invited Lectures/Presentations
+### Invited Lectures/Presentations
 * Miller, C.C. "GEOSHARE: User/Contributor Experience." Presentation at Kickoff Workshop: the GEOSHARE (Geospatial, Open­Source Hosting of Agricultural and Environmental Data) pilot project. West Lafayette, Indiana, May 24­25, 2011.
 * Miller, C.C. “GIS in Every Library,” American Library Association Annual Conference. Washington, D.C., June 26, 2010.
 * Miller, C.C. “Library applications, collaborations, and courses for geodata and geoinformatics,” International Association of Technological University Libraries. 31st Annual Conference of the Association of Technological University Libraries. West Lafayette, IN, June 2010.
 * Miller, C.C. “Guerilla Geoinformatics Education: Promoting Geoinformatics in Collaboration, Curricula, and ‘Other.’” Cyberinfrastructure Summer Institute for Geoscientists. San Diego Supercomputer Center, San Diego, CA, August 10 2009.Other (Select) Publications
 
-#### Other Lectures/Presentations
+### Other Lectures/Presentations
 
-(for multiple authors, \* denotes major author/contributor where balance is uneven)
+(for multiple authors, \* denotes major author/contributor)
 
-* \*Zhao, Lan and \*Hyojeong Lee, Tonglin Zhang, Gabriel Bowen, Christopher Miller, Jason West, Ajay Kalangi. “Enabling Online Geospatial Isotopic Model Development and Analysis.” TG ’11 Proceedings of the 2011 TeraGrid Conference. ACM New York, NY, USA
+* \*Zhao, Lan and \*Hyojeong Lee, Tonglin Zhang, Gabriel Bowen, C.C. Miller, Jason West, Ajay Kalangi. “Enabling Online Geospatial Isotopic Model Development and Analysis.” TG ’11 Proceedings of the 2011 TeraGrid Conference. ACM New York, NY, USA
 * \*Miller, C.C. and Lan Zhao, Ajay Kalangi, Hyojeong Lee, Gabriel Bowen, Jason West, Tonglin Zhang, Zhongfang Liu. "The IsoMAP CI Stack: The Open Source, Grid­Enabled Technologies Behind the IsoMAP Project." Poster presented at the 2011 conference on The Roles of Stable Isotopes in Water Cycle Research. Keystone, Colorado, March 29­31, 2011
 * \*Zhang, Tonglin and Zhongfang Liu, Ajay Kalangi, Hyojeong Lee, Chris Miller, Jason West, Lan Zaho, Gabriel Bowen. An Automated Geostatistical Toolkit for Mapping Stable Isotope Ratios of Precipitation over Space and Time. 2011
 * Conference on the Roles of Stable Isotopes in Water Cycle Research. Keystone, CO, March 2011.

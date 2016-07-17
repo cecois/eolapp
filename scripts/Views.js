@@ -132,9 +132,7 @@ var PostsView = Backbone.View.extend({
 
 
         var di = $(e.currentTarget).attr("data-id")
-        console.info("di");console.log(di);
         var dt = $(e.currentTarget).attr("data-type")
-        console.info("dt");console.log(dt);
 
         switch (dt) {
             case 'slug':
@@ -153,6 +151,7 @@ var PostsView = Backbone.View.extend({
         return this
         } //activate
         ,
+
         render: function() {
 
             var ap = this.collection.findWhere({active:true})
@@ -166,7 +165,6 @@ var PostsView = Backbone.View.extend({
 
 
             return this
-            // .downout()
         }
     });
 
@@ -225,7 +223,7 @@ var GeomsView = Backbone.View.extend({
                         // "seen": eolseen,
                         "geom_type": geomtype,
                         "anno": the_props.anno,
-                        "style": pullCVJEKStyle(geomtype,the_props.active,the_props.seen)
+                        "style": CVJUTIL.get_style(geomtype,the_props.active,the_props.seen)
                     },
                     "geometry": the_geom
                 };
@@ -272,7 +270,7 @@ var GeomsView = Backbone.View.extend({
 
 
 // the style func has some internal logic for sorting this out
-LA.setStyle(pullCVJEKStyle(gtype,styleactive,styleseen))
+LA.setStyle(CVJUTIL.get_style(gtype,styleactive,styleseen))
 
 
         }); //each
@@ -303,9 +301,13 @@ paint: function() {
                     console.info("gtype");console.log(gtype);
                     var nid = m.target.feature.properties.cvjekid
                     console.info("nid");console.log(nid);
-                    // m.target.setStyle(pullCVJEKStyle(gtype,1,0))
                 }
-                appState.set({agob:nid})
+
+                if(nid == appState.get("agob")){
+                    console.log("hey this one's already active");
+                    appState.set({agob:null})
+                } else {
+                                appState.set({agob:nid})}
 
 
             }) //.on
