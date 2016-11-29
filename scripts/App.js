@@ -37,21 +37,21 @@ var CVJUTIL = new UTIL();
 
 var baselayers = {
 	"layers": [{
-		"name": "mapquest",
-		"active": false,
-		"source": "mapquest",
-		"nom": "MapQuest OSM",
-		"thumb": "http://otile1.mqcdn.com/tiles/1.0.0/osm/3/4/2.png",
-		"mapis": "light",
+		"name": "pencil",
+		"active": true,
+		"source": "mapbox",
+		"nom": "Aj Ashton's Pencil Map",
+		"thumb": "/assets/offline/thumb-pencil.png",
+		"mapis": "dark",
 		"definition": {
-			"subdomains": ["otile1", "otile2", "otile3", "otile4"],
+			"subdomains": ["a", "b", "c"],
 			"maxZoom": 18,
-			"url": "http://{s}.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.png",
+			"url": "https://{s}.tiles.mapbox.com/v4/aj.03e9e12d/{z}/{x}/{y}@2x.png?access_token=pk.eyJ1IjoiYWoiLCJhIjoiY2lrZW1pczJzMDA1d3VybTJha216azVtdSJ9.vJBkGAq6CvN9vt0IwakQ-A",
 			"noWrap": true
 		}
 	}, {
 		"name": "dummy",
-		"active": true,
+		"active": false,
 		"source": "localhost",
 		"nom": "A Real Dummy",
 		"thumb": "assets/offline/thumb-dummy.png",
