@@ -21,7 +21,7 @@ last_name: Miller
 
 MIT Lincoln Laboratory is a federally-funded research and development center that "applies advanced technology to problems of national security." As such, they take security very seriously and my work there cannot be made public. I can say, however, that my primary objective when I started in 2012 was to build a system for the storage, search, discovery, and delivery of spatial data. Which I did - with <a href="https://www.mongodb.com/">MongoDB</a> and [PostGIS](http://postgis.net/) on the back end and [Apache Solr](http://lucene.apache.org/solr/), [GeoServer](http://geoserver.org/), [GeoWebcache](http://geowebcache.org/) in the middle, I wrote an API (first in [Slim](http://www.slimframework.com/), then [Kohana](https://kohanaframework.org/)) that I also happen to consume with a single-page web app written primarily against [BackboneJS](backbonejs.com) (but with other fun stuff such as [Bootstrap](http://getbootstrap.com/), [Leaflet](http://leafletjs.com), [Handlebars](http://handlebarsjs.com/), all that hip stuff). There are numerous third-party APIs and projects in there as well (e.g. [Freebase](https://www.freebase.com/), [D3.js](https://d3js.org/), [MapQuest](http://open.mapquestapi.com/), [OpenStreetMap](https://wiki.openstreetmap.org/wiki/Main_Page), [CloudMade](http://cloudmade.com/)). The result is beautiful, clean, and a success for my sector - given interest from the Lab community, I have begun work that will couple the lightweight web GUI with powerful grid computing resources at MITLL in order to support additional features.
 
-I do wish I could show it off (it's pretty!), but I cannot. Here is some alternate evidence of how truly great (I think) I am:
+I do wish I could show it off (it's pretty!), but I cannot. There are other projects, too, that evidence a growing and diversifying skill set - an API in Node that brokers map routing (against data in PostGIS+pgRouting); a MongoDB Map/Reduce workflow that summarizes and reports on many millions of archival records; numerous ad hoc web apps designed to visualize this or that data problem or to deliver data found on behalf of a lab researcher - but these, too, cannot be copied or distributed. Some personal projects can, though:
 
 ### Purdue Tenure Doc
 First of all, here is a document left over from a successful bid for tenure at Purdue University. It is a prose case that argues my value to the overall strategic mission of Purdue at that time as well as the specific objectives of Purdue University Libraries. It is included here because it might provide some context and exposition for how a nominal librarian might come to be a teacher/developer/sysadmin.
@@ -54,46 +54,46 @@ om:12px;" class="pull-right" src="https://s3.amazonaws.com/f.cl.ly/items/342D100
 
 
 * _Spatial Data Catalog Project (MADA@P)_ - Purdue, 2008-2012
-	* an open source­-built metadata+data+GUI stack to deliver spatial data
-	* built (by me) with [GeoServer](http://geoserver.org) ([MapServer](http://mapserver.org), early on), [OpenLayers](http://openlayers.org), [jQuery](http://jquery.com), on top of a metadata store in [GeoNetwork OpenSource](http://geonetwork-opensource.org) that I re-re-indexed with a [Solr](http://lucene.apache.org/solr).
+* an open source­-built metadata+data+GUI stack to deliver spatial data
+* built (by me) with [GeoServer](http://geoserver.org) ([MapServer](http://mapserver.org), early on), [OpenLayers](http://openlayers.org), [jQuery](http://jquery.com), on top of a metadata store in [GeoNetwork OpenSource](http://geonetwork-opensource.org) that I re-re-indexed with a [Solr](http://lucene.apache.org/solr).
 
 
 * _Targeted Metadata Crawler_ - Purdue, 2008-2011
-	* web crawler side project that harvested specifically spatial metadata from social data streams
-	* design by me, parser written in Java by one of my graduate assistants
+* web crawler side project that harvested specifically spatial metadata from social data streams
+* design by me, parser written in Java by one of my graduate assistants
 
 
 * _IsoMAP: Isoscape Modeling, Analysis and Prediction_ - Purdue, 2008-2012
-	* spatial data processing and organization workflows 
-	* web app (in [OpenLayers](http://openlayers.org)) that interfaces with metadata stores, spatial database contents, and TeraGrid job managing software
-	* metadata authoring, metadata indexing, and metadata search mechanism
-	* I built the spatial component of an NSF­-funded cyberinfrastructure project that delivers powerful environmental isotope modeling, analysis, and visualization over the web
+* spatial data processing and organization workflows 
+* web app (in [OpenLayers](http://openlayers.org)) that interfaces with metadata stores, spatial database contents, and TeraGrid job managing software
+* metadata authoring, metadata indexing, and metadata search mechanism
+* I built the spatial component of an NSF­-funded cyberinfrastructure project that delivers powerful environmental isotope modeling, analysis, and visualization over the web
 
 
 * _ISEE: Integrating Spatial Educational Experiences into Crop, Soil, and Environmental Science_ - Purdue, 2008-2012
-	* 100s of GBs of soil imagery prepared and delivered to web and other clients (Google Earth) in soil science classrooms
+* 100s of GBs of soil imagery prepared and delivered to web and other clients (Google Earth) in soil science classrooms
 
 
 * _Geoinformatics Course_: 2008, 2010
-	* graduate­level course taught by me in which geoscientific technologies, data, and workflows are examined and practiced together as irrevocably interrelated pieces of a growing geocyberinfrastructure
+* graduate­level course taught by me in which geoscientific technologies, data, and workflows are examined and practiced together as irrevocably interrelated pieces of a growing geocyberinfrastructure
 
 
 * _Vulcan_ - Purdue, 2006-2012
-	* provided data location and preparation and GIS methodologies to this groundbreaking inventory of U.S. CO2 emissions (<a href="http://vulcan.project.asu.edu/">now at ASU</a>)
+* provided data location and preparation and GIS methodologies to this groundbreaking inventory of U.S. CO2 emissions (<a href="http://vulcan.project.asu.edu/">now at ASU</a>)
 
 
 * _Spatialized Repository Collections_ - Purdue, 2010-2012
-	* a side-project that was building mostly­-automated workflows designed to extract semantically useful placenames and other location data from fulltext scholarly repository documents
+* a side-project that was building mostly­-automated workflows designed to extract semantically useful placenames and other location data from fulltext scholarly repository documents
 
 
 * _Automated Georeferencer (PLAutoGeoRef)_ - Purdue, 2010-2012
-	* in-­house research designed to automate the laborious georeferencing of historic aerial photo collections
-	* design and direction by me - processing algorithm by my GA, Jae Sung Kim
+* in-­house research designed to automate the laborious georeferencing of historic aerial photo collections
+* design and direction by me - processing algorithm by my GA, Jae Sung Kim
 
 
 * _1906 Soil Survey Resurrection_ - Purdue, 2007­-2008
-	* historic map digitization and data extraction ­a 1906 soil survey document was digitized and deposited into the Purdue Libraries institutional repository; its map was further georeferenced and run through a segmentation algorithm (Jae Sung Kim) which helped us pull out real polygonal vector data for use in modern GISs
+* historic map digitization and data extraction ­a 1906 soil survey document was digitized and deposited into the Purdue Libraries institutional repository; its map was further georeferenced and run through a segmentation algorithm (Jae Sung Kim) which helped us pull out real polygonal vector data for use in modern GISs
 
 
 * _Pilot PTO Dailies_ - Purdue, 2010-2012
-	* an automated data publishing workflow incorporates extant library data APIs to push Purdue Terrestrial Observatory remote sensing data to the web
+* an automated data publishing workflow incorporates extant library data APIs to push Purdue Terrestrial Observatory remote sensing data to the web

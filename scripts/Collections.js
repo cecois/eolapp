@@ -85,7 +85,8 @@ var PostsCollection = Backbone.Collection.extend({
         // var act = slug
 
         var tat = this.findWhere({slug:appState.get("slug")})
-        tat.set({active:true})
+        if(typeof tat !== 'undefined'){
+            tat.set({active:true})}
 
         
         return this
