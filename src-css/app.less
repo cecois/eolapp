@@ -28,7 +28,8 @@
 
 @hovercolor: @eolprimary;
 
-@font-main: 'FjallaOne', sans-serif;
+// @font-main: 'FjallaOne', sans-serif;
+@font-main: 'Alegreya Sans', sans-serif;
 
 .stroke-gray{
 text-shadow: @bodycopy 0px 0px 1px,   @bodycopy 0px 0px 1px,   @bodycopy 0px 0px 1px,
@@ -84,13 +85,8 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 
 .cv-info-block{
 font-style: italic;
-// margin-top:20px;
 margin-bottom:30px;
-// padding: 25px;
-// width: 90%;
 margin-left: 5%;
-// font-style: italic;
-// border-radius:2px;
 white-space: pre;
 }
 
@@ -99,8 +95,9 @@ white-space: pre;
 /* --------------------------------------- TITLES/HEADERS -------------- */
 
 body{
+font-family: @font-main;
 .copy-trigger{color: @alink;cursor:pointer;font-weight:500;
-// text-shadow: @eolyellow 0px 0px 4px;
+text-shadow: @alink 0px 0px 1px;
 &:hover{color:@seen;}
 }
 
@@ -113,8 +110,9 @@ color:  @seen;
 /*font-family: 'Old Standard TT', serif;*/
 /*font-family: 'PT Serif', serif;*/
 /*font-family: 'Roboto', sans-serif;*/
-font-family: @font-main;
-font-size: 10px;
+
+
+// font-size: .88em;
 color:@bodycopy;
 
 ::selection {
@@ -171,7 +169,6 @@ h3,h4,h5{
 }
 
 #title-container{
-
 text-align: center;
 /*font-family: 'Open Sans', sans-serif;*/
 /*font-family: 'Lato', sans-serif;*/
@@ -216,7 +213,9 @@ background: @eolyellow; /* Gecko Browsers */
 
 /* --------------------------------------- POST-LIST -------------- */
 .post-list{
+font-family: @font-main;
 color:@bodycopy;
+font-size:1.4em;
 
 h4{
 margin-top:32px;
@@ -407,7 +406,8 @@ padding-top: 0.5em;
 color:inherit;
 code{
 color:@bodycopy-light;
-font-family: @font-main;}
+// font-family: @font-main;
+}
 }
 }
 

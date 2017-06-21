@@ -5,7 +5,6 @@ var PostsMenuView = Backbone.View.extend({
         "click a": "activate"
     },
     initialize: function() {
-        console.log("init of PMV");
         this.listenTo(this.collection, 'change:active', this.render);
         return this
     },
@@ -19,7 +18,6 @@ var PostsMenuView = Backbone.View.extend({
     activate: function(e) {
 
         e.preventDefault()
-        console.log("in activate");
         var ds = $(e.currentTarget).attr("data-id")
 
         appState.set({"slug":ds})
@@ -28,7 +26,6 @@ var PostsMenuView = Backbone.View.extend({
     }
     ,
     render: function() {
-        console.log("render of PMV");
         $(this.el).html(this.template({
             count: this.collection.models.length,
             rows: this.collection.toJSON()

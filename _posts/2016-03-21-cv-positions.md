@@ -5,9 +5,10 @@ date: 2016-03-21 02:18:42.000000000 -04:00
 type: post
 published: true
 status: publish
-order: 0
+order: 3
 category:
 - cv
+- menud
 tags:
 - profession,education
 meta:

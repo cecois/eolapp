@@ -8,6 +8,7 @@ status: publish
 order: 1
 category:
 - cv
+- menud
 tags:
 - apps
 meta:

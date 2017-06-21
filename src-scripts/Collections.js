@@ -59,7 +59,7 @@ var BaseLayersCollection = Backbone.Collection.extend({
 var PostsCollection = Backbone.Collection.extend({
     model: Post,
     url: function() {
-        return "api/jekyllfetcher.php?cb=cwmccallback&solrstring="
+        return null
     },
     initialize: function(options) {
         // this.on('change', this.activate, this);
@@ -88,7 +88,7 @@ var PostsCollection = Backbone.Collection.extend({
         if(typeof tat !== 'undefined'){
             tat.set({active:true})}
 
-        
-        return this
+            
+            return this
         } //actxivate
     });

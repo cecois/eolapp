@@ -5,9 +5,10 @@ date: 2016-02-13 02:18:42.000000000 -04:00
 type: post
 published: true
 status: publish
-order: 3
+order: 4
 category:
 - cv
+- menud
 tags:
 - profession,awards
 meta:

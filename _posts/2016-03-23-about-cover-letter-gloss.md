@@ -1,13 +1,14 @@
 ---
 layout: post
-title: 'Set But Ambitious'
+title: 'Narrative'
 date: 2016-03-23 02:18:42.000000000 -04:00
 type: post
 published: true
 status: publish
-order: 0
+order: 2
 category:
 - about
+- menud
 tags:
 - commute,mitll
 meta:

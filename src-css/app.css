@@ -1,0 +1,348 @@
+/* --------------------------------------- GLOBALS -------------- */
+/* eol navy */
+.stroke-gray {
+  text-shadow: #707070 0px 0px 1px, #707070 0px 0px 1px, #707070 0px 0px 1px, #707070 0px 0px 1px, #707070 0px 0px 1px, #707070 0px 0px 1px;
+  -webkit-font-smoothing: antialiased;
+}
+.stroke-eol {
+  text-shadow: #C7E048 0px 0px 1px, #C7E048 0px 0px 1px, #C7E048 0px 0px 1px, #C7E048 0px 0px 1px, #C7E048 0px 0px 1px, #C7E048 0px 0px 1px;
+  -webkit-font-smoothing: antialiased;
+}
+/* --------------------------------------- MISC REUSABLES -------------- */
+.rotate-90 {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  /* also accepts left, right, top, bottom coordinates; not required, but a good idea for styling */
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -o-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  /* Should be unset in IE9+ I think. */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+.rotate-45 {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  /* also accepts left, right, top, bottom coordinates; not required, but a good idea for styling */
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -o-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  /* Should be unset in IE9+ I think. */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+.cv-info-block {
+  font-style: italic;
+  margin-bottom: 30px;
+  margin-left: 5%;
+  white-space: pre;
+}
+.email::after {
+  content: 'c.carl.miller@gmail.com';
+}
+/* --------------------------------------- TITLES/HEADERS -------------- */
+body {
+  font-family: 'Alegreya Sans', sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
+  /*font-family: 'Gentium Book Basic', serif;*/
+  /*font-family: 'Old Standard TT', serif;*/
+  /*font-family: 'PT Serif', serif;*/
+  /*font-family: 'Roboto', sans-serif;*/
+  color: #707070;
+}
+body .copy-trigger {
+  color: #384754;
+  cursor: pointer;
+  font-weight: 500;
+  text-shadow: #384754 0px 0px 1px;
+}
+body .copy-trigger:hover {
+  color: #919191;
+}
+body .copy-trigger.seen {
+  color: #919191;
+}
+body ::selection {
+  background: #384754;
+  /* WebKit/Blink Browsers */
+  color: white;
+}
+body ::-moz-selection {
+  background: #384754;
+  /* Gecko Browsers */
+  color: white;
+}
+body a {
+  color: #384754;
+  font-weight: 800;
+}
+body a:visited {
+  color: #919191;
+}
+h1,
+h2 {
+  /*color: @titlecopy;*/
+  font-weight: 800;
+  color: #C7E048;
+}
+.cvjek-title {
+  font-size: 3em;
+}
+.cvjek-title-sub {
+  font-size: 2em;
+}
+#title-container {
+  text-align: center;
+  /*font-family: 'Open Sans', sans-serif;*/
+  /*font-family: 'Lato', sans-serif;*/
+  /*font-family: 'PT Mono', ;*/
+  /*font-family: 'Open Sans', sans-serif;*/
+  font-family: 'PT Sans Narrow', sans-serif;
+  z-index: 10;
+  font-weight: 800;
+  background-color: #ffffff;
+  padding: 0 !important;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  border: 1px solid #ddd;
+  /*margin-left: 50px; OG */
+  margin-left: 0px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  -moz-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  background-clip: padding-box;
+  opacity: 0.97;
+  filter: alpha(opacity=97);
+}
+#title-container #title-copy {
+  padding-left: 33px;
+  padding: 10px;
+}
+#title-container #title-copy ::selection {
+  background: #C7E048;
+  /* WebKit/Blink Browsers */
+}
+#title-container #title-copy ::-moz-selection {
+  background: #C7E048;
+  /* Gecko Browsers */
+}
+/* --------------------------------------- POST-LIST -------------- */
+.post-list {
+  font-family: 'Alegreya Sans', sans-serif;
+  color: #707070;
+  font-size: 1.4em;
+}
+.post-list h4 {
+  margin-top: 32px;
+  margin-left: 2%;
+}
+.post-list h3 {
+  margin-top: 32px;
+  margin-left: 1%;
+}
+.post-list ul {
+  list-style: none;
+}
+.post-list ul li {
+  list-style: none;
+  left: 5%;
+  margin-bottom: 15px;
+}
+/* --------------------------------------- MAP -------------- */
+#map {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -10;
+}
+/* --------------------------------------- TITLES/HEADERS -------------- */
+#paneToggler {
+  padding-top: 12px;
+  color: #c3c3bc;
+  font-size: 2.2em;
+}
+#paneToggler:active {
+  color: white;
+}
+#paneToggler:hover {
+  cursor: pointer;
+  color: #a9a99e;
+}
+#paneToggler.collapsed {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  /* also accepts left, right, top, bottom coordinates; not required, but a good idea for styling */
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -o-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  /* Should be unset in IE9+ I think. */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  color: #939386;
+}
+#paneToggler.collapsed:hover {
+  color: #c3c3bc;
+}
+#footer {
+  height: 12px;
+  color: #707070;
+  text-align: left;
+  font-size: .7em;
+  position: fixed;
+  bottom: 5px;
+  border: none;
+  margin: 0;
+  padding: 0 5px 0 0;
+}
+/* --------------------------------------- FANCY SUBNAV TABS -------------- */
+/*  bhoechie tab */
+div.bhoechie-tab-container {
+  z-index: 10;
+  background-color: #ffffff;
+  padding: 0 !important;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  border: 1px solid #ddd;
+  /*margin-left: 50px; OG */
+  margin-left: 0px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  -moz-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  background-clip: padding-box;
+  opacity: 0.97;
+  filter: alpha(opacity=97);
+}
+div.bhoechie-tab-menu {
+  float: right;
+  padding-right: 0;
+  padding-left: 0;
+  padding-bottom: 0;
+}
+div.bhoechie-tab-menu div.list-group {
+  margin-bottom: 0;
+}
+div.bhoechie-tab-menu div.list-group > a {
+  margin-bottom: 0;
+}
+div.bhoechie-tab-menu div.list-group > a .active-colorbar {
+  padding: 0px;
+  height: 10px;
+  list-style: none;
+}
+div.bhoechie-tab-menu div.list-group > a .active-colorbar .active-colorbar-item {
+  height: inherit;
+}
+div.bhoechie-tab-menu div.list-group > a .glyphicon,
+div.bhoechie-tab-menu div.list-group > a .fa {
+  color: #DDDDCE;
+}
+div.bhoechie-tab-menu div.list-group > a:first-child {
+  border-top-right-radius: 0;
+  -moz-border-top-right-radius: 0;
+}
+div.bhoechie-tab-menu div.list-group > a:last-child {
+  border-bottom-right-radius: 0;
+  -moz-border-bottom-right-radius: 0;
+}
+div.bhoechie-tab-menu div.list-group > a.active,
+div.bhoechie-tab-menu div.list-group > a.active .glyphicon,
+div.bhoechie-tab-menu div.list-group > a.active .fa {
+  background-color: #F5F5F5;
+  background-color: none;
+  color: black;
+  font-weight: 800;
+  border: none;
+}
+div.bhoechie-tab-menu div.list-group > a.active:before {
+  content: '';
+  position: absolute;
+  right: 100%;
+  top: 50%;
+  margin-top: -13px;
+  border-left: 0;
+  border-bottom: 13px solid transparent;
+  border-top: 13px solid transparent;
+  border-right: 10px solid #F5F5F5;
+}
+div.bhoechie-tab-content {
+  background-color: #ffffff;
+  /* border: 1px solid #eeeeee; */
+  padding-left: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+div.bhoechie-tab-content li.section {
+  list-style: none;
+  margin-bottom: 95px;
+}
+div.bhoechie-tab-content .post-content h4 {
+  margin-top: 25px;
+  padding-left: 12px;
+  font-weight: 800;
+}
+div.bhoechie-tab-content .post-content h5 {
+  padding-left: 20px;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+div.bhoechie-tab-content .post-content pre {
+  padding-left: 25px;
+  background-color: inherit;
+  border: none;
+  padding-top: 0.5em;
+  color: inherit;
+}
+div.bhoechie-tab-content .post-content pre code {
+  color: #D5D4D5;
+}
+div.bhoechie-tab div.bhoechie-tab-content:not(.active) {
+  display: none;
+}
+#active-container.collapsed {
+  right: -55%;
+}
+/* ------------------------------------------------------------------------------------ MASONRY -- */
+.grid-item {
+  width: 200px;
+}
+.grid-item--width2 {
+  width: 400px;
+}
+/* ------------------------------------------------------------------------------------ BHOECHIE OVERRIDES -- */
+.list-group-item {
+  padding: 3px 5px;
+}
+.list-group-item.im {
+  border-right: 8px solid #BE090D;
+}
+.list-group-item.about {
+  border-right: 8px solid #C7E048;
+}
+.list-group-item.cv {
+  border-right: 8px solid #384754;
+}
+.list-group-item:first-child {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+#active-a {
+  padding-left: 0;
+  padding-top: 0;
+  padding-right: 0;
+}
