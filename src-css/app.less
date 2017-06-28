@@ -432,7 +432,8 @@ display: none;
 // 	.collapsed{
 // right:-55%;
 // } //collapsed
-}
+//}
+
 /* ------------------------------------------------------------------------------------ MASONRY -- */
 
 .grid-item { width: 200px; }
@@ -441,25 +442,16 @@ display: none;
 /* ------------------------------------------------------------------------------------ POSTS-MENU -- */
 #posts-menu{
 	padding: 0 25%;
-.list-group-item {
 .minified{
+	padding: 0;
+.list-group-item {
 	background-color:none;
 	font-size:.8em;
 	font-variant: small-caps;
 	text-align:left;
 } //.minified.list-group-item
-}//.list-group-item
+}//.minified
 
-// here we apply moderate viz style per groups of cv entries
-.list-group-item.im {
-border-right: 8px solid @group-im;
-}
-.list-group-item.about {
-border-right: 8px solid @group-about;
-}
-.list-group-item.cv {
-border-right: 8px solid @group-cv;
-}
 
 .list-group-item:first-child {
 border-top-left-radius: 0px;

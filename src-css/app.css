@@ -317,13 +317,6 @@ div.bhoechie-tab-content .post-content pre code {
 div.bhoechie-tab div.bhoechie-tab-content:not(.active) {
   display: none;
 }
-#active-container {
-  position: relative;
-  padding: 0 25%;
-}
-#active-container .collapsed {
-  right: -55%;
-}
 /* ------------------------------------------------------------------------------------ MASONRY -- */
 .grid-item {
   width: 200px;
@@ -331,24 +324,22 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active) {
 .grid-item--width2 {
   width: 400px;
 }
-/* ------------------------------------------------------------------------------------ BHOECHIE OVERRIDES -- */
-.list-group-item {
-  padding: 3px 5px;
+/* ------------------------------------------------------------------------------------ POSTS-MENU -- */
+#posts-menu {
+  padding: 0 25%;
 }
-.list-group-item.im {
-  border-right: 8px solid #BE090D;
+#posts-menu .list-group-item .minified {
+  padding: 0;
+  background-color: none;
+  font-size: .8em;
+  font-variant: small-caps;
+  text-align: left;
 }
-.list-group-item.about {
-  border-right: 8px solid #C7E048;
-}
-.list-group-item.cv {
-  border-right: 8px solid #384754;
-}
-.list-group-item:first-child {
+#posts-menu .list-group-item:first-child {
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
 }
-#active-a {
+#posts-menu #active-a {
   padding-left: 0;
   padding-top: 0;
   padding-right: 0;

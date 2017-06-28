@@ -57,7 +57,7 @@ var jekyllCommand = 'jekyll';
  * Copy Tasks
  */
  // gulp.task('copy-js', function () {
- // 	gulp.src([ 	
+ // 	gulp.src([
  // 		'Models.js'
  // 		,'Collections.js'
  // 		,'Routes.js'
@@ -107,17 +107,19 @@ var jekyllCommand = 'jekyll';
  	.pipe(gulp.dest('scripts'));
  });
 
- gulp.task('less', function () {
+ gulp.task(['less', gulp.series(function () {
  	gulp.src('./src-css/*.less')
  	.pipe(PLUMBER())
  	.pipe(LESS())
- 	// .pipe(gulp.dest('./styles/'))
- 	// .pipe(CSSMIN())
- 	// .pipe(RENAME({
- 	// 	suffix: '.min'
- 	// }))
- 	.pipe(gulp.dest('src-css'))
- });
+  	// .pipe(gulp.dest('./styles/'))
+  	// .pipe(CSSMIN())
+  	// .pipe(RENAME({
+  	// 	suffix: '.min'
+  	// }))
+  	.pipe(gulp.dest('src-css'))
+  }
+ )//series
+ ]);
 
  gulp.task('cat-style', function () {
  	// gulp.src({
@@ -165,26 +167,15 @@ var jekyllCommand = 'jekyll';
 /**
  * Templates Task
  */
- gulp.task('handlebarsOG', function(){
- 	gulp.src('templates/*.handlebars')
- 	.pipe(handlebars())
- 	.pipe(wrap('Handlebars.template(<%= contents %>)'))
- 	.pipe(declare({
-      // namespace: 'MyApp.templates',
-      noRedeclare: true, // Avoid duplicate declarations 
-  }))
- 	.pipe(CONCAT('H-templates-compiled.js'))
- 	.pipe(gulp.dest('src-scripts/'));
- });
 
- 
+
  gulp.task('handlebars', function(){
  	gulp.src('templates/*.handlebars')
  	.pipe(handlebars())
  	.pipe(wrap('Handlebars.template(<%= contents %>)'))
  	.pipe(declare({
  		namespace: 'CVJEK.templates',
-      noRedeclare: true, // Avoid duplicate declarations 
+      noRedeclare: true, // Avoid duplicate declarations
   }))
  	.pipe(CONCAT('H-templates-compiled.js'))
  	.pipe(gulp.dest('src-scripts/'));
@@ -210,23 +201,41 @@ var jekyllCommand = 'jekyll';
  		gulp.watch("gulpfile.js",['default'])
  		gulp.slurped=true;
  	}
- 	gulp.watch('src-css/*', ['less','jekyll-rebuild']);
- 	gulp.watch('assets/*', ['jekyll-rebuild']);
- 	gulp.watch('src-scripts/*.js', ['js','jekyll-rebuild']);
+ 	gulp.watch('src-css/app.less', ['less','jekyll-rebuild']);
+ 	// gulp.watch('assets/*', ['jekyll-rebuild']);
+ 	// gulp.watch('src-scripts/*.js', ['js','jekyll-rebuild']);
  	gulp.watch(['*.html','*.md', '_includes/*.html', '_layouts/*.html', '_posts/*'], ['jekyll-rebuild']);
  });
 
- gulp.task('default', [
- 	'less' // cssify custom less
- 	,'handlebars'
- 	,'js'
- 	,'copy-js'
- 	// ,'copy-vendor-style' // vendor stuff
- 	,'cat-style' // cat all those stock css
- 	,'copy-style' // evidently main sass needs to stay as-is so there's front matter (?)
- 	//,'copy-vendor-js' // vendor stuff
- 	// 'stylus'
- 	// ,'imagemin'
- 	,'browser-sync'
- 	,'watch'
- 	]);
+ // gulp.task('default', [
+ // 	'less' // cssify custom less
+ // 	,'handlebars'
+ // 	,'js'
+ // 	,'copy-js'
+ // 	,'cat-style' // cat all those stock css
+ // 	,'copy-style' // evidently main sass needs to stay as-is so there's front matter (?)
+ // 	,'browser-sync'
+ // 	,'watch'
+ // 	]);
+
+ gulp.task('upgrade', gulp.series(function(done) {
+ 	console.log("222")
+ 	done();
+ }));
+
+ gulp.task('default', gulp.series('upgrade'));
+
+ // gulp.task('default',
+ // 	gulp.series(
+ // 	'upgrade' // cssify custom less
+ // 	// ,'handlebars'
+ // 	// ,'js'
+ // 	// ,'copy-js'
+ // 	// ,'cat-style' // cat all those stock css
+ // 	// ,'copy-style' // evidently main sass needs to stay as-is so there's front matter (?)
+ // 	// ,gulp.parallel('browser-sync'
+ // 	// 	,'watch'
+ // 	// 	)
+ // 	,function(done){console.log("228");done();}
+	// 	) //series
+	// ) //task
