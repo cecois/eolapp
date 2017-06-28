@@ -3,13 +3,15 @@ PLUMBER     = require('gulp-plumber'),
 browserSync = require('browser-sync'),
 stylus      = require('gulp-stylus'),
 uglify      = require('gulp-uglify'),
+handlebars      = require('gulp-handlebars'),
 CONCAT      = require('gulp-concat'),
 jeet        = require('jeet'),
 rupture     = require('rupture'),
 koutoSwiss  = require('kouto-swiss'),
 prefixer    = require('autoprefixer-stylus'),
 LESS    = require('gulp-less'),
-SASS    = require('gulp-sass'),
+wrap    = require('gulp-wrap'),
+declare    = require('gulp-declare'),
 CSSMIN    = require('gulp-cssmin'),
 RENAME    = require('gulp-rename'),
 imagemin    = require('gulp-imagemin'),
@@ -64,6 +66,7 @@ var jekyllCommand = 'jekyll';
  // 		])
  // 	.pipe(gulp.dest('scripts/'));
  // });
+
 
 /**
  * Javascript Task
@@ -159,6 +162,33 @@ var jekyllCommand = 'jekyll';
 // 	.pipe(gulp.dest('css/'))
 // });
 
+/**
+ * Templates Task
+ */
+ gulp.task('handlebarsOG', function(){
+ 	gulp.src('templates/*.handlebars')
+ 	.pipe(handlebars())
+ 	.pipe(wrap('Handlebars.template(<%= contents %>)'))
+ 	.pipe(declare({
+      // namespace: 'MyApp.templates',
+      noRedeclare: true, // Avoid duplicate declarations 
+  }))
+ 	.pipe(CONCAT('H-templates-compiled.js'))
+ 	.pipe(gulp.dest('src-scripts/'));
+ });
+
+ 
+ gulp.task('handlebars', function(){
+ 	gulp.src('templates/*.handlebars')
+ 	.pipe(handlebars())
+ 	.pipe(wrap('Handlebars.template(<%= contents %>)'))
+ 	.pipe(declare({
+ 		namespace: 'CVJEK.templates',
+      noRedeclare: true, // Avoid duplicate declarations 
+  }))
+ 	.pipe(CONCAT('H-templates-compiled.js'))
+ 	.pipe(gulp.dest('src-scripts/'));
+ });
 
 /**
  * Imagemin Task
@@ -188,6 +218,7 @@ var jekyllCommand = 'jekyll';
 
  gulp.task('default', [
  	'less' // cssify custom less
+ 	,'handlebars'
  	,'js'
  	,'copy-js'
  	// ,'copy-vendor-style' // vendor stuff

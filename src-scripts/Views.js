@@ -1,12 +1,14 @@
 var PostsMenuView = Backbone.View.extend({
     el: "#posts-menu",
-    template: Handlebars.templates['postsMenuViewTpl'],
+    template: CVJEK.templates['postsMenuViewTpl'],
+    template_min: CVJEK.templates['postsMenuView-MiniTpl'],
     events: {
         "click a": "activate"
     },
     initialize: function() {
         this.listenTo(this.collection, 'change:active', this.render);
         return this
+        .render()
     },
     log: function(e) {
         e.preventDefault()
@@ -26,10 +28,14 @@ var PostsMenuView = Backbone.View.extend({
     }
     ,
     render: function() {
+        if(appState.get("slug")!==null){
+            $("#posts-menu").removeClass("col-lg-12 col-md-12").addClass("col-lg-2 col-md-2 minified")
+        }
+
         $(this.el).html(this.template({
-            count: this.collection.models.length,
             rows: this.collection.toJSON()
         }));
+
         return this
     }
 });
@@ -86,7 +92,7 @@ var PostsView = Backbone.View.extend({
     //     return $("#about-container")
 
     // },
-    template: Handlebars.templates['postsActiveViewTpl'],
+    template: CVJEK.templates['postsActiveViewTpl'],
     events: {
         // "click li": "log",
         "click .copy-trigger": "activate"
@@ -159,7 +165,6 @@ var PostsView = Backbone.View.extend({
             $(this.el).html(
                 _.unescape(ap.get("content"))
                 )
-
 
             return this
         }
@@ -304,7 +309,7 @@ paint: function() {
                     console.log("hey this one's already active");
                     appState.set({agob:null})
                 } else {
-                                appState.set({agob:nid})}
+                    appState.set({agob:nid})}
 
 
             }) //.on

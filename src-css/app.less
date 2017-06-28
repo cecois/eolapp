@@ -211,6 +211,7 @@ background: @eolyellow; /* Gecko Browsers */
 }
 
 
+
 /* --------------------------------------- POST-LIST -------------- */
 .post-list{
 font-family: @font-main;
@@ -301,6 +302,11 @@ padding: 0 5px 0 0;
 
 
 /*  bhoechie tab */
+
+.bhoechie-tab{
+	display:none;
+}
+
 div.bhoechie-tab-container{
 z-index: 10;
 background-color: #ffffff;
@@ -417,21 +423,32 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
 display: none;
 }
 
-#active-container.collapsed{
-// right:-850px;
-right:-55%;
-} //collapsed
-
+// #active-container{
+// 		position:relative;
+// 	padding:0 25%;
+// 	// .sided{
+// 	// 	left:30%;
+// 	// }
+// 	.collapsed{
+// right:-55%;
+// } //collapsed
+}
 /* ------------------------------------------------------------------------------------ MASONRY -- */
 
 .grid-item { width: 200px; }
 .grid-item--width2 { width: 400px; }
 
-/* ------------------------------------------------------------------------------------ BHOECHIE OVERRIDES -- */
-
+/* ------------------------------------------------------------------------------------ POSTS-MENU -- */
+#posts-menu{
+	padding: 0 25%;
 .list-group-item {
-padding: 3px 5px;
-}
+.minified{
+	background-color:none;
+	font-size:.8em;
+	font-variant: small-caps;
+	text-align:left;
+} //.minified.list-group-item
+}//.list-group-item
 
 // here we apply moderate viz style per groups of cv entries
 .list-group-item.im {
@@ -454,3 +471,4 @@ padding-left:0;
 padding-top:0;
 padding-right:0;
 }
+}//posts-menu

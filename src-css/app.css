@@ -212,6 +212,9 @@ h2 {
 }
 /* --------------------------------------- FANCY SUBNAV TABS -------------- */
 /*  bhoechie tab */
+.bhoechie-tab {
+  display: none;
+}
 div.bhoechie-tab-container {
   z-index: 10;
   background-color: #ffffff;
@@ -314,7 +317,11 @@ div.bhoechie-tab-content .post-content pre code {
 div.bhoechie-tab div.bhoechie-tab-content:not(.active) {
   display: none;
 }
-#active-container.collapsed {
+#active-container {
+  position: relative;
+  padding: 0 25%;
+}
+#active-container .collapsed {
   right: -55%;
 }
 /* ------------------------------------------------------------------------------------ MASONRY -- */

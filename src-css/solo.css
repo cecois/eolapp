@@ -38,10 +38,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 750px) {
-h1, h2, h3, h4, h5, h6 {
-  margin-left: 0 !important;
-  margin-right: 0 !important;
- }
+  h1, h2, h3, h4, h5, h6 {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
 }
 
 h1 {
@@ -148,7 +148,7 @@ hr {
 }
 
 a {
-word-wrap: break-word;
+  word-wrap: break-word;
 }
 
 .container img {
@@ -158,8 +158,8 @@ word-wrap: break-word;
 }
 
 @media (max-width: 635px) {
-.container img {
- max-width: 100%
+  .container img {
+   max-width: 100%
  }
 }
 
@@ -193,7 +193,7 @@ pre > code {
 }
 
 .container {
-  max-width: 625px;
+  // max-width: 625px;
   margin: 0 auto;
   padding: 0 0.75rem;
 }
@@ -209,8 +209,8 @@ pre > code {
 }
 
 @media (max-width: 635px) {
-.sharing {
- font-size: 85%;
+  .sharing {
+   font-size: 85%;
  }
 }
 

@@ -31,11 +31,15 @@
   "dependencies": {
     "gulp": "^3.9.1",
     "gulp-cssmin": "^0.2.0",
+    "gulp-declare": "^0.3.0",
+    "gulp-handlebars": "^4.0.0",
     "gulp-less": "^3.3.0",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
+    "gulp-wrap": "^0.13.0",
     "jeet": "^6.1.4",
     "kouto-swiss": "^0.11.14",
+    "node-sass": "^4.5.3",
     "potrace": "^2.1.1",
     "rupture": "^0.6.1"
   }

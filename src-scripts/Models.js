@@ -1,7 +1,7 @@
 var State = Backbone.Model.extend({
     defaults: {
         "q": null,
-        "slug": "about-about",
+        "slug": null,
         "panestate": "out", // or 0 for collapsed
         "bbox": null,
         "basemap": null,
