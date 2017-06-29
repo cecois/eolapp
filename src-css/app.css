@@ -328,8 +328,10 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active) {
 #posts-menu {
   padding: 0 25%;
 }
-#posts-menu .list-group-item .minified {
+#posts-menu .minified {
   padding: 0;
+}
+#posts-menu .minified .list-group-item {
   background-color: none;
   font-size: .8em;
   font-variant: small-caps;

@@ -1,241 +1,166 @@
-var gulp        = require('gulp'),
-PLUMBER     = require('gulp-plumber'),
-browserSync = require('browser-sync'),
-stylus      = require('gulp-stylus'),
-uglify      = require('gulp-uglify'),
-handlebars      = require('gulp-handlebars'),
-CONCAT      = require('gulp-concat'),
-jeet        = require('jeet'),
-rupture     = require('rupture'),
-koutoSwiss  = require('kouto-swiss'),
-prefixer    = require('autoprefixer-stylus'),
-LESS    = require('gulp-less'),
-wrap    = require('gulp-wrap'),
-declare    = require('gulp-declare'),
-CSSMIN    = require('gulp-cssmin'),
-RENAME    = require('gulp-rename'),
-imagemin    = require('gulp-imagemin'),
-cp          = require('child_process');
+var GULP = require('gulp')
+,LESS = require('gulp-less')
+,CONCAT = require('gulp-concat')
+,UGLIFY = require('gulp-uglify')
+,BROWSERSYNC = require('browser-sync')
+,HANDLEBARS      = require('gulp-handlebars')
+,WRAP    = require('gulp-wrap')
+,DECLARE    = require('gulp-declare')
+,RENAME = require('gulp-rename')
+,CLEANCSS = require('gulp-clean-css')
+,DEL = require('del')
+;
 
-gulp.slurped = false;
-
-var messages = {
-	jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
+var paths = {
+  styles: {
+    src: 'src-css/**/*.less'
+    ,staging:"staging/"
+    ,dest: 'css/'
+  },
+  scripts: {
+    src: 'src-scripts/**/*.js',
+    dest: 'scripts/'
+  }
 };
 
-// var jekyllCommand = (/^win/.test(process.platform)) ? 'jekyll.bat' : 'jekyll';
-var jekyllCommand = 'jekyll';
-
-/**
- * Build the Jekyll Site
+/* 
+------------------------ TASKS
+Not all tasks need to use streams, a gulpfile is just another node program
+ * and you can use all packages available on npm, but it must return either a
+ * Promise, a Stream or take a callback and call it
  */
- gulp.task('jekyll-build', function (done) {
- 	browserSync.notify(messages.jekyllBuild);
- 	return cp.spawn(jekyllCommand, ['build'], {stdio: 'inherit'})
- 	.on('close', done);
- });
 
-/**
- * Rebuild Jekyll & do page reload
- */
- gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
- 	browserSync.reload();
- });
+ var browsersync =()=>{
+  BROWSERSYNC({
+    server: {
+      baseDir: '_site'
+    }
+  });
+};
 
-/**
- * Wait for jekyll-build, then launch the Server
- */
- gulp.task('browser-sync', ['jekyll-build'], function() {
- 	browserSync({
- 		server: {
- 			baseDir: '_site'
- 		}
- 	});
- });
+var clean = ()=>{
+  // You can use multiple globbing patterns as you would with `gulp.src`,
+  // for example if you are using del 2.0 or above, return its promise
+  return DEL([ 
+    'css/app.min.css'
+    ,'staging'
+    ]);
+}
 
-/**
- * Copy Tasks
- */
- // gulp.task('copy-js', function () {
- // 	gulp.src([
- // 		'Models.js'
- // 		,'Collections.js'
- // 		,'Routes.js'
- // 		,'Views.js'
- // 		,'App.js'
- // 		])
- // 	.pipe(gulp.dest('scripts/'));
- // });
-
-
-/**
- * Javascript Task
- */
- gulp.task('js', function(){
- 	return gulp.src([
- 		'src-scripts/components/jquery/jquery.js'
- 		,'src-scripts/components/handlebars/handlebars.runtime.js'
- 		,'src-scripts/lib/underscore-min.js'
- 		,'src-scripts/lib/backbone-min.js'
- 		,'src-scripts/lib/bootstrap-3.3.5-dist/js/bootstrap.js'
- 		,'src-scripts/lib/leaflet.js'
- 		,'src-scripts/lib/less-1.7.5.min.js'
- 		,'src-scripts/lib/masonry.pkgd.min.js'
- 		,'src-scripts/H-templates-compiled.js'
- 		,'src-scripts/rrssb.min.js'
- 		,'src-scripts/Masonry.js'
- 		,'src-scripts/Models.js'
- 		,'src-scripts/Collections.js'
- 		,'src-scripts/Views.js'
- 		// ,'src-scripts/App.js'
- 		// ,'src-scripts/Routes.js'
- 		])
- 	.pipe(PLUMBER())
- 	.pipe(uglify())
- 	.pipe(CONCAT('app.min.js'))
- 	.pipe(gulp.dest('scripts/'))
- });
-
-/**
- * Copy Task
- */
- gulp.task('copy-js', function () {
- 	gulp.src([
- 		'src-scripts/App.js'
- 		,'src-scripts/Routes.js'
- 		])
- 	.pipe(gulp.dest('scripts'));
- });
-
- gulp.task(['less', gulp.series(function () {
- 	gulp.src('./src-css/*.less')
- 	.pipe(PLUMBER())
- 	.pipe(LESS())
-  	// .pipe(gulp.dest('./styles/'))
-  	// .pipe(CSSMIN())
-  	// .pipe(RENAME({
-  	// 	suffix: '.min'
-  	// }))
-  	.pipe(gulp.dest('src-css'))
+/* ------------------------- STYLE ------------- */
+var styles = ()=>{
+  // we wanna grab up some specific vendor css, cat em,
+  return GULP.src(
+    [
+    'src-css/lib/bootstrap-3.3.5-dist/css/bootstrap.css'
+    ,'src-css/lib/leaflet/leaflet.css' 
+    ,'src-css/app.less'
+    ]
+    )//src
+  .pipe(LESS())
+  .pipe(CLEANCSS())
+    // pass in options to the stream
+    .pipe(RENAME({
+      basename: 'app',
+      suffix: '.min'
+    }))
+    .pipe(GULP.dest(paths.styles.dest));
   }
- )//series
- ]);
 
- gulp.task('cat-style', function () {
- 	// gulp.src({
- 	// 	'./src-css/*.css'
- 	// 	,'./src-css/lib/bootstrap-3.3.5-dist/css/bootstrap.css'
- 	// 	'./src-css/lib/leaflet/leaflet.css'
- 	// })
- 	gulp.src(['src-css/*.css',
- 		'src-css/lib/bootstrap-3.3.5-dist/css/bootstrap.css',
- 		'src-css/lib/leaflet/leaflet.css' ],
- 		{base: 'src-css/'})
- 	.pipe(PLUMBER())
- 	// .pipe(LESS())
- 	// .pipe(gulp.dest('./styles/'))
- 	.pipe(CSSMIN())
- 	.pipe(CONCAT('app.css'))
- 	.pipe(RENAME({
- 		suffix: '.min'
- 	}))
- 	.pipe(gulp.dest('css'))
- });
+  var copystyle = ()=> {
+    // we gotta send main.scss to css so jekyll can pick it up as-is
+    return GULP.src('./src-css/*.scss')
+    .pipe(GULP.dest(paths.styles.dest))
+  };
+  
 
- gulp.task('copy-style', function () {
- 	gulp.src('./src-css/*.scss')
- 	.pipe(gulp.dest('css'))
- });
-
- gulp.task('copy-fonts', function () {
- 	gulp.src('./src-css/lib/bootstrap-3.3.5-dist/fonts/*')
- 	.pipe(gulp.dest('assets/fonts'))
- });
-
- // gulp.task('copy-vendor-style', function () {
- // 	gulp.src('./src-css/lib/bootstrap-3.3.5-dist/css/bootstrap.css')
- // 	.pipe(gulp.dest('css/'));
- // 	gulp.src('./src-css/lib/leaflet/leaflet.css')
- // 	.pipe(gulp.dest('css/'))
- // });
-
-// gulp.task('copy-vendor-js', function () {
-// 	gulp.src('./src-css/lib/lib/leaflet/leaflet.css')
-// 	.pipe(gulp.dest('css/'))
-// });
-
-/**
- * Templates Task
- */
-
-
- gulp.task('handlebars', function(){
- 	gulp.src('templates/*.handlebars')
- 	.pipe(handlebars())
- 	.pipe(wrap('Handlebars.template(<%= contents %>)'))
- 	.pipe(declare({
- 		namespace: 'CVJEK.templates',
+  var handlez = ()=>{
+    return GULP.src('templates/*.handlebars')
+    .pipe(HANDLEBARS())
+    .pipe(WRAP('Handlebars.template(<%= contents %>)'))
+    .pipe(DECLARE({
+      namespace: 'CVJEK.templates',
       noRedeclare: true, // Avoid duplicate declarations
-  }))
- 	.pipe(CONCAT('H-templates-compiled.js'))
- 	.pipe(gulp.dest('src-scripts/'));
- });
+    }))
+    .pipe(CONCAT('H-templates-compiled.js'))
+    .pipe(GULP.dest('staging/'));
+  }
 
-/**
- * Imagemin Task
+
+  function scriptsog() {
+    return GULP.src(paths.scripts.src, { sourcemaps: true })
+    // .pipe(babel())
+    .pipe(uglify())
+    .pipe(concat('main.min.js'))
+    .pipe(GULP.dest(paths.scripts.dest));
+  }
+
+
+  var scripts = ()=>{
+    return GULP.src([
+      'src-scripts/components/jquery/jquery.js'
+      ,'src-scripts/components/handlebars/handlebars.runtime.js'
+      ,'src-scripts/lib/underscore-min.js'
+      ,'src-scripts/lib/backbone-min.js'
+      ,'src-scripts/lib/bootstrap-3.3.5-dist/js/bootstrap.js'
+      ,'src-scripts/lib/leaflet.js'
+      ,'src-scripts/lib/less-1.7.5.min.js'
+      ,'src-scripts/lib/masonry.pkgd.min.js'
+      ,'src-scripts/H-templates-compiled.js'
+      ,'src-scripts/rrssb.min.js'
+      ,'src-scripts/Masonry.js'
+      ,'src-scripts/Models.js'
+      ,'src-scripts/Collections.js'
+      ,'src-scripts/Views.js'
+      ])
+    .pipe(PLUMBER())
+    .pipe(UGLIFY())
+    .pipe(CONCAT('app.min.js'))
+    .pipe(GULP.dest(paths.scripts.dest))
+  }
+
+  var copyjs=  ()=>{
+    gulp.src([
+      'src-scripts/App.js'
+      ,'src-scripts/Routes.js'
+      ])
+    .pipe(gulp.dest(paths.scripts.dest));
+  };
+
+  function watch() {
+    GULP.watch(paths.scripts.src, scripts);
+    GULP.watch(paths.styles.src, styles);
+  }
+
+/*
+ * You can use CommonJS `exports` module notation to declare tasks
  */
- gulp.task('imagemin', function() {
- 	return gulp.src('src/img/**/*.{jpg,png,gif}')
- 	.pipe(PLUMBER())
- 	.pipe(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true }))
- 	.pipe(gulp.dest('assets/img/'));
- });
+ exports.clean = clean;
+ exports.styles = styles;
+ exports.scripts = scripts;
+ exports.watch = watch;
 
-/**
- * Watch stylus files for changes & recompile
- * Watch html/md files, run jekyll & reload BrowserSync
+/*
+ * Specify if tasks run in series or parallel using `GULP.series` and `GULP.parallel`
  */
- gulp.task('watch', function () {
+ var build = GULP.series(
+  clean //clean out stagin area
+  ,copystyle
+  ,styles
+  ,GULP.parallel(
+    handlez
+    ,scripts
+    ,copyjs
+    // ,browsersync
+    )//parallel
+  );
 
- 	if(!gulp.slurped){
- 		gulp.watch("gulpfile.js",['default'])
- 		gulp.slurped=true;
- 	}
- 	gulp.watch('src-css/app.less', ['less','jekyll-rebuild']);
- 	// gulp.watch('assets/*', ['jekyll-rebuild']);
- 	// gulp.watch('src-scripts/*.js', ['js','jekyll-rebuild']);
- 	gulp.watch(['*.html','*.md', '_includes/*.html', '_layouts/*.html', '_posts/*'], ['jekyll-rebuild']);
- });
+/*
+ * You can still use `GULP.task` to expose tasks
+ */
+ GULP.task('build', build);
 
- // gulp.task('default', [
- // 	'less' // cssify custom less
- // 	,'handlebars'
- // 	,'js'
- // 	,'copy-js'
- // 	,'cat-style' // cat all those stock css
- // 	,'copy-style' // evidently main sass needs to stay as-is so there's front matter (?)
- // 	,'browser-sync'
- // 	,'watch'
- // 	]);
-
- gulp.task('upgrade', gulp.series(function(done) {
- 	console.log("222")
- 	done();
- }));
-
- gulp.task('default', gulp.series('upgrade'));
-
- // gulp.task('default',
- // 	gulp.series(
- // 	'upgrade' // cssify custom less
- // 	// ,'handlebars'
- // 	// ,'js'
- // 	// ,'copy-js'
- // 	// ,'cat-style' // cat all those stock css
- // 	// ,'copy-style' // evidently main sass needs to stay as-is so there's front matter (?)
- // 	// ,gulp.parallel('browser-sync'
- // 	// 	,'watch'
- // 	// 	)
- // 	,function(done){console.log("228");done();}
-	// 	) //series
-	// ) //task
+/*
+ * Define default task that can be called by just running `gulp` from cli
+ */
+ GULP.task('default', build);
