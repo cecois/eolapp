@@ -18,6 +18,7 @@ window.gpre_line = "g|"
 	"url"      : "{{ post.url }}",
 	"order"      : "{{ post.order }}",
 	"slug"      : "{{ post.slug }}",
+	"splash"      : "{{ post.splash }}",
 	"date"     : "{{ post.date | date: "%B %d, %Y" }}",
 	"content"  : "{{ post.content | escape }}"
 } {% if forloop.last %}{% else %},{% endif %}
@@ -38,16 +39,27 @@ var CVJUTIL = new UTIL();
 
 var baselayers = {
 	"layers": [{
-		"name": "pencil",
-		"active": true,
-		"source": "mapbox",
-		"nom": "Aj Ashton's Pencil Map",
-		"thumb": "/assets/offline/thumb-pencil.png",
+		"name": "carto_darkmatter",
+		"active": false,
+		"source": "carto",
+		"nom": "Carto Dark Matter",
 		"mapis": "dark",
 		"definition": {
-			"subdomains": ["a", "b", "c"],
+			"subdomains": ["a", "b", "c", "d"],
 			"maxZoom": 18,
-			"url": "https://{s}.tiles.mapbox.com/v4/aj.03e9e12d/{z}/{x}/{y}@2x.png?access_token=pk.eyJ1IjoiYWoiLCJhIjoiY2lrZW1pczJzMDA1d3VybTJha216azVtdSJ9.vJBkGAq6CvN9vt0IwakQ-A",
+			"url": "https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png",
+			"noWrap": true
+		}
+	},{
+		"name": "stamen_toner",
+		"active": true,
+		"source": "stame",
+		"nom": "Stamen Toner",
+		"mapis": "dark",
+		"definition": {
+			"subdomains": ["a", "b", "c","d"],
+			"maxZoom": 18,
+			"url": "http://{s}.tile.stamen.com/toner/{z}/{x}/{y}.png",
 			"noWrap": true
 		}
 	}, {

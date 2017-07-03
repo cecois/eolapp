@@ -4,11 +4,14 @@ var GULP = require('gulp')
 ,UGLIFY = require('gulp-uglify')
 ,BROWSERSYNC = require('browser-sync')
 ,HANDLEBARS      = require('gulp-handlebars')
+,PLUMBER     = require('gulp-plumber')
 ,WRAP    = require('gulp-wrap')
 ,DECLARE    = require('gulp-declare')
 ,RENAME = require('gulp-rename')
 ,CLEANCSS = require('gulp-clean-css')
 ,DEL = require('del')
+,IMAGEMIN    = require('gulp-imagemin')
+,CP          = require('child_process')
 ;
 
 var paths = {
@@ -47,14 +50,42 @@ var clean = ()=>{
     ]);
 }
 
-/* ------------------------- STYLE ------------- */
-var styles = ()=>{
+/* ------------------------- IMG ------------- */
+
+ // gulp.task('imagemin', function() {
+ //  return gulp.src('src/img/**/*.{jpg,png,gif}')
+ //  .pipe(PLUMBER())
+ //  .pipe(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true }))
+ //  .pipe(gulp.dest('assets/img/'));
+ // });
+
+ var img = ()=>{
+  return GULP.src('src-img/**/*.{jpg,png,gif}')
+  .pipe(PLUMBER())
+  .pipe(IMAGEMIN({ optimizationLevel: 3, progressive: true, interlaced: true }))
+  .pipe(GULP.dest('assets/img/'));
+ }//img
+
+ /* ------------------------- STYLE ------------- */
+
+ var copystyle = ()=> {
+    // we gotta send main.scss to css so jekyll can pick it up as-is
+    return GULP.src(
+      [      './src-css/*.scss'
+      ,'src-css/lib/bootstrap-3.3.5-dist/css/bootstrap.css'
+      ,'src-css/lib/leaflet/leaflet.css' ]
+      )
+    .pipe(GULP.dest(paths.styles.dest))
+  };
+
+  var styles = ()=>{
   // we wanna grab up some specific vendor css, cat em,
   return GULP.src(
     [
-    'src-css/lib/bootstrap-3.3.5-dist/css/bootstrap.css'
-    ,'src-css/lib/leaflet/leaflet.css' 
-    ,'src-css/app.less'
+    // 'src-css/lib/bootstrap-3.3.5-dist/css/bootstrap.css'
+    // ,'src-css/lib/leaflet/leaflet.css' 
+    // ,
+    'src-css/app.less'
     ]
     )//src
   .pipe(LESS())
@@ -67,26 +98,8 @@ var styles = ()=>{
     .pipe(GULP.dest(paths.styles.dest));
   }
 
-  var copystyle = ()=> {
-    // we gotta send main.scss to css so jekyll can pick it up as-is
-    return GULP.src('./src-css/*.scss')
-    .pipe(GULP.dest(paths.styles.dest))
-  };
-  
 
-  var handlez = ()=>{
-    return GULP.src('templates/*.handlebars')
-    .pipe(HANDLEBARS())
-    .pipe(WRAP('Handlebars.template(<%= contents %>)'))
-    .pipe(DECLARE({
-      namespace: 'CVJEK.templates',
-      noRedeclare: true, // Avoid duplicate declarations
-    }))
-    .pipe(CONCAT('H-templates-compiled.js'))
-    .pipe(GULP.dest('staging/'));
-  }
-
-
+  /* ------------------------- JS ------------- */
   function scriptsog() {
     return GULP.src(paths.scripts.src, { sourcemaps: true })
     // .pipe(babel())
@@ -120,38 +133,106 @@ var styles = ()=>{
   }
 
   var copyjs=  ()=>{
-    gulp.src([
+    return GULP.src([
       'src-scripts/App.js'
       ,'src-scripts/Routes.js'
       ])
-    .pipe(gulp.dest(paths.scripts.dest));
+    .pipe(GULP.dest(paths.scripts.dest));
   };
 
-  function watch() {
-    GULP.watch(paths.scripts.src, scripts);
-    GULP.watch(paths.styles.src, styles);
+
+  /* ------------------------- TEMPLATES ------------- */
+
+  var handlez = ()=>{
+    return GULP.src('templates/*.handlebars')
+    .pipe(HANDLEBARS())
+    .pipe(WRAP('Handlebars.template(<%= contents %>)'))
+    .pipe(DECLARE({
+      namespace: 'CVJEK.templates',
+      noRedeclare: true, // Avoid duplicate declarations
+    }))
+    .pipe(CONCAT('H-templates-compiled.js'))
+    .pipe(GULP.dest('src-scripts/'));
   }
 
+  /* ------------------------- JEKYLL ------------- */
+
+  var messages = {
+    jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
+  };
+
+
+/**
+ * Build the Jekyll Site
+ */
+ var jekyll = ()=>{
+  var jekyllCommand = 'jekyll';
+  // browserSync.notify(messages.jekyllBuild);
+  return CP.spawn(jekyllCommand, ['build'], {stdio: 'inherit'})
+  // .on('close', done);
+}
+ // gulp.task('jekyll-build', function (done) {
+ //  browserSync.notify(messages.jekyllBuild);
+ //  return cp.spawn(jekyllCommand, ['build'], {stdio: 'inherit'})
+ //  .on('close', done);
+ // });
+
+ /* ------------------------- TEMPLATES ------------- */
+
+ var watch_style = ()=>{
+  return GULP
+  .watch(paths.styles.src, styles);
+}
+var watch_js = ()=>{
+  return GULP
+  .watch(paths.scripts.src, scripts);
+}
+var watch_handle = ()=>{
+  return GULP
+  .watch('templates/*', handlez);
+}
+var watch_img = ()=>{
+  return GULP
+  .watch('src-img/**', img);
+}
+  // function watch() {
+  //   GULP.watch(paths.scripts.src, scripts);
+  //   GULP.watch(paths.styles.src, styles);
+  // }
 /*
  * You can use CommonJS `exports` module notation to declare tasks
  */
  exports.clean = clean;
  exports.styles = styles;
+ exports.handlez = handlez;
  exports.scripts = scripts;
- exports.watch = watch;
+ exports.img = img;
+ exports.jekyll = jekyll;
+ // exports.watch_style = watch_style;
+ // exports.watch_js = watch_js;
 
 /*
  * Specify if tasks run in series or parallel using `GULP.series` and `GULP.parallel`
  */
  var build = GULP.series(
   clean //clean out stagin area
-  ,copystyle
-  ,styles
   ,GULP.parallel(
-    handlez
-    ,scripts
+    copystyle
     ,copyjs
-    // ,browsersync
+    ,img
+    ) //parallel
+  ,handlez
+  ,GULP.parallel(
+    styles
+    ,scripts
+    )//parallel
+  ,jekyll
+  ,GULP.parallel(
+    watch_style
+    ,watch_js
+    ,watch_handle
+    ,watch_img
+    ,browsersync
     )//parallel
   );
 

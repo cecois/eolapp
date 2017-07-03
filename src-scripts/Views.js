@@ -7,6 +7,8 @@ var PostsMenuView = Backbone.View.extend({
     },
     initialize: function() {
         this.listenTo(this.collection, 'change:active', this.render);
+        this.listenTo(appState, 'change:panestate', this.render);
+        // this.listenTo(appState, 'change:slug', this.render);
         return this
         .render()
     },
@@ -28,9 +30,37 @@ var PostsMenuView = Backbone.View.extend({
     }
     ,
     render: function() {
-        if(appState.get("slug")!==null){
-            $("#posts-menu").removeClass("col-lg-12 col-md-12").addClass("col-lg-2 col-md-2 minified")
+
+
+        switch (true) {
+            case (appState.get("panestate")=="down"):
+            $("#posts-menu").removeClass("col-lg-12 col-md-12 col-sm-12 col-xs-12")
+            $("#posts-menu").addClass("col-lg-2 col-md-2 col-sm-2 col-xs-2")
+            $("#posts-menu").addClass("minified")
+            break;
+            case (appState.get("slug")!==null):
+            $("#posts-menu").removeClass("col-lg-12 col-md-12 col-sm-12 col-xs-12")
+            $("#posts-menu").addClass("col-lg-2 col-md-2 col-sm-2 col-xs-2")
+            $("#posts-menu").addClass("minified")
+            break;
+            default:
+            $("#posts-menu").removeClass("col-lg-2 col-md-2 col-sm-2 col-xs-2")
+            $("#posts-menu").addClass("col-lg-12 col-md-12 col-sm-12 col-xs-12")
+            $("#posts-menu").removeClass("minified")
+            break;
         }
+
+        // if(appState.get("panestate")=="out"){
+        //     $("#posts-menu").removeClass("col-lg-2 col-md-2 col-sm-2 col-xs-2")
+        //     $("#posts-menu").addClass("col-lg-12 col-md-12 col-sm-12 col-xs-12")
+        //     $("#posts-menu").removeClass("minified")
+        // } else {
+
+
+        //     $("#posts-menu").removeClass("col-lg-12 col-md-12 col-sm-12 col-xs-12")
+        //     $("#posts-menu").addClass("col-lg-2 col-md-2 col-sm-2 col-xs-2")
+        //     $("#posts-menu").addClass("minified")
+        // }
 
         $(this.el).html(this.template({
             rows: this.collection.toJSON()
@@ -86,7 +116,7 @@ var BaseLayersView = Backbone.View.extend({
     });
 
 var PostsView = Backbone.View.extend({
-    el: ".post-list",
+    el: "#active-post-container",
     // el: function(){
 
     //     return $("#about-container")
@@ -100,7 +130,7 @@ var PostsView = Backbone.View.extend({
     initialize: function() {
         // this.render()
         this.listenTo(this.collection, 'change:active', this.render);
-        this.listenTo(appState, 'change:panestate', this.downout);
+        this.listenTo(appState, 'change:panestate', this.render);
         return this
     },
     downout: function(){
@@ -125,7 +155,6 @@ var PostsView = Backbone.View.extend({
         var di = $(e.currentTarget).attr("data-id")
         var dt = $(e.currentTarget).attr("data-type")
 
-        console.info("in log (frm click), di and dt:");console.log(di);console.log(dt);
 
         return this
     }
@@ -153,20 +182,37 @@ var PostsView = Backbone.View.extend({
 
         return this
         } //activate
-        ,
+        ,showhide: function(){
 
-        render: function() {
+            if(appState.get("slug")!==null){
+                $(this.el).show()
+            // but also...
+            if(appState.get("panestate")=="down"){
+                $(this.el).addClass("minimized")
+            } else {
+                $(this.el).removeClass("minimized")
+            }
+        } else {
 
-            var ap = this.collection.findWhere({active:true})
+            $(this.el).hide()
+        }
 
-            var fpath = ap.get("url").substr(1, ap.get("url").length);
+
+
+        return this
+    }
+    ,    render: function() {
+
+        var ap = this.collection.findWhere({active:true})
+
+        var fpath = ap.get("url").substr(1, ap.get("url").length);
 
             //
             $(this.el).html(
                 _.unescape(ap.get("content"))
                 )
-
             return this
+            .showhide()
         }
     });
 

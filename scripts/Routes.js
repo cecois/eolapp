@@ -23,9 +23,7 @@ var Route = Backbone.Router.extend({
 
             appState.set({slug:slug},{silent:true})
           } 
-
           if (typeof panestate !== 'undefined' && panestate !== null && panestate !== "null") {
-
             appState.set({panestate:panestate})
           }
 

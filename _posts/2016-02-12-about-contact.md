@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Contact'
+splash: 'splash-about-contact.jpg'
 date: 2016-02-12 03:18:42.000000000 -04:00
 type: post
 published: true

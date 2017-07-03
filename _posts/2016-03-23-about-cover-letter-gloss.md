@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Narrative'
+splash: 'splash-about-cover-letter-gloss.jpg'
 date: 2016-03-23 02:18:42.000000000 -04:00
 type: post
 published: true

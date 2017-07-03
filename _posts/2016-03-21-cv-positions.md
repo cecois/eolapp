@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Current & Past Positions'
+splash: 'splash-cv-positions.jpg'
 date: 2016-03-21 02:18:42.000000000 -04:00
 type: post
 published: true

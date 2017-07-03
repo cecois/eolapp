@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Publications & Presentations'
+splash: 'splash-cv-publications.jpg'
 date: 2016-03-20 02:18:42.000000000 -04:00
 type: post
 published: true
@@ -31,7 +32,7 @@ last_name: Miller
 * \*Bowen, G. J., West, J. B., Vaughn, B. H., Dawson, T. E., Ehleringer, J. R., Fogel, M. L., Hobson, K., et al. (2009). Isoscapes to Address Large­Scale Earth Science Challenges. Eos, Transactions, 30(13), 109­116. Retrieved from http://www.agu.org/pubs/eos/eo0913.shtml
 * \*Stowell­Bracke, M., *Miller, C. C, & Kim, J. S. (2008). Adding value to digitizing with GIS. Library Hi Tech, 26(2), 201­ 212. Retrieved from http://dx.doi.org/10.1108/07378830810880315
 * \*Matei, S. A., Miller, *C C., Arns, L., Rauh, N., Hartman, C., & Bruno, R. (2007). Visible Past: Learning and discovering in real and virtual space and time. First Monday, 12(5). Retrieved from http://bit.ly/dXG8RL
-* Miller, C. C. (2006). A Beast in the Field: The Google Maps Mashup as GIS/2. Cartographica, 41(3), 187–199. Retrieved from http://bit.ly/hhxuoq
+* Miller, C. C. (2006). A Beast in the Field: The Google Maps Mashup as GIS/2. Cartographica, 41(3), 187–199. Retrieved from https://doi.org/10.3138/J0L0-5301-2262-N779
 
 
 ### Other (Select) Publications

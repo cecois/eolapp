@@ -18,6 +18,7 @@ window.gpre_line = "g|"
 	"url"      : "{{ post.url }}",
 	"order"      : "{{ post.order }}",
 	"slug"      : "{{ post.slug }}",
+	"splash"      : "{{ post.splash }}",
 	"date"     : "{{ post.date | date: "%B %d, %Y" }}",
 	"content"  : "{{ post.content | escape }}"
 } {% if forloop.last %}{% else %},{% endif %}
@@ -38,16 +39,27 @@ var CVJUTIL = new UTIL();
 
 var baselayers = {
 	"layers": [{
-		"name": "pencil",
-		"active": true,
-		"source": "mapbox",
-		"nom": "Aj Ashton's Pencil Map",
-		"thumb": "/assets/offline/thumb-pencil.png",
+		"name": "carto_darkmatter",
+		"active": false,
+		"source": "carto",
+		"nom": "Carto Dark Matter",
 		"mapis": "dark",
 		"definition": {
-			"subdomains": ["a", "b", "c"],
+			"subdomains": ["a", "b", "c", "d"],
 			"maxZoom": 18,
-			"url": "https://{s}.tiles.mapbox.com/v4/aj.03e9e12d/{z}/{x}/{y}@2x.png?access_token=pk.eyJ1IjoiYWoiLCJhIjoiY2lrZW1pczJzMDA1d3VybTJha216azVtdSJ9.vJBkGAq6CvN9vt0IwakQ-A",
+			"url": "https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png",
+			"noWrap": true
+		}
+	},{
+		"name": "stamen_toner",
+		"active": true,
+		"source": "stame",
+		"nom": "Stamen Toner",
+		"mapis": "dark",
+		"definition": {
+			"subdomains": ["a", "b", "c","d"],
+			"maxZoom": 18,
+			"url": "http://{s}.tile.stamen.com/toner/{z}/{x}/{y}.png",
 			"noWrap": true
 		}
 	}, {
@@ -100,8 +112,6 @@ Handlebars.registerHelper('debug', function(options) {
 
 Handlebars.registerHelper('groupem', function(slug) {
 
-
-	// var group = this.split("-")[0]
 	var grop = slug.split("-")[0]
 	return new Handlebars.SafeString(grop);
 });
@@ -149,19 +159,10 @@ $(document).ready(function() {
 
 	$('[data-toggle="tooltip"]').tooltip()
 
-	// $("div.bhoechie-tab-menu>div.list-group>a").click(function(e) {
-	// 	e.preventDefault();
-	// 	var tid = $(e.currentTarget).attr('id').split("-")[2]
-	// 	$(this).siblings('a.active').removeClass("active");
-	// 	$(this).addClass("active");
-	// 	var index = $(this).index();
-	// 	$("div.bhoechie-tab>div.bhoechie-tab-content").removeClass("active");
-	// 	$("div.bhoechie-tab>div.bhoechie-tab-content").eq(index).addClass("active");
- //    }); //click
 
- $("#paneToggler").click(function(e){
+	$("#paneToggler").click(function(e){
 
- 	if(appState.get("panestate")=="down"){
+		if(appState.get("panestate")=="down"){
  		// $(this).removeClass("collapsed")
  		appState.set({panestate:"out"});
  	} else {
@@ -170,20 +171,15 @@ $(document).ready(function() {
  	}
  })
 
- $(document).keydown(function(e){
- 	if(e.keyCode == 18){
- 		if(appState.get("panestate")=="down"){
- 			appState.set({panestate:"out"});
- 		} else {
- 			appState.set({panestate:"down"});
- 		}
- 	}
- })
-
-// if(appState.get("panestate")=="down"){
-//             $("#postslist-container").addClass("collapsed")
-//         $("#active-container").addClass("collapsed")
-// $('body').find('[data-toggle="tooltip"]').tooltip('hide');
+	$(document).keydown(function(e){
+		if(e.keyCode == 18){
+			if(appState.get("panestate")=="down"){
+				appState.set({panestate:"out"});
+			} else {
+				appState.set({panestate:"down"});
+			}
+		}
+	})
 
 
 

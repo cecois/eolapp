@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Portfolio'
+splash: 'splash-cv-portfolio.jpg'
 date: 2016-03-22 02:18:42.000000000 -04:00
 type: post
 published: true
