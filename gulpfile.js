@@ -24,6 +24,10 @@ var paths = {
     src: 'src-scripts/**/*.js',
     dest: 'scripts/'
   }
+  ,img: {
+    src: 'src-img/**/*.{jpg,png,gif}',
+    dest: 'assets/img/'
+  }
 };
 
 /* 
@@ -35,7 +39,8 @@ Not all tasks need to use streams, a gulpfile is just another node program
 
  var browsersync =()=>{
   BROWSERSYNC({
-    server: {
+    files: ['_site' + '/**']
+    ,server: {
       baseDir: '_site'
     }
   });
@@ -60,10 +65,10 @@ var clean = ()=>{
  // });
 
  var img = ()=>{
-  return GULP.src('src-img/**/*.{jpg,png,gif}')
+  return GULP.src(paths.img.src)
   .pipe(PLUMBER())
   .pipe(IMAGEMIN({ optimizationLevel: 3, progressive: true, interlaced: true }))
-  .pipe(GULP.dest('assets/img/'));
+  .pipe(GULP.dest(paths.img.dest));
  }//img
 
  /* ------------------------- STYLE ------------- */
@@ -166,9 +171,10 @@ var clean = ()=>{
  * Build the Jekyll Site
  */
  var jekyll = ()=>{
-  var jekyllCommand = 'jekyll';
+  // var jekyllCommand = 'jekyll';
   // browserSync.notify(messages.jekyllBuild);
-  return CP.spawn(jekyllCommand, ['build'], {stdio: 'inherit'})
+  console.log("gulp-building jekyll...");
+  return CP.spawn('jekyll', ['build'], {stdio: 'inherit'})
   // .on('close', done);
 }
  // gulp.task('jekyll-build', function (done) {
@@ -181,7 +187,7 @@ var clean = ()=>{
 
  var watch_style = ()=>{
   return GULP
-  .watch(paths.styles.src, styles);
+  .watch(paths.styles.src, styles)
 }
 var watch_js = ()=>{
   return GULP
@@ -194,6 +200,11 @@ var watch_handle = ()=>{
 var watch_img = ()=>{
   return GULP
   .watch('src-img/**', img);
+}
+
+var watch_jek = ()=>{
+  return GULP
+  .watch(paths.img.dest,jekyll)
 }
   // function watch() {
   //   GULP.watch(paths.scripts.src, scripts);
@@ -232,6 +243,7 @@ var watch_img = ()=>{
     ,watch_js
     ,watch_handle
     ,watch_img
+    ,watch_jek
     ,browsersync
     )//parallel
   );

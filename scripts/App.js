@@ -52,7 +52,7 @@ var baselayers = {
 		}
 	},{
 		"name": "stamen_toner",
-		"active": true,
+		"active": false,
 		"source": "stame",
 		"nom": "Stamen Toner",
 		"mapis": "dark",
@@ -75,6 +75,7 @@ var baselayers = {
 			"noWrap": true
 		}
 	}
+	,{"name":"pencil","active":true,"source":"mapbox","nom":"Aj Ashton's Pencil Map","definition":{"subdomains":["a","b","c"],"maxZoom":18,"url":"https://{s}.tiles.mapbox.com/v4/aj.03e9e12d/{z}/{x}/{y}@2x.png?access_token=pk.eyJ1IjoiYWoiLCJhIjoiY2lrZW1pczJzMDA1d3VybTJha216azVtdSJ9.vJBkGAq6CvN9vt0IwakQ-A","noWrap":true}}
 
 	]
 }
@@ -96,6 +97,12 @@ var vPostsMenu = new PostsMenuView({
 	collection: cxPosts
 });
 
+/* -------------------------------------------------- MENUS -----------------------  
+var vPaneStateMenuView = new PaneStateMenuView({
+	model: appState
+});
+*/
+
 /* -------------------------------------------------- GEOMS -----------------------  */
 
 var mapGeoms = new GeomsCollection();
@@ -112,8 +119,6 @@ Handlebars.registerHelper('debug', function(options) {
 
 Handlebars.registerHelper('groupem', function(slug) {
 
-
-	// var group = this.split("-")[0]
 	var grop = slug.split("-")[0]
 	return new Handlebars.SafeString(grop);
 });
@@ -156,47 +161,29 @@ function leafletize_Bbox(bboxstring){
 	return bounds
 }
 
-/* -------------------------------------------------- READY -----------------------  */
+/* -------------------------------------------------- READY -----------------------  
+*/
 $(document).ready(function() {
-
 	$('[data-toggle="tooltip"]').tooltip()
-
-	// $("div.bhoechie-tab-menu>div.list-group>a").click(function(e) {
-	// 	e.preventDefault();
-	// 	var tid = $(e.currentTarget).attr('id').split("-")[2]
-	// 	$(this).siblings('a.active').removeClass("active");
-	// 	$(this).addClass("active");
-	// 	var index = $(this).index();
-	// 	$("div.bhoechie-tab>div.bhoechie-tab-content").removeClass("active");
-	// 	$("div.bhoechie-tab>div.bhoechie-tab-content").eq(index).addClass("active");
- //    }); //click
-
- $("#paneToggler").click(function(e){
-
- 	if(appState.get("panestate")=="down"){
- 		// $(this).removeClass("collapsed")
- 		appState.set({panestate:"out"});
- 	} else {
- 		appState.set({panestate:"down"});
- 		// $(this).addClass("collapsed")
- 	}
- })
-
- $(document).keydown(function(e){
- 	if(e.keyCode == 18){
- 		if(appState.get("panestate")=="down"){
- 			appState.set({panestate:"out"});
- 		} else {
- 			appState.set({panestate:"down"});
- 		}
- 	}
- })
-
-// if(appState.get("panestate")=="down"){
-//             $("#postslist-container").addClass("collapsed")
-//         $("#active-container").addClass("collapsed")
-// $('body').find('[data-toggle="tooltip"]').tooltip('hide');
-
-
-
-});
+	$("#paneToggler").click(function(e){
+		if(appState.get("panestate")=="down"){
+			$(this).removeClass("collapsed")
+			appState.set({panestate:"out"});
+		} else {
+			appState.set({panestate:"down"});
+			$(this).addClass("collapsed")
+		}
+	})
+	$(document).keydown(function(e){
+		console.log("e.keyCode",e.keyCode);
+		if(e.keyCode == 18){
+			if(appState.get("panestate")=="down"){
+				appState.set({panestate:"out"});
+				$("#paneToggler").removeClass("collapsed")
+			} else {
+				appState.set({panestate:"down"});
+				$("#paneToggler").addClass("collapsed")
+			}
+		}
+	})
+});	

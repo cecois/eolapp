@@ -19,7 +19,7 @@ first_name: C.C.
 last_name: Miller
 ---
 
-### Current Position:
+### CURRENT POSITION:
 
 #### GIS Specialist/Systems Administrator, 2012-present
 
@@ -29,7 +29,7 @@ Knowledge Services Sector<br/>
 244 Wood St., Lexington, Mass
 </div>
 
-### Previous Positions:
+### PREVIOUS POSITIONS:
 
 #### Associate Professor of Library Science/GIS Specialist, 2012
 
@@ -49,8 +49,6 @@ West Lafayette, IN 47907-2058<br/></div>
 Texas A&M International University<br/>
 5201 University Blvd, Laredo, TX 78041<br/></div>
 
-### Education:
+### EDUCATION:
 * M.L.S. – <span class="copy-trigger" data-type="gob" data-id="gD18">University of Iowa</span> School of Library & Information Science 2002
 * B.A. in English (with Honors, History minor) – <span class="copy-trigger" data-type="gob" data-id="gD18">University of Iowa</span> 2000
-
-(full resume also available as .md and .pdf)

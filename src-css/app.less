@@ -30,8 +30,24 @@
 
 @header-height:83px;
 
+
+
+/* --------------------------------------- MISC REUSABLES -------------- */
+
+@font-face {
+  font-family: 'Alegreya Sans';
+  src: url('/assets/fonts/AlegreyaSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('/assets/fonts/Roboto-Thin.ttf') format('truetype');
+}
+
 // @font-main: 'FjallaOne', sans-serif;
-@font-main: 'Alegreya Sans', sans-serif;
+@font-titles: 'Alegreya Sans', sans-serif;
+@font-main: 'Roboto', sans-serif;
+// @font-main: 'BenchNine', sans-serif;
 
 .stroke-gray{
 text-shadow: @bodycopy 0px 0px 1px,   @bodycopy 0px 0px 1px,   @bodycopy 0px 0px 1px,
@@ -44,7 +60,6 @@ text-shadow: @eolyellow 0px 0px 1px,   @eolyellow 0px 0px 1px,   @eolyellow 0px 
 @eolyellow 0px 0px 1px,   @eolyellow 0px 0px 1px,   @eolyellow 0px 0px 1px;
 -webkit-font-smoothing: antialiased;
 }
-
 
 
 /* --------------------------------------- MISC REUSABLES -------------- */
@@ -68,11 +83,11 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 
 .rotate-45 {
--webkit-transform: rotate(45deg);
--moz-transform: rotate(45deg);
--ms-transform: rotate(45deg);
--o-transform: rotate(45deg);
-transform: rotate(45deg);
+-webkit-transform: rotate(-45deg);
+-moz-transform: rotate(-45deg);
+-ms-transform: rotate(-45deg);
+-o-transform: rotate(-45deg);
+transform: rotate(-45deg);
 
 /* also accepts left, right, top, bottom coordinates; not required, but a good idea for styling */
 -webkit-transform-origin: 50% 50%;
@@ -198,6 +213,7 @@ opacity: 0.97;
 filter: alpha(opacity=97);
 
 #title-copy{
+	font-family:@font-titles;
 padding-left:33px;
 padding:10px;
 
@@ -444,11 +460,15 @@ display: none;
 .grid-item--width2 { width: 400px; }
 /* ------------------------------------------------------------------------------------ ACTIVE-POST-CONTAINER -- */
 #active-post-container{
-	background-color:green;
+	background-color:white;
 	display:none;
 	opacity: .97;
 	top:@header-height;
-	padding:5% 10%;
+	padding:5% 5%;
+	font-size:1.2em;
+	li{
+		margin-bottom:1%;
+	}
 }
 #active-post-container.minimized{
 	left:65%;
@@ -470,6 +490,7 @@ display: none;
 	background-color:none;
 	padding:0;
 	border:none;
+	font-family:@font-titles;
 	font-size:.8em;
 	font-variant: small-caps;
 	text-align:left;

@@ -52,7 +52,7 @@ var baselayers = {
 		}
 	},{
 		"name": "stamen_toner",
-		"active": true,
+		"active": false,
 		"source": "stame",
 		"nom": "Stamen Toner",
 		"mapis": "dark",
@@ -75,6 +75,7 @@ var baselayers = {
 			"noWrap": true
 		}
 	}
+	,{"name":"pencil","active":true,"source":"mapbox","nom":"Aj Ashton's Pencil Map","definition":{"subdomains":["a","b","c"],"maxZoom":18,"url":"https://{s}.tiles.mapbox.com/v4/aj.03e9e12d/{z}/{x}/{y}@2x.png?access_token=pk.eyJ1IjoiYWoiLCJhIjoiY2lrZW1pczJzMDA1d3VybTJha216azVtdSJ9.vJBkGAq6CvN9vt0IwakQ-A","noWrap":true}}
 
 	]
 }
@@ -95,6 +96,12 @@ var vPostsView = new PostsView({
 var vPostsMenu = new PostsMenuView({
 	collection: cxPosts
 });
+
+/* -------------------------------------------------- MENUS -----------------------  
+var vPaneStateMenuView = new PaneStateMenuView({
+	model: appState
+});
+*/
 
 /* -------------------------------------------------- GEOMS -----------------------  */
 
@@ -154,33 +161,29 @@ function leafletize_Bbox(bboxstring){
 	return bounds
 }
 
-/* -------------------------------------------------- READY -----------------------  */
+/* -------------------------------------------------- READY -----------------------  
+*/
 $(document).ready(function() {
-
 	$('[data-toggle="tooltip"]').tooltip()
-
-
 	$("#paneToggler").click(function(e){
-
 		if(appState.get("panestate")=="down"){
- 		// $(this).removeClass("collapsed")
- 		appState.set({panestate:"out"});
- 	} else {
- 		appState.set({panestate:"down"});
- 		// $(this).addClass("collapsed")
- 	}
- })
-
+			$(this).removeClass("collapsed")
+			appState.set({panestate:"out"});
+		} else {
+			appState.set({panestate:"down"});
+			$(this).addClass("collapsed")
+		}
+	})
 	$(document).keydown(function(e){
+		console.log("e.keyCode",e.keyCode);
 		if(e.keyCode == 18){
 			if(appState.get("panestate")=="down"){
 				appState.set({panestate:"out"});
+				$("#paneToggler").removeClass("collapsed")
 			} else {
 				appState.set({panestate:"down"});
+				$("#paneToggler").addClass("collapsed")
 			}
 		}
 	})
-
-
-
-});
+});	

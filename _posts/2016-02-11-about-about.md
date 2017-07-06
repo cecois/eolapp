@@ -19,14 +19,6 @@ first_name: C.C.
 last_name: Miller
 ---
 
-alkdnfladf
+I am a GIS Librarian. Eh, *kinda.* By degree, certainly (<span class="copy-trigger" data-type="gob" data-id="gD18">University of Iowa</span>), and by title in <span class="copy-trigger" data-type="slug" data-id="cv-positions">previous positions</span>. But the joy of having such a unique job is that I've been able to define, redefine, and refine it over the years and now, at <span class="copy-trigger" data-type="gob" data-id="gD19">MIT Lincoln Laboratory (MITLL)</span>, I am a developer, mapmaker, and sys admin who *happens* to work out of the agency's library. You can read aaaaaaa-ha-ha-all about it in my "<span class="copy-trigger" data-type="slug" data-id="about-cover-letter-gloss">narrative</span>" but suffice it to say I get to write web apps, APIs, and other custom solutions so that smarter people can do smart things with data.
 
-##### Credits & Citations
-* (about menu image) [Boston Globe article image - color-adjusted](http://www.bostonglobe.com/lifestyle/2017/04/14/how-lonely-are-loneliest-hubway-bikes-one-was-ridden-for-minutes-all-year/3e2jnNIYgLh6CrTmoOPFgJ/story.html)
-* (narrative menu image) [Lexington, Mass town image - color-adjusted](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Minute_Man_Statue_Lexington_Massachusetts.jpg/1200px-Minute_Man_Statue_Lexington_Massachusetts.jpg)
-* (publications menu image) [Automated GeoReferencing...](http://docs.lib.purdue.edu/jto/vol2/iss1/art6/)
-* (awards menu image) [Only the Lonely - color-adjusted](http://cecois.github.io/#home/pencil/down/)
-* (contact menu image) [The VLA - color-adjusted](https://asd.gsfc.nasa.gov/blueshift/wp-content/uploads/2014/10/center2.jpg)
-* Vulcan
-    * (portfolio menu image) [1](https://news.uns.purdue.edu/images/+2008/gurneyvulcan1.jpg)
-* favico: Globe by Creative Stall from the Noun Project
+...Which is perfect. I believe in data reusability and distribution, cleanliness, interoperability and in the unique opportunity that librarians and other information professionals have to establish, bolster, and progress those values in education & research or just the web generally.

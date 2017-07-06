@@ -205,12 +205,12 @@ var PostsView = Backbone.View.extend({
 
         var ap = this.collection.findWhere({active:true})
 
-        var fpath = ap.get("url").substr(1, ap.get("url").length);
-
-            //
+        if(typeof ap !== 'undefined'){
+            var fpath = ap.get("url").substr(1, ap.get("url").length);
+            
             $(this.el).html(
                 _.unescape(ap.get("content"))
-                )
+                )}
             return this
             .showhide()
         }
@@ -385,7 +385,6 @@ paint: function() {
 
             layer.on("popupopen",function(p){
 
-                console.info("p in open");console.log(p);
                 p.target.bringToFront()
 
                 // open

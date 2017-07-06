@@ -19,14 +19,16 @@ first_name: C.C.
 last_name: Miller
 ---
 
-#### Awards
+#### AWARDS
+* 2017 May 6 - Runner-up, "Track 5: Telling a Story Through Data," [Boston Open Data Challenge 2017](https://docs.google.com/document/d/1STCtJdz5u2hAj0PAtwz1IcgyB16CM4Ak9artnkywv3U/edit) - see <span class="copy-trigger" data-type="slug" data-id="cv-portfolio">Portfolio</span> for a gloss on the submission
+* 2017 April 28 - "Best Data Narrative," [2017 Hubway Data Challenge](https://www.thehubway.com/blog/2017-datachallenge-winners) - see <span class="copy-trigger" data-type="slug" data-id="cv-portfolio">Portfolio</span> for a gloss on the submission
 * 2015 June - Special Recognition Award, MIT Lincoln Laboratory
 * 2015 January - MIT Excellence Award (nomination only), MIT
 * 2012 July - tenure/promotion to associate professor, Purdue University
 * 2012 - Best Publication Award, American Society for Engineering Education: Engineering Libraries Division 
 * 2009 - John H. Moriarty Award for Excellence in Library Service, Purdue University Libraries
 
-#### Recognition
+#### RECOGNITION
 
 * represented an "established library GIS program" at "GIS in Every Library," Maps and Geography Round Table talk and panel, American Library Association Annual Conference, Washington D.C. June 2010.
 * advisor to/director of Indiana University School of Library and Information Science graduate student "directed reading" project on spatializing library repository full text collections. June, 2010 ­ December, 2010.
