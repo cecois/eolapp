@@ -21,25 +21,44 @@ last_name: Miller
 
 ### MITLL
 
-<img src="/assets/img/noun_199345_cc.png" class="pull-right"/>MIT Lincoln Laboratory is a federally-funded research and development center that "applies advanced technology to problems of national security." As such, they take security very seriously and my work there cannot be shown. I can say that my primary objective when I started in 2012 was to build a system for the storage, search, discovery, and delivery of spatial data. Which I did - with <a href="https://www.mongodb.com/">MongoDB</a> and [PostGIS](http://postgis.net/) on the back end; [Apache Solr](http://lucene.apache.org/solr/), [GeoServer](http://geoserver.org/), [GeoWebcache](http://geowebcache.org/) in the middle; an API (first in [Slim](http://www.slimframework.com/), then [Node](https://nodejs.org)) that I also happen to consume with a single-page web app written primarily against [BackboneJS](backbonejs.com) (but with other fun stuff such as [Bootstrap](http://getbootstrap.com/), [Leaflet](http://leafletjs.com), [Handlebars](http://handlebarsjs.com/), all that hip stuff). There are numerous third-party APIs and projects in there as well (e.g. the erstwhile [Freebase](https://www.freebase.com/), [D3.js](https://d3js.org/), [MapQuest](http://open.mapquestapi.com/), [OpenStreetMap](https://wiki.openstreetmap.org/wiki/Main_Page), [CloudMade](http://cloudmade.com/)). The result is pretty, clean, and a success for my sector but I cannot show it.
+<img src="/assets/img/noun_199345_cc.png" class="pull-right"/>MIT Lincoln Laboratory is a federally-funded research and development center that "applies advanced technology to problems of national security." As such, they take security very seriously and my work there cannot be shown. I can say that my primary objective when I started in 2012 was to build a system for the storage, search, discovery, and delivery of spatial data. Which I did - with <a href="https://www.mongodb.com/">MongoDB</a> and [PostGIS](http://postgis.net/) on the back end; [Apache Solr](http://lucene.apache.org/solr/), [GeoServer](http://geoserver.org/), [GeoWebcache](http://geowebcache.org/), and [MapProxy](https://mapproxy.org) in the middle; an API (first in [Slim](http://www.slimframework.com/), then [Node](https://nodejs.org)) that I also happen to consume with a single-page web app written primarily against [BackboneJS](backbonejs.com) (but with other fun stuff such as [Bootstrap](http://getbootstrap.com/), [Leaflet](http://leafletjs.com), [Handlebars](http://handlebarsjs.com/), all that hip stuff). There are numerous third-party APIs and projects in there as well (e.g. the erstwhile [Freebase](https://www.freebase.com/), [D3.js](https://d3js.org/), [MapQuest](http://open.mapquestapi.com/), [OpenStreetMap](https://wiki.openstreetmap.org/wiki/Main_Page), [CloudMade](http://cloudmade.com/)). The result is pretty, clean, and a success for my sector. But I cannot show it.
 
-There are other projects, too, that evidence a growing and diversifying skill set - an API in NodeJS that broker map routing (against data in PostGIS+pgRouting); a web scraper in NodeJS that harvests targeted web targets based on certain semantic requirements; a MongoDB Map/Reduce workflow that summarizes and reports on many millions of archival items; and numerous ad hoc web apps designed to visualize this or that data problem or to deliver data found on behalf of a lab researcher. But these, too, cannot be copied or distributed.
+There are other projects at MITLL, too, that evidence a growing and diversifying skill set - an API in NodeJS that brokers map routing (against data in PostGIS+pgRouting); a web scraper in NodeJS that harvests web targets based on certain semantic requirements; a MongoDB Map/Reduce workflow that summarizes and reports on many millions of archival items; and numerous ad hoc web apps designed to visualize this or that data problem or to deliver data found on behalf of a lab researcher. But these, too, cannot be copied, distributed, or shown off.
 
-### Purdue Tenure Doc
-First of all, here is a document left over from a successful bid for tenure at Purdue University. It is a prose case that argues my value to the overall strategic mission of Purdue at that time as well as the specific objectives of Purdue University Libraries. It is included here because it might provide some context and exposition for how a nominal librarian might come to be a teacher/developer/sysadmin.
-
-[Purdue University Tenure Narrative](https://www.dropbox.com/s/2slebgh83kzuegj/ccmiller_tenureNarrative.pdf?dl=0)
 
 ### This Site
 
-This electronic CV was built during <span class="copy-trigger" data-type="gob" data-id="g|1">my commute</span>. It has three chief components: 
+This electronic CV was built during <span class="copy-trigger" data-type="gob" data-id="g|1">my commute</span>. It's a [Jekyll](https://jekyllrb.com/) instance that has been draped over [BackboneJS](backbonejs.com) with [Leaflet](http://leafletjs.com) as the map framework. There is a smattering of smaller other libraries in there, as well ([Less](http://lesscss.org/), [Underscore](http://underscorejs.org), [Handlebars](http://handlebarsjs.com/), etc.) I chose [Jekyll](https://jekyllrb.com/) so that I could freely and easily write about my work in Markdown and not worry about formatting and display (or even organization, to some extent).
 
-1. The web app you're using - it's written in [Jekyll](https://jekyllrb.com/) and built on [BackboneJS](backbonejs.com) with [Leaflet](http://leafletjs.com) as the map framework. There is a smattering of smaller other libraries in there, as well ([Less](http://lesscss.org/), [Underscore](http://underscorejs.org), [Handlebars](http://handlebarsjs.com/), etc.) I chose [Jekyll](https://jekyllrb.com/) so that I could freely and easily write about my work in Markdown and not worry about formatting and display (or even organization, to some extent). 
+But Jekyll is static (by design) and I wanted something more dynamic for the mapping piece. Fortunately, it's pretty easy to wrap static Jekyll content in the logic and MVC-ness of Backbone (or Ember or Angular, et al, but I use Backbone). Check it, from App.js:
 
-2. But Jekyll is static (by design) and I wanted something more dynamic for the mapping piece. Fortunately, it's very easy to wrap static Jekyll content in the logic and MVC-ness of Backbone (or Ember or Angular, et al, but I use Backbone), organizing and calling upon individual nodes or posts at will based on this or that model or method in the gui.
+		{% capture posts %}
+		[
+		{% for post in site.categories.menud reversed %}
+		{
+			"title"    : "{{ post.title }}",
+			"url"      : "{{ post.url }}",
+			"order"      : "{{ post.order }}",
+			"slug"      : "{{ post.slug }}",
+			"splash"      : "{{ post.splash }}",
+			"date"     : "{{ post.date | date: "%B %d, %Y" }}",
+			"content"  : "{{ post.content | escape }}"
+		} {% if forloop.last %}{% else %},{% endif %}
+		{% endfor %}
+		]
+		{% endcapture %}
 
-4. Map data (<span class="copy-trigger" data-type="gob" data-id="g|1">my commute</span>, the locations of my previous jobs, etc.) are hosted in [CartoDB](https://cartodb.com/), a cloud spatial database with an easy SQL API.
+...And just like that all of that Jekyll content, front matter intact, is available to do with what we please based on this or that model or method in the GUI. (Although *nota bene* - [Gulp](http://gulpjs.com) will squeeze this out of the file so it can't really be minimized into your concatenated app.min.js or whatever). "Hey, genius," you'll note - "why not just build your big, fat JavaScript app and pipe static html files into it?" Well, because then I would have a full and complete Jekyll site sitting around for super fast re-theming (should I decide to do so) AND because I wouldn't have learned what I did about coupling Jekyll with a webmapping framework (Leaflet) in the way I like Leaflet to operate. Who wants their Leaflet map to reset/refetch/redraw every time you hop from one static Jekyll html to another?
 
+P.S. As with several other projects, map data (commute, the locations of my previous positions, etc.) are hosted in [CartoDB](https://cartodb.com/), a cloud spatial database with an easy SQL API. In this particular case the data are prefetched and served statically out of the generated Jekyll dir. If for no other reason than it's easier to work on the T that way (i.e. easier on the ol' T-Mobile tether).
+
+
+### Vulcan Maps here?????? (or in their own .md?)
+### Only the Lonely
+### GarbageBot
+### Garbage Atlas 2014
+### WendyMarks.com
+### The Clothes I Own
 
 ### Hobby Site #1 - faceted podcast jokes
 * <img style="margin-left:12px;margin-botto
@@ -66,7 +85,7 @@ om:12px;" class="pull-right" src="https://s3.amazonaws.com/f.cl.ly/items/342D100
 
 
 * _IsoMAP: Isoscape Modeling, Analysis and Prediction_ - Purdue, 2008-2012
-	* spatial data processing and organization workflows 
+	* spatial data processing and organization workflows
 	* web app (in [OpenLayers](http://openlayers.org)) that interfaces with metadata stores, spatial database contents, and TeraGrid job managing software
 	* metadata authoring, metadata indexing, and metadata search mechanism
 	* I built the spatial component of this NSF-funded cyberinfrastructure project that delivers powerful environmental isotope modeling, analysis, and visualization over the web
@@ -99,3 +118,8 @@ om:12px;" class="pull-right" src="https://s3.amazonaws.com/f.cl.ly/items/342D100
 
 * _Pilot PTO Dailies_ - Purdue, 2010-2012
 	* an automated data publishing workflow incorporates extant library data APIs to push Purdue Terrestrial Observatory remote sensing data to the web
+
+### Purdue Tenure Doc
+Lastly, here is a document left over from a successful bid for tenure at Purdue University. It is a prose case that argues my value to the overall strategic mission of Purdue at that time as well as the specific objectives of Purdue University Libraries. It is included here because it might provide some context and exposition for how a nominal librarian might come to be a teacher/developer/mappaker/sysadmin.
+
+[Purdue University Tenure Narrative](https://www.dropbox.com/s/2slebgh83kzuegj/ccmiller_tenureNarrative.pdf?dl=0)
