@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 'Portfolio'
-splash: 'splash-cv-portfolio.jpg'
+title: 'Portfolio (Web Apps, APIs, etc.)'
+splash: 'splash-cv-portfolio-digital.jpg'
 date: 2016-03-22 02:18:42.000000000 -04:00
 type: post
 published: true
@@ -21,7 +21,8 @@ last_name: Miller
 
 ### MITLL
 
-<img src="/assets/img/noun_199345_cc.png" class="pull-right"/>MIT Lincoln Laboratory is a federally-funded research and development center that "applies advanced technology to problems of national security." As such, they take security very seriously and my work there cannot be shown. I can say that my primary objective when I started in 2012 was to build a system for the storage, search, discovery, and delivery of spatial data. Which I did - with <a href="https://www.mongodb.com/">MongoDB</a> and [PostGIS](http://postgis.net/) on the back end; [Apache Solr](http://lucene.apache.org/solr/), [GeoServer](http://geoserver.org/), [GeoWebcache](http://geowebcache.org/), and [MapProxy](https://mapproxy.org) in the middle; an API (first in [Slim](http://www.slimframework.com/), then [Node](https://nodejs.org)) that I also happen to consume with a single-page web app written primarily against [BackboneJS](backbonejs.com) (but with other fun stuff such as [Bootstrap](http://getbootstrap.com/), [Leaflet](http://leafletjs.com), [Handlebars](http://handlebarsjs.com/), all that hip stuff). There are numerous third-party APIs and projects in there as well (e.g. the erstwhile [Freebase](https://www.freebase.com/), [D3.js](https://d3js.org/), [MapQuest](http://open.mapquestapi.com/), [OpenStreetMap](https://wiki.openstreetmap.org/wiki/Main_Page), [CloudMade](http://cloudmade.com/)). The result is pretty, clean, and a success for my sector. But I cannot show it.
+<img height="200px" src="/assets/img/noun_199345_cc.png" class="pull-right" style="padding: 0 2% 2% 2%;"/>
+MIT Lincoln Laboratory is a federally-funded research and development center that "applies advanced technology to problems of national security." As such, they take security very seriously and my work there cannot be shown. I can say that my primary objective when I started in 2012 was to build a system for the storage, search, discovery, and delivery of spatial data. Which I did - with <a href="https://www.mongodb.com/">MongoDB</a> and [PostGIS](http://postgis.net/) on the back end; [Apache Solr](http://lucene.apache.org/solr/), [GeoServer](http://geoserver.org/), [GeoWebcache](http://geowebcache.org/), and [MapProxy](https://mapproxy.org) in the middle; an API (first in [Slim](http://www.slimframework.com/), then [Node](https://nodejs.org)) that I also happen to consume with a single-page web app written primarily against [BackboneJS](backbonejs.com) (but with other fun stuff such as [Bootstrap](http://getbootstrap.com/), [Leaflet](http://leafletjs.com), [Handlebars](http://handlebarsjs.com/), all that hip stuff). There are numerous third-party APIs and projects in there as well (e.g. the erstwhile [Freebase](https://www.freebase.com/), [D3.js](https://d3js.org/), [MapQuest](http://open.mapquestapi.com/), [OpenStreetMap](https://wiki.openstreetmap.org/wiki/Main_Page), [CloudMade](http://cloudmade.com/)). The result is pretty, clean, and a success for my sector. But I cannot show it.
 
 There are other projects at MITLL, too, that evidence a growing and diversifying skill set - an API in NodeJS that brokers map routing (against data in PostGIS+pgRouting); a web scraper in NodeJS that harvests web targets based on certain semantic requirements; a MongoDB Map/Reduce workflow that summarizes and reports on many millions of archival items; and numerous ad hoc web apps designed to visualize this or that data problem or to deliver data found on behalf of a lab researcher. But these, too, cannot be copied, distributed, or shown off.
 
@@ -52,13 +53,12 @@ But Jekyll is static (by design) and I wanted something more dynamic for the map
 
 P.S. As with several other projects, map data (commute, the locations of my previous positions, etc.) are hosted in [CartoDB](https://cartodb.com/), a cloud spatial database with an easy SQL API. In this particular case the data are prefetched and served statically out of the generated Jekyll dir. If for no other reason than it's easier to work on the T that way (i.e. easier on the ol' T-Mobile tether).
 
-
-### Vulcan Maps here?????? (or in their own .md?)
 ### Only the Lonely
 ### GarbageBot
 ### Garbage Atlas 2014
 ### WendyMarks.com
 ### The Clothes I Own
+### Trimarchi China Map
 
 ### Hobby Site #1 - faceted podcast jokes
 * <img style="margin-left:12px;margin-botto
@@ -118,8 +118,3 @@ om:12px;" class="pull-right" src="https://s3.amazonaws.com/f.cl.ly/items/342D100
 
 * _Pilot PTO Dailies_ - Purdue, 2010-2012
 	* an automated data publishing workflow incorporates extant library data APIs to push Purdue Terrestrial Observatory remote sensing data to the web
-
-### Purdue Tenure Doc
-Lastly, here is a document left over from a successful bid for tenure at Purdue University. It is a prose case that argues my value to the overall strategic mission of Purdue at that time as well as the specific objectives of Purdue University Libraries. It is included here because it might provide some context and exposition for how a nominal librarian might come to be a teacher/developer/mappaker/sysadmin.
-
-[Purdue University Tenure Narrative](https://www.dropbox.com/s/2slebgh83kzuegj/ccmiller_tenureNarrative.pdf?dl=0)

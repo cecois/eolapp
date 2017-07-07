@@ -173,7 +173,6 @@ var clean = ()=>{
  var jekyll = ()=>{
   // var jekyllCommand = 'jekyll';
   // browserSync.notify(messages.jekyllBuild);
-  console.log("gulp-building jekyll...");
   return CP.spawn('jekyll', ['build'], {stdio: 'inherit'})
   // .on('close', done);
 }
@@ -204,7 +203,7 @@ var watch_img = ()=>{
 
 var watch_jek = ()=>{
   return GULP
-  .watch(paths.img.dest,jekyll)
+  .watch('_posts/*',jekyll)
 }
   // function watch() {
   //   GULP.watch(paths.scripts.src, scripts);

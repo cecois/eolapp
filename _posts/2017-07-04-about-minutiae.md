@@ -6,7 +6,7 @@ date: 2017-07-04 02:18:42.000000000 -04:00
 type: post
 published: true
 status: publish
-order: 7
+order: 8
 category:
 - about
 - menud
@@ -19,7 +19,7 @@ first_name: C.C.
 last_name: Miller
 ---
 
-This site isn't *nothing*. It's a somewhat clever coupling of [Jekyll](https://jekyllrb.com) simplicity, complicated with [Backbone](http://backbonejs.org) logic. With [Leaflet](http://leafletjs.com) and [Bootstrap](http://getbootstrap.com) and all that stuff everybody likes to use. You can read about it <span class="copy-trigger" data-type="slug" data-id="cv-portfolio">here</span>. But for images and icons sprinkled throughout, some credit:
+This site isn't *nothing*. It's a somewhat clever coupling of [Jekyll](https://jekyllrb.com) simplicity, complicated with [Backbone](http://backbonejs.org) logic. With [Leaflet](http://leafletjs.com) and [Bootstrap](http://getbootstrap.com) and all that stuff everybody likes to use. You can read about it <span class="copy-trigger" data-type="slug" data-id="cv-portfolio-digital">here</span>. But for images and icons sprinkled throughout, some credit:
 
 <h3>Credits & Citations:</h3>
 Various items, icons, and images used throughout the site:
@@ -31,5 +31,6 @@ Various items, icons, and images used throughout the site:
 <li>(portfolio menu image) <a href="https://news.uns.purdue.edu/images/+2008/gurneyvulcan1.jpg">Vulcan Carbon Emissions Grid</a></li>
 <li>off-limits portfolio graphic <a href="https://thenounproject.com/browse/?i=199345">Barricade by parkjisun from the Noun Project</a></li>
 <li>favico: <a href="https://thenounproject.com/browse/?i=176247">Globe by Creative Stall</a> from the Noun Project</li>
+<li>paywall-access forbidden graphic <a href="https://thenounproject.com/browse/?i=23428">Copyright Code by Tim Hurt</a> from the Noun Project</li>
 <li>(all other items explicitly linked or credited inline)</li>
 </ul>
