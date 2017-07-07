@@ -20,14 +20,27 @@ last_name: Miller
 ---
 
 ### Vulcan
-Althought most of my work is digital/dynamic, there have been occasions to design static "documents" - maps, typically, but see [here](https://www.dropbox.com/s/t2dzm8tx83ggugl/ccmiller_tenureBox.pdf?dl=0) for some thumbs of other static designs (contextualized below). By far, however, the furthest I've seen my static design distributed was in the early stages of the Vulcan Carbon Emissions inventory were released. Maps I made for that team are clear, visual representations of what is in truth a complex dataset and scientific methodology. They evidence the dramatic importance of data representation and visualization in scientific research. They made it into...
+Althought most of my work is digital/dynamic, there have been occasions to design static "documents" - maps, typically, but see [here](https://www.dropbox.com/s/t2dzm8tx83ggugl/ccmiller_tenureBox.pdf?dl=0) for some thumbs of other static designs (contextualized below). By far, however, the furthest I've seen my static design distributed was in the early stages of the Vulcan Carbon Emissions inventory were released. Maps I made for that team are clear, visual representations of what is in truth a complex dataset and scientific methodology. They evidence the dramatic importance of data representation and visualization in scientific research. Without belaboring the process, I took multiple carbon emission inputs and mapped them to multiple types of geographic/geometric emitters (power plant points, roadway lines, etc.). Then *all* inputs were, in effect, "smeared" into the cells of a 10-kilometer grid that corresponded geospatially. Various flavors of these maps made it into...
 
+
+<!-- ******************************* INSTANCE -->
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="max-height:150px;overflow:hidden;">
+<iframe class="pull-left" width="560" height="315" src="https://www.youtube.com/embed/eJpj8UUMTaI" frameborder="0" allowfullscreen></iframe>
+</div>
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="text-align:left;font-size:.8em;">
+Revkin, Andrew C. "Dot Earth: Breath of a Nation ­­ Animated CO2 Map." <a href="https://dotearth.blogs.nytimes.com/2008/04/07/breath-of-a-nation-animated-co2-map">The New York Times (April 7, 2008; Section A; Column 0</a> -- A YouTube video in a portfolio of static design? Actually, yes. My Vulcan maps are observable in multiple frames of this video; basically everything except the animations of the atmospheric transport model.
+</div>
+</div> <!-- ******************************* /INSTANCE -->
+
+
+<!-- ******************************* INSTANCE -->
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="max-height:150px;overflow:hidden;">
 <a href="https://secure.pqarchiver.com/boston/doc/405111154.html?FMT=CITE&FMTS=CITE:FT&type=current&date=Apr+27%2C+2008&author=Battles%2C+Matthew%7C%7C%7C%7C%7C%7CMatthew+Battles+is+a+freelance+writer+in+Jamaica+Plain%7C%7C%7C%7C%7C%7Cthe+author+of+%22Library%3A+An+Unquiet+History.%22&pub=Boston+Globe&edition=&startpage=D.2&desc=From+C+to+shining+C+-+A+new+map+gives+a+detailed+picture+of+America%27s+carbon+emissions"><img class="pull-right" src="/assets/img/noun_23428_cc.png"></img></a>
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="text-align:right;">
-[The Boston Globe](https://secure.pqarchiver.com/boston/doc/405111154.html?FMT=CITE&FMTS=CITE:FT&type=current&date=Apr+27%2C+2008&author=Battles%2C+Matthew%7C%7C%7C%7C%7C%7CMatthew+Battles+is+a+freelance+writer+in+Jamaica+Plain%7C%7C%7C%7C%7C%7Cthe+author+of+%22Library%3A+An+Unquiet+History.%22&pub=Boston+Globe&edition=&startpage=D.2&desc=From+C+to+shining+C+-+A+new+map+gives+a+detailed+picture+of+America%27s+carbon+emissions)
 </div>
-</div></div>
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="text-align:right;font-size:.8em;">
+<a href="https://secure.pqarchiver.com/boston/doc/405111154.html?FMT=CITE&FMTS=CITE:FT&type=current&date=Apr+27%2C+2008&author=Battles%2C+Matthew%7C%7C%7C%7C%7C%7CMatthew+Battles+is+a+freelance+writer+in+Jamaica+Plain%7C%7C%7C%7C%7C%7Cthe+author+of+%22Library%3A+An+Unquiet+History.%22&pub=Boston+Globe&edition=&startpage=D.2&desc=From+C+to+shining+C+-+A+new+map+gives+a+detailed+picture+of+America%27s+carbon+emissions">Matthew Battles; "From C to shining C - A new map gives a detailed picture of America's carbon emissions." The Boston Globe (Boston, MA). Boston Globe Media Partners, LLC. 2008.</a> I can't include the image here due to a paywall/copyright, but if you're not sure where to get Globe archives <a href="http://www.worldcat.org/search?q=ti%3A%22the+boston+globe%22&qt=advanced&dblist=638">WorldCat might suggest something</a>.
+</div>
+</div> <!-- ******************************* /INSTANCE -->
 
 --------------
 --------------
@@ -35,12 +48,12 @@ Althought most of my work is digital/dynamic, there have been occasions to desig
 --------------
 --------------
 
-* [The Boston Globe](http://www.sciencedaily.com/releases/2008/04/080407172656.htm)
-    * <img height="150px" width="275px" src="https://www.sciencedaily.com/images/2008/04/080407172656_1_540x360.jpg"/>
-* The New York Times
-* Wired Science
-* Dick Lugar's letter to the U.S. Senate
 * Al Gore's book, Our choice: a plan to solve the climate crisis.
+* The New York Times
+* Dick Lugar's letter to the U.S. Senate
+* Wired Science
+* [ScienceDaily](http://www.sciencedaily.com/releases/2008/04/080407172656.htm)
+    * <img height="150px" width="275px" src="https://www.sciencedaily.com/images/2008/04/080407172656_1_540x360.jpg"/>
 * plus a bunch of science blogs ;-)
 
 ### MITLL
