@@ -33,25 +33,27 @@ This electronic CV was built during <span class="copy-trigger" data-type="gob" d
 
 But Jekyll is static (by design) and I wanted something more dynamic for the mapping piece. Fortunately, it's pretty easy to wrap static Jekyll content in the logic and MVC-ness of Backbone (or Ember or Angular, et al, but I use Backbone). Check it, from App.js:
 
-		{% capture posts %}
-		[
-		{% for post in site.categories.menud reversed %}
-		{
-			"title"    : "{{ post.title }}",
-			"url"      : "{{ post.url }}",
-			"order"      : "{{ post.order }}",
-			"slug"      : "{{ post.slug }}",
-			"splash"      : "{{ post.splash }}",
-			"date"     : "{{ post.date | date: "%B %d, %Y" }}",
-			"content"  : "{{ post.content | escape }}"
-		} {% if forloop.last %}{% else %},{% endif %}
-		{% endfor %}
-		]
-		{% endcapture %}
+
+			{% capture posts %}
+			[
+			{% for post in site.categories.menud reversed %}
+			{
+				"title"    : "{{ post.title }}",
+				"url"      : "{{ post.url }}",
+				"order"      : "{{ post.order }}",
+				"slug"      : "{{ post.slug }}",
+				"splash"      : "{{ post.splash }}",
+				"date"     : "{{ post.date | date: "%B %d, %Y" }}",
+				"content"  : "{{ post.content | escape }}"
+			} {% if forloop.last %}{% else %},{% endif %}
+			{% endfor %}
+			]
+			{% endcapture %}
+
 
 ...And just like that all of that Jekyll content, front matter intact, is available to do with what we please based on this or that model or method in the GUI. (Although *nota bene* - [Gulp](http://gulpjs.com) will squeeze this out of the file so it can't really be minimized into your concatenated app.min.js or whatever). "Hey, genius," you'll note - "why not just build your big, fat JavaScript app and pipe static html files into it?" Well, because then I would have a full and complete Jekyll site sitting around for super fast re-theming (should I decide to do so) AND because I wouldn't have learned what I did about coupling Jekyll with a webmapping framework (Leaflet) in the way I like Leaflet to operate. Who wants their Leaflet map to reset/refetch/redraw every time you hop from one static Jekyll html to another?
 
-P.S. As with several other projects, map data (commute, the locations of my previous positions, etc.) are hosted in [CartoDB](https://cartodb.com/), a cloud spatial database with an easy SQL API. In this particular case the data are prefetched and served statically out of the generated Jekyll dir. If for no other reason than it's easier to work on the T that way (i.e. easier on the ol' T-Mobile tether).
+P.S. As with several other projects, map data (commute, the locations of my previous positions, etc.) are hosted in [CartoDB](https://cartodb.com/), a cloud spatial database with an easy SQL API. In this particular case the data are prefetched and served statically out of the generated Jekyll dir. If for no other reason than it's easier to work on the T that way.
 
 ### Only the Lonely
 ### GarbageBot
