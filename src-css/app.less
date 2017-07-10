@@ -62,8 +62,6 @@ text-shadow: @eolyellow 0px 0px 1px,   @eolyellow 0px 0px 1px,   @eolyellow 0px 
 }
 
 
-/* --------------------------------------- MISC REUSABLES -------------- */
-
 .rotate-90 {
 -webkit-transform: rotate(-90deg);
 -moz-transform: rotate(-90deg);
@@ -114,7 +112,7 @@ white-space: pre;
 body{
 font-family: @font-main;
 .copy-trigger{color: @alink;cursor:pointer;font-weight:500;
-text-shadow: @alink 0px 0px 1px;
+text-shadow: @alink 0px 0px 2px;
 &:hover{color:@seen;}
 }
 
@@ -178,11 +176,10 @@ font-size:2em;
 
 
 h3,h4,h5{
-// font-family: 'PT Sans Narrow', sans-serif;
-// color:@titlecopy;
-// color:@bodycopy;
-// color:white;
-// .stroke-eol;
+color:@eolprimary;
+font-weight:800;
+.stroke-gray;
+
 }
 
 #title-container{
@@ -533,3 +530,7 @@ padding-right:0;
 font-size:.5em;
 padding:0;
 	}
+
+/* ------------------------------------------------------------------------------------ OVERRIDES -- */
+
+code {font-size:.8em;}

@@ -33,5 +33,6 @@ Various items, icons, and images used throughout the site:
 <li>favico: <a href="https://thenounproject.com/browse/?i=176247">Globe by Creative Stall</a> from the Noun Project</li>
 <li>paywall-access forbidden graphic <a href="https://thenounproject.com/browse/?i=23428">Copyright Code by Tim Hurt</a> from the Noun Project</li>
 <li>Al Gore "Our Choice" jacket <a href="http://rsrc.pushpoppress.com/ourchoice/images/index/trailer-normal.jpg">Push Pop Press</a> - cropped</li>
+<li><a href="https://thenounproject.com/search/?q=gate&i=768916">Wrought Iron Gate by Andrew Doane</a> from the Noun Project - stamped/cloned</li>
 <li>(all other items explicitly linked or credited inline)</li>
 </ul>

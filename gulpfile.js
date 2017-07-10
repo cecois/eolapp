@@ -25,12 +25,12 @@ var paths = {
     dest: 'scripts/'
   }
   ,img: {
-    src: 'src-img/**/*.{jpg,png,gif}',
+    src: 'src-img/**/*.{jpg,png,gif,svg}',
     dest: 'assets/img/'
   }
 };
 
-/* 
+/*
 ------------------------ TASKS
 Not all tasks need to use streams, a gulpfile is just another node program
  * and you can use all packages available on npm, but it must return either a
@@ -49,7 +49,7 @@ Not all tasks need to use streams, a gulpfile is just another node program
 var clean = ()=>{
   // You can use multiple globbing patterns as you would with `gulp.src`,
   // for example if you are using del 2.0 or above, return its promise
-  return DEL([ 
+  return DEL([
     'css/app.min.css'
     ,'staging'
     ]);
@@ -88,7 +88,7 @@ var clean = ()=>{
   return GULP.src(
     [
     // 'src-css/lib/bootstrap-3.3.5-dist/css/bootstrap.css'
-    // ,'src-css/lib/leaflet/leaflet.css' 
+    // ,'src-css/lib/leaflet/leaflet.css'
     // ,
     'src-css/app.less'
     ]
