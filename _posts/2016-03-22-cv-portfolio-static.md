@@ -39,6 +39,7 @@ Althought most of my work is digital/dynamic, there have been occasions to desig
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="text-align:right;font-size:.8em;">
 Gore, Albert. 2009. <a href="http://www.worldcat.org/title/our-choice-how-we-can-solve-the-climate-crisis-young-readers-edition/oclc/678925626&referer=brief_results">Our choice: a plan to solve the climate crisis. Emmaus, PA: Rodale.</a>
+<p>A map I made for the Vulcan project appears on page xx.</p>
 </div>
 </div> <!-- ******************************* /INSTANCE -->
 
@@ -81,7 +82,8 @@ Madrigal, Alexis. "Scientists Unveil High­Res Map of the U.S. Carbon Footprint,
 <iframe class="pull-left" width="100%" src="https://www.youtube.com/embed/fe0SHVZGE98?ecver=1" frameborder="0" allowfullscreen></iframe>
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="text-align:right;font-size:.8em;">
-<span class="portfolio-title">Gurney, Kevin. "How to Count ALL Human Carbon Emissions in the US," <a href="https://youtu.be/fe0SHVZGE98">Google Tech Talk, December 2008.</a></p>
+<span class="portfolio-title">Gurney, Kevin. "How to Count ALL Human Carbon Emissions in the US," <a href="https://youtu.be/fe0SHVZGE98">Google Tech Talk, December 2008.</a></span>
+<p>Many of my static map designs appear in Gurney's slides at this 2008 talk shortly after the initial release of the Vulcan inventory. If you are in a rush (or a climate change denier, I suppose), it might be easier to seem them galleried at <a href="http://talkminer.fxpal.com/viewtalk.jsp?videoid=fe0SHVZGE98&q=&row=5&N=5#.WWUs_cbMzGI">TalkMiner's thumbnails</a> of Gurney's talk.</p>
 </div>
 </div> <!-- ******************************* /INSTANCE -->
 

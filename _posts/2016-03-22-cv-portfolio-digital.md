@@ -36,7 +36,7 @@ last_name: Miller
 <div class="portfolio-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12"><h3>This Site</h3><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="max-height:150px;overflow:hidden;">
 <img width="100%" class="pull-right" src="/assets/img/portfolio-wapp-this.jpg"></img>
 </div>
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="text-align:right;font-size:.8em;">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pw-right" style="">
 
 
 <p>This electronic CV was built during <span class="copy-trigger" data-type="gob" data-id="g|1">my commute</span>. It's a <a href="https://jekyllrb.com">Jekyll</a> instance that has been draped over <a href="http://backbonejs.com">BackboneJS</a> with <a href="http://leafletjs.com">Leaflet</a> as the map framework. There is a smattering of smaller other libraries in there, as well (<a href="http://lesscss.org">Less</a>, <a href="http://underscorejs.org">Underscore</a>, <a href="http://handlebarsjs.com">Handlebars</a>, etc.) I chose Jekyll so that I could freely and easily write about my work in Markdown and not worry about formatting and display (or even organization, to some extent).</p>
@@ -73,7 +73,7 @@ last_name: Miller
 <div class="portfolio-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12"><h3>Only the Lonely: The 6 Loneliest Hubway Bikes of 2016</h3><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="max-height:150px;overflow:hidden;">
 <a href="http://cecois.github.io"><img width="100%" class="pull-right" src="/assets/img/splash-cv-portfolio-digital.jpg"></img></a>
 </div>
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="text-align:left;font-size:.8em;">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pw-left" style="">
 
 <p>In Spring 2017, Boston's <a href="https://www.motivateco.com/">Motivate</a>-based bike sharing system, <a href="https://www.thehubway.com/">Hubway</a>, announced a data visualization/analysis contest. My entry, "<a href="http://cecois.github.io">Only the Lonely</a>," <a href="https://www.bostonglobe.com/lifestyle/2017/04/14/how-lonely-are-loneliest-hubway-bikes-one-was-ridden-for-minutes-all-year/3e2jnNIYgLh6CrTmoOPFgJ/story.html">got some press</a> and then <a href="https://www.thehubway.com/blog/2017-datachallenge-winners">won <em>Best Data Narrative</em></a>. The app itself describes <a href="http://cecois.github.io/#about/pencil/out/">how it was built</a>.</p>
 </div>
@@ -85,7 +85,7 @@ last_name: Miller
 <div class="portfolio-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12"><h3>2014 Boston Garbage Atlas</h3><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="max-height:150px;overflow:hidden;">
 <img width="100%" class="pull-right" src="/assets/img/portfolio-wapp-garbage-atlas.jpg"></img>
 </div>
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="text-align:right;font-size:.8em;">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pw-right" style="">
 
 <p>Not long after the 2017 Hubway Data Challenge, and with just a couple of days to enter, I submitted the "2014 Boston Garbage Atlas" to the <a href="https://data.boston.gov/pages/opendatachallenge">2017 Analyze Boston Open Data Challenge</a>. A serious misnomer, this. It was hardly an "atlas" (although it could become one), and instead I merely grabbed a 2014 feed of "Big Belly" data (solar-powered, communicative garbage compressors all around town) and spatio-temporally mapped their statuses during various ~citywide events such as the <a href="http://garbage-milleria.rhcloud.com/#baa/carto_darkmatter/out/1395577860/-71.08205795288087,42.34785606651052,-71.02330684661867,42.37252735093426">Boston Marathon</a> and <a href="http://garbage-milleria.rhcloud.com/#riot/carto_darkmatter/out/1395577860/-71.08205795288087,42.34785606651052,-71.02330684661867,42.37252735093426">Wine Riot</a>, manually making snarky guesses at their probable contents.
 </p>
@@ -100,7 +100,7 @@ last_name: Miller
 <div class="portfolio-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12"><h3>311 Garbage Bot: Automated Garbage Guesser</h3><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="max-height:150px;overflow:hidden;">
 <a href="https://twitter.com/311GarbageBot"><img width="100%" class="pull-right" src="/assets/img/portfolio-wapp-311.jpg"></img></a>
 </div>
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="text-align:left;font-size:.8em;">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pw-left" style="">
 <p>
 	Following the work I did for the 2017 Analyze Boston Challenge it seemed only appropriate, if not ovious, if not a MORAL IMPERATIVE to make a robot that would run 24/7, guessing the contents of various garbage overflows and litterings throughout the city.
 </p>
@@ -122,7 +122,7 @@ last_name: Miller
 <div class="portfolio-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12"><h3>Doctoring</h3><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="max-height:150px;overflow:hidden;">
 <img width="100%" class="pull-right" src="/assets/img/portfolio-wapp-marks.jpg"></img>
 </div>
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="text-align:right;font-size:.8em;">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pw-right" style="">
 
 <p>
 	An odd thing happened in Spring 2017. I became a web doctor for small business owners whose "web developers" had delivered to them unmanageable, un-updatable, and poorly-performing sites with little-to-zero responsivity and got paid for it. And then walked away, of course.
@@ -139,7 +139,7 @@ last_name: Miller
 <div class="portfolio-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12"><h3>The Clothes I Own</h3><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="max-height:150px;overflow:hidden;">
 <a href="http://clothes-lbones.rhcloud.com"><img width="100%" class="pull-right" src="/assets/img/portfolio-wapp-clothes.jpg"></img></a>
 </div>
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="text-align:left;font-size:.8em;">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pw-left" style="">
 <p>
 If I were a rich man I would be stylish. Instead these are the clothes I've worn over and over and over again for many years. One morning I decided to menagerize them and <a href="http://clothes-lbones.rhcloud.com/">the result</a>, I confess, I've visited more than once because I think it's beautiful and hilarious.
 </p>
@@ -149,32 +149,39 @@ If I were a rich man I would be stylish. Instead these are the clothes I've worn
 
 <!-- ******************************* INSTANCE-RIGHT -->
 <div class="portfolio-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12"><h3>CBB BitMap</h3><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="max-height:150px;overflow:hidden;">
-<img width="100%" class="pull-right" src="/assets/img/portfolio-wapp-cbb.jpg"></img>
+<a href="http://trainertothestarsseekingstars.org"><img width="100%" class="pull-right" src="/assets/img/portfolio-wapp-cbb.jpg"></img></a>
 </div>
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="text-align:right;font-size:.8em;">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pw-right" style="">
 
 <p>
-This takes some explaining. Comedy Bang! Bang! is a long-form improv comedy podcast that is A) often genius, and B) often
+This takes some explaining. <a href="http://www.earwolf.com/show/comedy-bang-bang/">Comedy Bang! Bang!</a> is a long-form improv comedy podcast that is A) often genius, and B) has developed a considerable canon over the years. It's dear to me, so I did what any red-blooded American stan would do and <a href="http://bitmap-lbones.rhcloud.com/#huh">built an application</a> that delivers A) every mappable location mentioned on the show, and B) every single recurring bit that occurs throughout its entire 8+ year run. I did it because I love the show and it's legitimately joyful labor. But I include it here because it's not <em>not</em> a successful example of reducing what is actually a pretty complex dataset into manageable units and delivering those data as cleanly as possible.
+</p>
+<p>
+The site's reference data are stored in a hosted <a href="https://www.mongodb.com">MongoDB</a> instance (<a href="https://mlab.com/">mLab</a>). The location data are in <a href="https://cartodb.com/">CartoDB</a>. And then there's the now-common chain of <a href="http://leafletjs.com">Leaflet</a>, <a href="http://backbonejs.com">Backbone</a>, <a href="http://lucene.apache.org/solr">Solr</a>, and <a href="http://getbootstrap.com">Bootstrap</a>. It's hosted on a <a href="https://www.openshift.com">Red Hat OpenShift</a> instance.
 </p>
 </div>
 </div> <!-- ******************************* /INSTANCE -->
 
 
 
-### Trimarchi China Map
+<!-- ******************************* INSTANCE-LEFT -->
+<div class="portfolio-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12"><h3>Spatial Track</h3><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="max-height:150px;overflow:hidden;">
+<a href="http://map.milleria.org"><img width="100%" class="pull-right" src="https://s3.amazonaws.com/f.cl.ly/items/342D10090E25280z0X37/thumb-spatialtrack.jpg?v=aef44080"></img></a>
+</div>
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pw-left" style="">
+<p>
+Another instance where more became less (became more) is my conversion of an old <a href="https://wordpress.org">WordPress</a> blog into a <a href="http://map.milleria.org">more svelte and muuuuch faster Jekyll+Leaflet coupling</a>. None of the map plugins for WordPress ever gave enough map, always felt like afterthoughts. When web applications force primary content into little side boxes -- especially map content -- it drives me crazy. Using a custom Leaflet+Jekyll pairing again allows a user to engage the blog copy normally but also allows them to immerse themselves into a full-frame map and access primary content that way, too. This site also runs on an <a href="http://openshift.redhat.com">OpenShift</a> instance. More about its guts <a href="http://map.milleria.org/this/">at itself</a>. That's a syntactically-legitimate sentence, right?
+</p>
+</div>
+</div> <!-- ******************************* /INSTANCE -->
 
-### Hobby Site #1 - faceted podcast jokes
-* <img style="margin-left:12px;margin-botto
-m:12px;" class="pull-right" src="https://s3.amazonaws.com/f.cl.ly/items/2y0s291c0A0d1J1A0p3Q/BitMap__CBB.jpg?v=b67f3575" alt="" width="250px" height="178px" border="0" />Eschewing the conventional wisdom that it's not great to get personal in a job application, a hobby site I wrote that [indexes and maps every recurring joke](http://bitmap-lbones.rhcloud.com/#huh) on the Comedy Bang! Bang! podcast also represents my ability to present complex data as cleanly as possible. I don't feel totally comfortable sharing a personal passion project in this way, but it is built with [MongoDB](https://www.mongodb.com), [CartoDB](https://cartodb.com/), [Leaflet](http://leafletjs.com), [Backbone](backbonejs.com), [Solr](http://lucene.apache.org/solr/), and [Bootstrap](http://getbootstrap.com/) and hosted on a [Red Hat OpenShift](https://www.openshift.com/) instance. If you're not a fan it won't make a ton of sense, but suffice it to say that I've built a site that allows other fans to search for any recurring joke from the history of the show, any character, any guest, etc. and, when mappable, see them in the location they reference on earth. Results are faceted by tag and episode number (in addition to the actual bit). The entire site runs on an [OpenShift](http://openshift.redhat.com) instance.
-
-### Hobby Site #2 - WordPress --> Jekyll
-* <img style="margin-left:12px;margin-bott
-om:12px;" class="pull-right" src="https://s3.amazonaws.com/f.cl.ly/items/342D10090E25280z0X37/thumb-spatialtrack.jpg?v=aef44080" alt="" width="250px" height="178px" border="0" />Another instance where more became less (became more) is my conversion of an old [WordPress](https://wordpress.org/) blog into a [more svelte and muuuuch faster Jekyll+Leaflet coupling](http://map.milleria.org/). None of the map plugins for WordPress ever gave enough map, always felt like afterthoughts. When web applications force primary content into little side boxes -- especially map content -- it drives me crazy. Using a custom Leaflet+Jekyll pairing again allows a user to engage the blog copy normally but also allows them to immerse themselves into a full-frame map and access primary content that way, too. This site also runs on an [OpenShift](http://openshift.redhat.com) instance.
 
 
-### Select Older Work
 
-*At Purdue and Texas A&M International, I was not strictly-speaking in a developer position. I was faculty in both places, charged at TAMIU with developing out library-based spatial data & GIS services and at Purdue with a much greater mission of developing library data services and education to better support and collaborate with other cyberinfrastructure-building projects across campus. It just so happened that effectively _all_ of this work required web-facing development, either custom, ground-up mapping or search apps or (less niche) [WordPress](https://wordpress.org/) instances that advertised our services. At times I directed the work of others (post-docs, graduate RAs, and undergrads), but typically I did all of my own authoring.*
+
+### Select Older/Offline/Obsolete Work
+
+*At Purdue and Texas A&M International, I was not strictly-speaking in a developer position. I was faculty in both places, charged at TAMIU with developing out library-based spatial data & GIS services and at Purdue with a steeper mission of developing library data services and education to better support and collaborate with other cyberinfrastructure-building projects across campus. It just so happened that effectively _all_ of this work required web-facing development. At times I directed the work of others (post-docs, graduate RAs, and undergrads), but typically I did all of my own authoring.*
 
 
 * _Spatial Data Catalog Project (MADA@P)_ - Purdue, 2008-2012
@@ -200,10 +207,6 @@ om:12px;" class="pull-right" src="https://s3.amazonaws.com/f.cl.ly/items/342D100
 
 * _Geoinformatics Course_: 2008, 2010
 	* graduate-level course taught by me in which geoscientific technologies, data, and workflows are examined and practiced together as irrevocably interrelated pieces of a growing geocyberinfrastructure
-
-
-* _Vulcan_ - Purdue, 2006-2012
-	* provided data location and preparation and GIS methodologies to this groundbreaking inventory of U.S. CO2 emissions (<a href="http://vulcan.project.asu.edu/">now at ASU</a>)
 
 
 * _Spatialized Repository Collections_ - Purdue, 2010-2012
