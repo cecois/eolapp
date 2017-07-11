@@ -137,7 +137,7 @@ last_name: Miller
 
 <!-- ******************************* INSTANCE-LEFT -->
 <div class="portfolio-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12"><h3>The Clothes I Own</h3><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="max-height:150px;overflow:hidden;">
-<a href="https://twitter.com/311GarbageBot"><img width="100%" class="pull-right" src="/assets/img/portfolio-wapp-clothes.jpg"></img></a>
+<a href="http://clothes-lbones.rhcloud.com"><img width="100%" class="pull-right" src="/assets/img/portfolio-wapp-clothes.jpg"></img></a>
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="text-align:left;font-size:.8em;">
 <p>
@@ -149,7 +149,7 @@ If I were a rich man I would be stylish. Instead these are the clothes I've worn
 
 <!-- ******************************* INSTANCE-RIGHT -->
 <div class="portfolio-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12"><h3>CBB BitMap</h3><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="max-height:150px;overflow:hidden;">
-<img width="100%" class="pull-right" src="https://s3.amazonaws.com/f.cl.ly/items/2y0s291c0A0d1J1A0p3Q/BitMap__CBB.jpg?v=b67f3575"></img>
+<img width="100%" class="pull-right" src="/assets/img/portfolio-wapp-cbb.jpg"></img>
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="text-align:right;font-size:.8em;">
 
