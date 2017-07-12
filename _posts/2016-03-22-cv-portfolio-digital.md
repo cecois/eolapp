@@ -128,7 +128,7 @@ last_name: Miller
 	An odd thing happened in Spring 2017. I became a web doctor for small business owners whose "web developers" had delivered to them unmanageable, un-updatable, and poorly-performing sites with little-to-zero responsivity and got paid for it. And then walked away, of course.
 </p>
 <p>
-	The first of these is <a href="http://wendymarks.com/">WendyMarks.com</a> - a site whose design (and, tbh, content) I don't condone but whose structure was in bad, bad shape. The site was plagued with performance issues. The ultimate cause was that someobody pretty clearly had found a "single-page application" template online somewhere and stuffed all of the client's content into it with no regard for navigation, routing, load optimization, style consistency, or responsiveness. Or SEO, probably obviously. Over the course of a couple of weeks I fixed all of these problems, largely preserving the original style as per client's preference.
+	The first of these is <a href="http://wendymarks.com/">WendyMarks.com</a> - a site whose design (and, tbh, content) I don't condone but whose structure was in bad, bad shape. The site was plagued with performance issues. The ultimate cause was that someobody pretty clearly had found a ~single-page application~ template online somewhere and stuffed all of the client's content into it with no regard for navigation, routing, load optimization, style consistency, or responsiveness. Or SEO, probably obviously. Over the course of a couple of weeks I fixed all of these problems, largely preserving the original style as per client's preference.
 </p>
 <p>Another contract is pending so I won't include it here.</p>
 </div>

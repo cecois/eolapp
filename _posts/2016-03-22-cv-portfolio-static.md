@@ -39,7 +39,7 @@ Althought most of my work is digital/dynamic, there have been occasions to desig
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="text-align:right;font-size:.8em;">
 Gore, Albert. 2009. <a href="http://www.worldcat.org/title/our-choice-how-we-can-solve-the-climate-crisis-young-readers-edition/oclc/678925626&referer=brief_results">Our choice: a plan to solve the climate crisis. Emmaus, PA: Rodale.</a>
-<p>A map I made for the Vulcan project appears on page xx.</p>
+<p>A map I made for the Vulcan project appears on page 378.</p>
 </div>
 </div> <!-- ******************************* /INSTANCE -->
 
