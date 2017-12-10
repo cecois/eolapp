@@ -87,10 +87,10 @@ last_name: Miller
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pw-right" style="">
 
-<p>Not long after the 2017 Hubway Data Challenge, and with just a couple of days to enter, I submitted the "2014 Boston Garbage Atlas" to the <a href="https://data.boston.gov/pages/opendatachallenge">2017 Analyze Boston Open Data Challenge</a>. A serious misnomer, this. It was hardly an "atlas" (although it could become one), and instead I merely grabbed a 2014 feed of "Big Belly" data (solar-powered, communicative garbage compressors all around town) and spatio-temporally mapped their statuses during various ~citywide events such as the <a href="http://garbage-milleria.rhcloud.com/#baa/carto_darkmatter/out/1395577860/-71.08205795288087,42.34785606651052,-71.02330684661867,42.37252735093426">Boston Marathon</a> and <a href="http://garbage-milleria.rhcloud.com/#riot/carto_darkmatter/out/1395577860/-71.08205795288087,42.34785606651052,-71.02330684661867,42.37252735093426">Wine Riot</a>, manually making snarky guesses at their probable contents.
+<p>Not long after the 2017 Hubway Data Challenge, and with just a couple of days to enter, I submitted the "2014 Boston Garbage Atlas" to the <a href="https://data.boston.gov/pages/opendatachallenge">2017 Analyze Boston Open Data Challenge</a>. A serious misnomer, this. It was hardly an "atlas" (although it could become one), and instead I merely grabbed a 2014 feed of "Big Belly" data (solar-powered, communicative garbage compressors all around town) and spatio-temporally mapped their statuses during various ~citywide events such as the <a href="http://garbage.milleria.org/#baa/carto_darkmatter/out/1395577860/-71.08205795288087,42.34785606651052,-71.02330684661867,42.37252735093426">Boston Marathon</a> and <a href="http://garbage-milleria.rhcloud.com/#riot/carto_darkmatter/out/1395577860/-71.08205795288087,42.34785606651052,-71.02330684661867,42.37252735093426">Wine Riot</a>, manually making snarky guesses at their probable contents.
 </p>
 <p>I didn't win, can you believe that?! My entry was runner-up in the "Telling a Story Through Data" track - I gave a talk at <a href="http://districthallboston.org">District Hall</a> that basically was a cheerleading routine for open data. Worth it.</p>
-<p>A little more about the procedure can be found at <a href="http://garbage-milleria.rhcloud.com/#about/carto_darkmatter/out/1395577860/-71.08205795288087,42.34785606651052,-71.02330684661867,42.37252735093426">the app itself</a>, still live.</p>
+<p>A little more about the procedure can be found at <a href="http://garbage.milleria.org/#about/carto_darkmatter/out/1395577860/-71.08205795288087,42.34785606651052,-71.02330684661867,42.37252735093426">the app itself</a>, still live.</p>
 </div>
 </div> <!-- ******************************* /INSTANCE -->
 
@@ -107,8 +107,8 @@ last_name: Miller
 <p>
 	...Which is pretty easy in 4 steps:
 	<ol>
-<li>Manually add to a <a href="https://cartodb.com">Carto</a> table some spatially-arranged guesses at what might appear in garbage there.</li>
-<li>Write a Node API that reaches into <a href="https://mayors24.cityofboston.gov/open311">Boston's Open311 Instance</a> ('s API) for any new calls having to do with garbage, litter, etc. and shops the location of each against the Carto API to find the nearest guess (spatially).</li>
+<li>Manually add to a <a href="https://cloud.mongodb.com">hosted MongoDB</a> collection some spatially-arranged guesses at what might appear in garbage there.</li>
+<li>Write a Node API that reaches into <a href="https://mayors24.cityofboston.gov/open311">Boston's Open311 Instance</a> ('s API) for any new calls having to do with garbage, litter, etc. and shops the location of each against the Mongo collection to find the nearest guess (spatially).</li>
 <li>For each, tweet the result from <a href="https://twitter.com/311GarbageBot">an account set up specifically for this</a>.</li>
 <li>Trigger the bot with an <a href="https://ifttt.com">IFTT</a> applet that fires to the API (hosted in <a href="https://www.heroku.com">Heroku</a>) every time <a href="https://twitter.com/BOS311x">BOS' 311 Twitter</a> posts</li>
 	</ol>
@@ -137,11 +137,11 @@ last_name: Miller
 
 <!-- ******************************* INSTANCE-LEFT -->
 <div class="portfolio-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12"><h3>The Clothes I Own</h3><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="max-height:150px;overflow:hidden;">
-<a href="http://clothes-lbones.rhcloud.com"><img width="100%" class="pull-right" src="/assets/img/portfolio-wapp-clothes.jpg"></img></a>
+<a href="http://clothes.milleria.org"><img width="100%" class="pull-right" src="/assets/img/portfolio-wapp-clothes.jpg"></img></a>
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pw-left" style="">
 <p>
-If I were a rich man I would be stylish. Instead these are the clothes I've worn over and over and over again for many years. One morning I decided to menagerize them and <a href="http://clothes-lbones.rhcloud.com/">the result</a>, I confess, I've visited more than once because I think it's beautiful and hilarious.
+If I were a rich man I would be stylish. Instead these are the clothes I've worn over and over and over again for many years. One morning I decided to menagerize them and <a href="http://clothes.milleria.org/">the result</a>, I confess, I've visited more than once because I think it's beautiful and hilarious.
 </p>
 </div>
 </div> <!-- ******************************* /INSTANCE -->
@@ -149,16 +149,18 @@ If I were a rich man I would be stylish. Instead these are the clothes I've worn
 
 <!-- ******************************* INSTANCE-RIGHT -->
 <div class="portfolio-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12"><h3>CBB BitMap</h3><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="max-height:150px;overflow:hidden;">
-<a href="http://trainertothestarsseekingstars.org"><img width="100%" class="pull-right" src="/assets/img/portfolio-wapp-cbb.jpg"></img></a>
+<a href="http://trainertothestarsseekingstars.org"><img width="100%" class="pull-right" src="/assets/img/portfolio-wapp-cbb.png"></img></a>
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pw-right" style="">
 
 <p>
-This takes some explaining. <a href="http://www.earwolf.com/show/comedy-bang-bang/">Comedy Bang! Bang!</a> is a long-form improv comedy podcast that is A) often genius, and B) has developed a considerable canon over the years. It's dear to me, so I did what any red-blooded American stan would do and <a href="http://bitmap-lbones.rhcloud.com/#huh">built an application</a> that delivers A) every mappable location mentioned on the show, and B) every single recurring bit that occurs throughout its entire 8+ year run. I did it because I love the show and it's legitimately joyful labor. But I include it here because it's not <em>not</em> a successful example of reducing what is actually a pretty complex dataset into manageable units and delivering those data as cleanly as possible.
+This takes some explaining. <a href="http://www.earwolf.com/show/comedy-bang-bang/">Comedy Bang! Bang!</a> is a long-form improv comedy podcast that A) is often genius, and B) has developed a considerable canon over the years. It's dear to me, so I did what any red-blooded American stan would do and <a href="http://trainertothestarsseekingstars.org/#huh">built an application</a> that delivers A) every mappable location mentioned on the show, and B) every single recurring bit that occurs throughout its entire 8+ year run. I did it because I love the show and it's legitimately joyful labor. But I include it here because it's not <em>not</em> a successful example of reducing what is actually a pretty complex dataset into manageable units and delivering those data as cleanly as possible.
 </p>
 <p>
-The site's reference data are stored in a hosted <a href="https://www.mongodb.com">MongoDB</a> instance (<a href="https://mlab.com/">mLab</a>). The location data are in <a href="https://cartodb.com/">CartoDB</a>. And then there's the now-common chain of <a href="http://leafletjs.com">Leaflet</a>, <a href="http://backbonejs.com">Backbone</a>, <a href="http://lucene.apache.org/solr">Solr</a>, and <a href="http://getbootstrap.com">Bootstrap</a>. It's hosted on a <a href="https://www.openshift.com">Red Hat OpenShift</a> instance.
+	The thing was originally built with the now-common chain of <a href="http://leafletjs.com">Leaflet</a>, <a href="http://backbonejs.com">Backbone</a>, <a href="http://lucene.apache.org/solr">Solr</a>, and <a href="http://getbootstrap.com">Bootstrap</a>. It <em>used to be</em> hosted on a <a href="https://www.openshift.com">Red Hat OpenShift</a> instance and the location data <em>used to be</em> in <a href="https://cartodb.com/">CartoDB</a>. 
 </p>
+<p>However...</p>
+<p>In Fall 2017 both OpenShift and Carto changed their plans and I bolted. The bits data are still in a hosted <a href="https://www.mongodb.com">MongoDB</a> instance (<a href="https://mlab.com/">mLab</a>), but the geospatials are now in a different Mongo instance (MongoDB's <a href="https://cloud.mongodb.com">Atlas service</a>); they are indexed in <a href="http://elastic.co">ElasticSearch</a> rather than Solr; <a href="http://bulma.io">Bulma</a> is now providing style rather than Bootstrap; and the whole thing is in a DigitalOcean VPS.</p>
 </div>
 </div> <!-- ******************************* /INSTANCE -->
 
@@ -170,7 +172,7 @@ The site's reference data are stored in a hosted <a href="https://www.mongodb.co
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pw-left" style="">
 <p>
-Another instance where more became less (became more) is my conversion of an old <a href="https://wordpress.org">WordPress</a> blog into a <a href="http://map.milleria.org">more svelte and muuuuch faster Jekyll+Leaflet coupling</a>. None of the map plugins for WordPress ever gave enough map, always felt like afterthoughts. When web applications force primary content into little side boxes -- especially map content -- it drives me crazy. Using a custom Leaflet+Jekyll pairing again allows a user to engage the blog copy normally but also allows them to immerse themselves into a full-frame map and access primary content that way, too. This site also runs on an <a href="http://openshift.redhat.com">OpenShift</a> instance. More about its guts <a href="http://map.milleria.org/this/">at itself</a>. That's a syntactically-legitimate sentence, right?
+Another instance where more became less (became more) is my conversion of an old <a href="https://wordpress.org">WordPress</a> blog into a <a href="http://spatialtrack.milleria.org">more svelte and muuuuch faster Jekyll+Leaflet coupling</a>. None of the map plugins for WordPress ever gave enough map, always felt like afterthoughts. When web applications force primary content into little side boxes -- especially map content -- it drives me crazy. Using a custom Leaflet+Jekyll pairing again allows a user to engage the blog copy normally but also allows them to immerse themselves into a full-frame map and access primary content that way, too. More about its guts <a href="http://spatialtrack.milleria.org/this/">at itself</a>. That's a syntactically-legitimate sentence, right?
 </p>
 </div>
 </div> <!-- ******************************* /INSTANCE -->

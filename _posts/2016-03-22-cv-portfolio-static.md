@@ -87,6 +87,20 @@ Madrigal, Alexis. "Scientists Unveil High­Res Map of the U.S. Carbon Footprint,
 </div>
 </div> <!-- ******************************* /INSTANCE -->
 
+### IsoMAP
+The <a href="https://isomap.rcac.purdue.edu/isomap/">IsoMAP project</a> is a supercomputing-grid-empowered workflow that models water cycle, ecological, and biogeochemical processes through network-based isotope data. My work on the project at Purdue was largely digital cyberinfrastructure-building and here's a graphic overview of its tech stack:
+
+
+<!-- ******************************* INSTANCE-LEFT -->
+<div class="portfolio-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12"><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="max-height:150px;overflow:hidden;">
+<a href="https://isomap.rcac.purdue.edu/isomap/static/docs/basin2011_isomapstack.pdf"><img width="100%" src="/assets/img/portfolio-isomap-stack.png"></img></a>
+</div>
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="text-align:left;font-size:.8em;">
+<span class="portfolio-title"><a href="https://isomap.rcac.purdue.edu/isomap/static/docs/basin2011_isomapstack.pdf">The IsoMAP Stack: The Open Source, Grid-Enabled Technologies Behind the IsoMAP Project</a></span>
+</div>
+</div> <!-- ******************************* /INSTANCE -->
+
+
 
 <h3 style="margin-top:10%;text-align:left;">MITLL</h3>
 <p><img height="100px" src="/assets/img/noun_199345_cc.png" class="pull-right" style="padding: 0 2% 2% 2%;"/>
