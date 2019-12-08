@@ -1,0 +1,11 @@
+{{#each rows}}
+<a data-id="{{this.slug}}" href="#" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 list-group-item text-center {{#if this.active}}active{{/if}}">
+	<div class="posts-menu-a-splash-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12">
+	<img class="posts-menu-a-splash-img" src="/assets/img/{{this.splash}}"></img>
+	</div>
+	<br/>
+	<div class="posts-menu-a-title col-lg-12 col-md-12 col-sm-12 col-xs-12">
+	{{this.title}}
+	</div>
+</a>
+{{/each}}

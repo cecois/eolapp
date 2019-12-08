@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C.C. Miller - web app CV</title>
+    <description>C.C. Miller - web app CV</description>
+    <link>http://cv.milleria.org/</link>
+    <atom:link href="http://cv.milleria.org/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 08 Dec 2019 17:54:30 -0500</pubDate>
+    <lastBuildDate>Sun, 08 Dec 2019 17:54:30 -0500</lastBuildDate>
+    <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Minutiae</title>
+        <description>&lt;p&gt;This site isn’t &lt;em&gt;nothing&lt;/em&gt;. It’s a coupling of &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; simplicity, complicated with &lt;a href=&quot;http://backbonejs.org&quot;&gt;Backbone&lt;/a&gt; logic. With &lt;a href=&quot;http://leafletjs.com&quot;&gt;Leaflet&lt;/a&gt; and &lt;a href=&quot;http://getbootstrap.com&quot;&gt;Bootstrap&lt;/a&gt; and all that stuff everybody likes to use. You can read about it &lt;span class=&quot;copy-trigger&quot; data-type=&quot;slug&quot; data-id=&quot;cv-portfolio-digital&quot;&gt;here&lt;/span&gt;. But for images and icons sprinkled throughout, some credit:&lt;/p&gt;
+
+&lt;h3&gt;Credits &amp;amp; Citations:&lt;/h3&gt;
+&lt;p&gt;Various items, icons, and images used throughout the site:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;(about menu image) &lt;a href=&quot;http://www.bostonglobe.com/lifestyle/2017/04/14/how-lonely-are-loneliest-hubway-bikes-one-was-ridden-for-minutes-all-year/3e2jnNIYgLh6CrTmoOPFgJ/story.html&quot;&gt;Boston Globe Hubway article image&lt;/a&gt; - color-adjusted&lt;/li&gt;
+&lt;li&gt;(narrative menu image) &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Minute_Man_Statue_Lexington_Massachusetts.jpg/1200px-Minute_Man_Statue_Lexington_Massachusetts.jpg&quot;&gt;Lexington, Mass town image&lt;/a&gt; - color-adjusted&lt;/li&gt;
+&lt;li&gt;(publications menu image) &lt;a href=&quot;http://docs.lib.purdue.edu/jto/vol2/iss1/art6/&quot;&gt;Automated GeoReferencing...&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;(awards menu image) &lt;a href=&quot;http://garbage-milleria.rhcloud.com&quot;&gt;Garbage Atlas&lt;/a&gt; screencap&lt;/li&gt;
+&lt;li&gt;(contact menu image) &lt;a href=&quot;https://asd.gsfc.nasa.gov/blueshift/wp-content/uploads/2014/10/center2.jpg&quot;&gt;The VLA&lt;/a&gt; - color-adjusted&lt;/li&gt;
+&lt;li&gt;(portfolio menu image) &lt;a href=&quot;https://news.uns.purdue.edu/images/+2008/gurneyvulcan1.jpg&quot;&gt;Vulcan Carbon Emissions Grid&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;off-limits portfolio graphic &lt;a href=&quot;https://thenounproject.com/browse/?i=199345&quot;&gt;Barricade by parkjisun from the Noun Project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;favico: &lt;a href=&quot;https://thenounproject.com/browse/?i=176247&quot;&gt;Globe by Creative Stall&lt;/a&gt; from the Noun Project&lt;/li&gt;
+&lt;li&gt;paywall-access forbidden graphic &lt;a href=&quot;https://thenounproject.com/browse/?i=23428&quot;&gt;Copyright Code by Tim Hurt&lt;/a&gt; from the Noun Project&lt;/li&gt;
+&lt;li&gt;Al Gore &quot;Our Choice&quot; jacket &lt;a href=&quot;http://rsrc.pushpoppress.com/ourchoice/images/index/trailer-normal.jpg&quot;&gt;Push Pop Press&lt;/a&gt; - cropped&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://thenounproject.com/search/?q=gate&amp;amp;i=768916&quot;&gt;Wrought Iron Gate by Andrew Doane&lt;/a&gt; from the Noun Project - stamped/cloned&lt;/li&gt;
+&lt;li&gt;(all other items explicitly linked or credited inline)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 04 Jul 2017 02:18:42 -0400</pubDate>
+        <link>http://cv.milleria.org/about/menud/2017/07/04/about-minutiae.html</link>
+        <guid isPermaLink="true">http://cv.milleria.org/about/menud/2017/07/04/about-minutiae.html</guid>
+        
+        <category>technicals</category>
+        
+        
+        <category>about</category>
+        
+        <category>menud</category>
+        
+      </item>
+    
+      <item>
+        <title>Narrative</title>
+        <description>&lt;p&gt;My work at MITLL is fun and fulfilling, both personally and professionally. I build web applications, write and consume geospatial (and metadata) APIs, and generally build (or fix) the sinews within and between various usually web-facing library digital systems&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. The few specifics I &lt;em&gt;can&lt;/em&gt; describe can be found &lt;span class=&quot;copy-trigger&quot; data-type=&quot;slug&quot; data-id=&quot;cv-portfolio-digital&quot;&gt;here&lt;/span&gt; and &lt;span class=&quot;copy-trigger&quot; data-type=&quot;slug&quot; data-id=&quot;cv-portfolio-static&quot;&gt;here&lt;/span&gt;.&lt;/p&gt;
+
+&lt;p&gt;Prior to that I was tenured faculty at &lt;span class=&quot;copy-trigger&quot; data-type=&quot;gob&quot; data-id=&quot;gD16&quot;&gt;Purdue University&lt;/span&gt;, where I also built library data-delivery systems as well as custom systems for faculty across campus, partnering with them on their cyberinfrastructure-building programs.&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; At Purdue I also co-developed and taught a graduate-level course entitled “Geoinformatics” designed to introduce practical, discipline-agnostic GIS techniques and spatial data/metadata concepts with a slight emphasis on contemporary developments in web- and cloud-based spatial data infrastructure (APIs, data repositories, data re-use, etc.)&lt;/p&gt;
+
+&lt;p&gt;Security at Lincoln Laboratory is aggressive and thorough and my work there is tightly-sequestered and cordoned off. I also commute to Lexington, Mass at least three times a week. The trip takes about &lt;span class=&quot;copy-trigger&quot; data-type=&quot;gob&quot; data-id=&quot;g|1&quot;&gt;two hours each way&lt;/span&gt;, which explains all of those &lt;span class=&quot;copy-trigger&quot; data-type=&quot;slug&quot; data-id=&quot;cv-portfolio-digital&quot;&gt;joke projects&lt;/span&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Extant applications there include &lt;a href=&quot;https://omeka.org/&quot;&gt;Omeka&lt;/a&gt;, &lt;a href=&quot;https://movabletype.org/&quot;&gt;MovableType&lt;/a&gt;, &lt;a href=&quot;http://vufind.org&quot;&gt;VuFind&lt;/a&gt;, and BitCurator (in addition to the &lt;span class=&quot;copy-trigger&quot; data-type=&quot;slug&quot; data-id=&quot;cv-portfolio-digital&quot;&gt;stack I personally run&lt;/span&gt;); back-end technologies include &lt;a href=&quot;http://mysql.com&quot;&gt;MySQL&lt;/a&gt;, &lt;a href=&quot;https://www.mongodb.com/&quot;&gt;MongoDB&lt;/a&gt;, &lt;a href=&quot;https://ckan.org&quot;&gt;CKAN&lt;/a&gt;, &lt;a href=&quot;http://www.zend.com/&quot;&gt;Zend&lt;/a&gt;, &lt;a href=&quot;https://kohanaframework.org/&quot;&gt;Kohana&lt;/a&gt;, and (an almost laughable amount of) &lt;a href=&quot;https://www.drupal.org/&quot;&gt;Drupals&lt;/a&gt; - with tons of shell scripting (&lt;a href=&quot;https://www.gnu.org/software/bash/&quot;&gt;bash&lt;/a&gt; and &lt;a href=&quot;http://www.zsh.org/&quot;&gt;zsh&lt;/a&gt;, typically); a rapidly-growing application of &lt;a href=&quot;https://nodejs.org/en/&quot;&gt;Node&lt;/a&gt;; and a smattering of &lt;a href=&quot;https://www.python.org/&quot;&gt;python&lt;/a&gt; thrown in. I am a master of none of these, a jack of most. Sounds dirty but I’m sure you get it. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;At Purdue, in addition to the stack of open source tech that sat under my spatial data infrastructure, I did a lot of work with &lt;a href=&quot;https://wordpress.org/&quot;&gt;WordPress&lt;/a&gt;es and &lt;a href=&quot;https://www.drupal.org/&quot;&gt;Drupal&lt;/a&gt;s. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Wed, 23 Mar 2016 02:18:42 -0400</pubDate>
+        <link>http://cv.milleria.org/about/menud/2016/03/23/about-cover-letter-gloss.html</link>
+        <guid isPermaLink="true">http://cv.milleria.org/about/menud/2016/03/23/about-cover-letter-gloss.html</guid>
+        
+        <category>commute,mitll</category>
+        
+        
+        <category>about</category>
+        
+        <category>menud</category>
+        
+      </item>
+    
+      <item>
+        <title>Portfolio (Static Designs)</title>
+        <description>&lt;h3 id=&quot;vulcan&quot;&gt;Vulcan&lt;/h3&gt;
+&lt;p&gt;Althought most of my work is digital/dynamic, there have been occasions to design static “documents” - maps, typically, but see &lt;a href=&quot;https://www.dropbox.com/s/t2dzm8tx83ggugl/ccmiller_tenureBox.pdf?dl=0&quot;&gt;here&lt;/a&gt; for some thumbs of other static designs (contextualized below). By far, however, the furthest I’ve seen my static design distributed was in the early stages of the Vulcan Carbon Emissions inventory. Maps I made for that team are clear, visual representations of what is in truth a complex dataset and scientific methodology. They evidence the dramatic importance of data representation and visualization in scientific research. Without belaboring the process, I took multiple carbon emission inputs and mapped them to multiple types of geographic/geometric emitters (power plant points, roadway lines, etc.). Then all of those inputs were, in effect, “smeared” into the cells of a 10-kilometer grid that corresponded geospatially in order to A) facilitate comprehension and reduce the intellectual overhead of users, and B) to facilitate further analysis (atmospheric models, etc.). Various flavors of these styled and rendered maps made it into…&lt;/p&gt;
+
+&lt;!-- ******************************* INSTANCE-LEFT --&gt;
+&lt;div class=&quot;portfolio-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12&quot;&gt;&lt;div class=&quot;col-lg-12 col-md-12 col-sm-12 col-xs-12&quot; style=&quot;max-height:150px;overflow:hidden;&quot;&gt;
+&lt;iframe class=&quot;pull-left&quot; width=&quot;100%&quot; src=&quot;https://www.youtube.com/embed/eJpj8UUMTaI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-lg-12 col-md-12 col-sm-12 col-xs-12&quot; style=&quot;text-align:left;font-size:.8em;&quot;&gt;
+&lt;span class=&quot;portfolio-title&quot;&gt;Revkin, Andrew C. &quot;Dot Earth: Breath of a Nation ­­ Animated CO2 Map.&quot; &lt;a href=&quot;https://dotearth.blogs.nytimes.com/2008/04/07/breath-of-a-nation-animated-co2-map&quot;&gt;The New York Times (April 7, 2008; Section A; Column 0)&lt;/a&gt;&lt;/span&gt; &lt;p&gt;A YouTube video in a portfolio of static design? Sure! My Vulcan maps are observable in multiple frames of this video; basically everything except the animations of the atmospheric transport model.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;!-- ******************************* /INSTANCE --&gt;&lt;/p&gt;
+
+&lt;!-- ******************************* INSTANCE-RIGHT --&gt;
+&lt;div class=&quot;portfolio-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12&quot;&gt;&lt;div class=&quot;col-lg-12 col-md-12 col-sm-12 col-xs-12&quot; style=&quot;max-height:150px;overflow:hidden;&quot;&gt;
+&lt;a href=&quot;http://www.worldcat.org/title/our-choice-how-we-can-solve-the-climate-crisis-young-readers-edition/oclc/678925626&amp;amp;referer=brief_results&quot;&gt;&lt;img class=&quot;pull-right&quot; src=&quot;/assets/img/portfolio-gore-choice.jpg&quot; /&gt;&amp;lt;/img&amp;gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-lg-12 col-md-12 col-sm-12 col-xs-12&quot; style=&quot;text-align:right;font-size:.8em;&quot;&gt;
+Gore, Albert. 2009. &lt;a href=&quot;http://www.worldcat.org/title/our-choice-how-we-can-solve-the-climate-crisis-young-readers-edition/oclc/678925626&amp;amp;referer=brief_results&quot;&gt;Our choice: a plan to solve the climate crisis. Emmaus, PA: Rodale.&lt;/a&gt;
+&lt;p&gt;A map I made for the Vulcan project appears on page 378.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;!-- ******************************* /INSTANCE --&gt;&lt;/p&gt;
+
+&lt;!-- ******************************* INSTANCE-LEFT --&gt;
+&lt;div class=&quot;portfolio-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12&quot;&gt;&lt;div class=&quot;col-lg-12 col-md-12 col-sm-12 col-xs-12&quot; style=&quot;max-height:150px;overflow:hidden;&quot;&gt;
+&lt;a href=&quot;https://secure.pqarchiver.com/boston/doc/405111154.html?FMT=CITE&amp;amp;FMTS=CITE:FT&amp;amp;type=current&amp;amp;date=Apr+27%2C+2008&amp;amp;author=Battles%2C+Matthew%7C%7C%7C%7C%7C%7CMatthew+Battles+is+a+freelance+writer+in+Jamaica+Plain%7C%7C%7C%7C%7C%7Cthe+author+of+%22Library%3A+An+Unquiet+History.%22&amp;amp;pub=Boston+Globe&amp;amp;edition=&amp;amp;startpage=D.2&amp;amp;desc=From+C+to+shining+C+-+A+new+map+gives+a+detailed+picture+of+America%27s+carbon+emissions&quot;&gt;&lt;img class=&quot;pull-left&quot; src=&quot;/assets/img/noun_23428_cc-invert.png&quot; /&gt;&amp;lt;/img&amp;gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-lg-12 col-md-12 col-sm-12 col-xs-12&quot; style=&quot;text-align:left;font-size:.8em;&quot;&gt;
+&lt;a href=&quot;https://secure.pqarchiver.com/boston/doc/405111154.html?FMT=CITE&amp;amp;FMTS=CITE:FT&amp;amp;type=current&amp;amp;date=Apr+27%2C+2008&amp;amp;author=Battles%2C+Matthew%7C%7C%7C%7C%7C%7CMatthew+Battles+is+a+freelance+writer+in+Jamaica+Plain%7C%7C%7C%7C%7C%7Cthe+author+of+%22Library%3A+An+Unquiet+History.%22&amp;amp;pub=Boston+Globe&amp;amp;edition=&amp;amp;startpage=D.2&amp;amp;desc=From+C+to+shining+C+-+A+new+map+gives+a+detailed+picture+of+America%27s+carbon+emissions&quot;&gt;Matthew Battles; &quot;From C to shining C - A new map...&quot; The Boston Globe (Boston, MA). Boston Globe Media Partners, LLC. 2008.&lt;/a&gt; &lt;p&gt;I fear it would defy copyright to include the image here, but it does appear at 24:25 in [project PI Gurney's Google Tech Talk](https://youtu.be/fe0SHVZGE98). Or see it in The Globe archives, which &lt;a href=&quot;http://www.worldcat.org/search?q=ti%3A%22the+boston+globe%22&amp;amp;qt=advanced&amp;amp;dblist=638&quot;&gt;WorldCat&lt;/a&gt; might help you find.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;!-- ******************************* /INSTANCE --&gt;&lt;/p&gt;
+
+&lt;!-- ******************************* INSTANCE-RIGHT --&gt;
+&lt;div class=&quot;portfolio-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12&quot;&gt;&lt;div class=&quot;col-lg-12 col-md-12 col-sm-12 col-xs-12&quot; style=&quot;max-height:150px;overflow:hidden;&quot;&gt;
+&lt;a href=&quot;https://www.wired.com/2008/04/scientists-unve/&quot;&gt;&lt;img width=&quot;100%&quot; src=&quot;https://www.wired.com/images_blogs/wiredscience/images/2008/04/07/vulacnhighres.jpg&quot; /&gt;&amp;lt;/img&amp;gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-lg-12 col-md-12 col-sm-12 col-xs-12&quot; style=&quot;text-align:right;font-size:.8em;&quot;&gt;
+Madrigal, Alexis. &quot;Scientists Unveil High­Res Map of the U.S. Carbon Footprint,&quot; &lt;a href=&quot;https://www.wired.com/2008/04/scientists-unve/&quot;&gt;Wired Science&lt;/a&gt;, (April 07, 2008).
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;!-- ******************************* /INSTANCE --&gt;&lt;/p&gt;
+
+&lt;!-- ******************************* INSTANCE-LEFT --&gt;
+&lt;div class=&quot;portfolio-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12&quot;&gt;&lt;div class=&quot;col-lg-12 col-md-12 col-sm-12 col-xs-12&quot; style=&quot;max-height:150px;overflow:hidden;&quot;&gt;
+&lt;a href=&quot;http://www.sciencedaily.com/releases/2008/04/080407172656.htm&quot;&gt;&lt;img width=&quot;100%&quot; src=&quot;https://www.sciencedaily.com/images/2008/04/080407172656_1_540x360.jpg&quot; /&gt;&amp;lt;/img&amp;gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-lg-12 col-md-12 col-sm-12 col-xs-12&quot; style=&quot;text-align:left;font-size:.8em;&quot;&gt;
+'Revolutionary' Carbon Dioxide Maps Zoom In On Greenhouse Gas Sources.&quot; [ScienceDaily. (April 8, 2008)](http://www.sciencedaily.com/releases/2008/04/080407172656.htm).
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;!-- ******************************* /INSTANCE --&gt;&lt;/p&gt;
+
+&lt;!-- ******************************* INSTANCE-RIGHT --&gt;
+&lt;div class=&quot;portfolio-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12&quot;&gt;&lt;div class=&quot;col-lg-12 col-md-12 col-sm-12 col-xs-12&quot; style=&quot;max-height:150px;overflow:hidden;&quot;&gt;
+&lt;iframe class=&quot;pull-left&quot; width=&quot;100%&quot; src=&quot;https://www.youtube.com/embed/fe0SHVZGE98?ecver=1&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-lg-12 col-md-12 col-sm-12 col-xs-12&quot; style=&quot;text-align:right;font-size:.8em;&quot;&gt;
+&lt;span class=&quot;portfolio-title&quot;&gt;Gurney, Kevin. &quot;How to Count ALL Human Carbon Emissions in the US,&quot; &lt;a href=&quot;https://youtu.be/fe0SHVZGE98&quot;&gt;Google Tech Talk, December 2008.&lt;/a&gt;&lt;/span&gt;
+&lt;p&gt;Many of my static map designs appear in Gurney's slides at this 2008 talk shortly after the initial release of the Vulcan inventory. If you are in a rush (or a climate change denier, I suppose), it might be easier to seem them galleried at &lt;a href=&quot;http://talkminer.fxpal.com/viewtalk.jsp?videoid=fe0SHVZGE98&amp;amp;q=&amp;amp;row=5&amp;amp;N=5#.WWUs_cbMzGI&quot;&gt;TalkMiner's thumbnails&lt;/a&gt; of Gurney's talk.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;!-- ******************************* /INSTANCE --&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;isomap&quot;&gt;IsoMAP&lt;/h3&gt;
+&lt;p&gt;The &lt;a href=&quot;https://isomap.rcac.purdue.edu/isomap/&quot;&gt;IsoMAP project&lt;/a&gt; is a supercomputing-grid-empowered workflow that models water cycle, ecological, and biogeochemical processes through network-based isotope data. My work on the project at Purdue was largely digital cyberinfrastructure-building and here’s a graphic overview of its tech stack:&lt;/p&gt;
+
+&lt;!-- ******************************* INSTANCE-LEFT --&gt;
+&lt;div class=&quot;portfolio-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12&quot;&gt;&lt;div class=&quot;col-lg-12 col-md-12 col-sm-12 col-xs-12&quot; style=&quot;max-height:150px;overflow:hidden;&quot;&gt;
+&lt;a href=&quot;https://isomap.rcac.purdue.edu/isomap/static/docs/basin2011_isomapstack.pdf&quot;&gt;&lt;img width=&quot;100%&quot; src=&quot;/assets/img/portfolio-isomap-stack.png&quot; /&gt;&amp;lt;/img&amp;gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-lg-12 col-md-12 col-sm-12 col-xs-12&quot; style=&quot;text-align:left;font-size:.8em;&quot;&gt;
+&lt;span class=&quot;portfolio-title&quot;&gt;&lt;a href=&quot;https://isomap.rcac.purdue.edu/isomap/static/docs/basin2011_isomapstack.pdf&quot;&gt;The IsoMAP Stack: The Open Source, Grid-Enabled Technologies Behind the IsoMAP Project&lt;/a&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;!-- ******************************* /INSTANCE --&gt;&lt;/p&gt;
+
+&lt;h3 style=&quot;margin-top:10%;text-align:left;&quot;&gt;MITLL&lt;/h3&gt;
+&lt;p&gt;&lt;img height=&quot;100px&quot; src=&quot;/assets/img/noun_199345_cc.png&quot; class=&quot;pull-right&quot; style=&quot;padding: 0 2% 2% 2%;&quot; /&gt;
+See the &lt;span class=&quot;copy-trigger&quot; data-type=&quot;slug&quot; data-id=&quot;cv-portfolio-digital&quot;&gt;Digital Apps/APIs&lt;/span&gt; partition of my portfolio for the reasons there isn't any of my MITLL work represented here, but I can say there's definitely an ~offline~ culture alive and well there. For various reasons. Sometimes that means we need to box up some web app/digital resource so that it can run offline, other times it means we, literally, generate a 100 PDFs that collectively provide mapbook-like coverage of a given area. Typically, they were pretty :-/&lt;/p&gt;
+
+&lt;h3 style=&quot;margin-top:10%;text-align:left;&quot;&gt;Purdue Tenure &quot;Box&quot;&lt;/h3&gt;
+&lt;p&gt;Part of the tenure process at Purdue required a &quot;box&quot; of my work (articles, presentations, syllabi, etc.). Many of these required a certain amount of digital and/or visual design (albeit sometimes out of my control) but I'll &lt;a href=&quot;https://www.dropbox.com/s/t2dzm8tx83ggugl/ccmiller_tenureBox.pdf?dl=0&quot;&gt;link to this document&lt;/a&gt; because it provides a kind of compendium of my work prior to MITLL and at least I *can* show it.&lt;/p&gt;
+
+&lt;h3 style=&quot;margin-top:10%;text-align:left;&quot;&gt;Purdue Tenure Doc&lt;/h3&gt;
+&lt;p&gt;Lastly, &lt;a href=&quot;https://www.dropbox.com/s/2slebgh83kzuegj/ccmiller_tenureNarrative.pdf?dl=0&quot;&gt;here&lt;/a&gt; is a document left over from a successful bid for tenure at Purdue University. It is a prose case that argues my value to the overall strategic mission of Purdue at that time as well as the specific objectives of Purdue University Libraries. It is included here because it might provide some context for and exposition on how a nominal librarian might come to be a teacher/developer/mappaker/sysadmin.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 22 Mar 2016 02:18:42 -0400</pubDate>
+        <link>http://cv.milleria.org/cv/menud/2016/03/22/cv-portfolio-static.html</link>
+        <guid isPermaLink="true">http://cv.milleria.org/cv/menud/2016/03/22/cv-portfolio-static.html</guid>
+        
+        <category>apps</category>
+        
+        
+        <category>cv</category>
+        
+        <category>menud</category>
+        
+      </item>
+    
+      <item>
+        <title>Portfolio (Web Apps, APIs, etc.)</title>
+        <description>&lt;!-- ******************************* INSTANCE-LEFT --&gt;
+&lt;div class=&quot;portfolio-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12&quot;&gt;&lt;div class=&quot;col-lg-12 col-md-12 col-sm-12 col-xs-12&quot; style=&quot;max-height:150px;overflow:hidden;&quot;&gt;
+&lt;img class=&quot;pull-right&quot; src=&quot;/assets/img/noun_768916_cc.svg&quot; /&gt;&amp;lt;/img&amp;gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-lg-12 col-md-12 col-sm-12 col-xs-12&quot; style=&quot;text-align:left;font-size:.8em;&quot;&gt;
+&lt;p&gt;MIT Lincoln Laboratory is a federally-funded research and development center that &quot;applies advanced technology to problems of national security.&quot; As such, they take security very seriously and my work there cannot be shown. I can say that my primary objective when I started in 2012 was to build a system for the storage, search, discovery, and delivery of spatial data. Which I did - with &lt;a href=&quot;https://www.mongodb.com/&quot;&gt;MongoDB&lt;/a&gt; and &lt;a href=&quot;http://postgis.net/&quot;&gt;PostGIS&lt;/a&gt; on the back end; &lt;a href=&quot;http://lucene.apache.org/solr/&quot;&gt;Apache Solr&lt;/a&gt;, &lt;a href=&quot;http://geoserver.org&quot;&gt;GeoServer&lt;/a&gt;, &lt;a href=&quot;http://geowebcache.org&quot;&gt;GeoWebcache&lt;/a&gt;, and &lt;a href=&quot;https://mapproxy.org&quot;&gt;MapProxy&lt;/a&gt; in the middle; an API (first in &lt;a href=&quot;http://www.slimframework.com&quot;&gt;Slim&lt;/a&gt;, then &lt;a href=&quot;https://nodejs.org&quot;&gt;Node&lt;/a&gt; that I also consumed with a single-page web app written primarily against &lt;a href=&quot;http://backbonejs.com&quot;&gt;BackboneJS&lt;/a&gt; (but with other fun stuff such as &lt;a href=&quot;http://getbootstrap.com&quot;&gt;Bootstrap&lt;/a&gt;, &lt;a href=&quot;http://leafletjs.com&quot;&gt;Leaflet&lt;/a&gt;, &lt;a href=&quot;http://handlebarsjs.com&quot;&gt;Handlebars&lt;/a&gt;, all that hip stuff). There were numerous third-party APIs and projects in there as well (e.g. the erstwhile &lt;a href=&quot;https://www.freebase.com&quot;&gt;Freebase&lt;/a&gt;, &lt;a href=&quot;https://d3js.org&quot;&gt;D3.js&lt;/a&gt;, &lt;a href=&quot;http://open.mapquestapi.com&quot;&gt;MapQuest&lt;/a&gt;, &lt;a href=&quot;https://wiki.openstreetmap.org/wiki/Main_Page&quot;&gt;OpenStreetMap&lt;/a&gt;, &lt;a href=&quot;http://cloudmade.com&quot;&gt;CloudMade&lt;/a&gt;. The result was pretty, clean, and a success for my sector. But I cannot show it.&lt;/p&gt;
+
+&lt;p&gt;Besides, I scrapped it! Designed, as it was, to enable end-users full control over configuring their data payloads, we didn't really account for the fact that most researchers just want *us* to do it for them, and the app was insufficient for that. So in 2019 I rewrote it, this time (delightfully) in &lt;a href=&quot;https://vuejs.org&quot;&gt;VueJS&lt;/a&gt;. I also dropped MongoDB in favor of a &lt;a href=&quot;https://ckan.org&quot;&gt;CKAN&lt;/a&gt; install and I switched the geocoder to a fully in-house &lt;a href=&quot;https://nominatim.openstreetmap.org&quot;&gt;Nominatim&lt;/a&gt; instance. And it's even prettier, with &lt;a href=&quot;http://bulma.io&quot;&gt;Bulma&lt;/a&gt; in lieu of Bootstrap. And every piece of it is &lt;a href=&quot;https://www.docker.com&quot;&gt;Dockerized&lt;/a&gt;, now, even the reverse proxy Nginx that brokers calls to the stack from clients of all kinds from all over the lab.&lt;/p&gt;
+
+&lt;p&gt;There are other projects at MITLL, too, that evidence a growing and diversifying skill set - an API in NodeJS that brokers map routing (against data in PostGIS+pgRouting); a web scraper in NodeJS that harvests web targets based on certain semantic requirements; a MongoDB Map/Reduce workflow that summarizes and reports on many millions of archival items; and numerous ad hoc web apps designed to visualize this or that data problem or to deliver data found on behalf of a lab researcher. However these, too, cannot be copied, distributed, or shown off.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;!-- ******************************* /INSTANCE --&gt;&lt;/p&gt;
+
+&lt;!-- ******************************* INSTANCE-RIGHT --&gt;
+&lt;div class=&quot;portfolio-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12&quot;&gt;&lt;h3&gt;This Site&lt;/h3&gt;&lt;div class=&quot;col-lg-12 col-md-12 col-sm-12 col-xs-12&quot; style=&quot;max-height:150px;overflow:hidden;&quot;&gt;
+&lt;img width=&quot;100%&quot; class=&quot;pull-right&quot; src=&quot;/assets/img/portfolio-wapp-this.jpg&quot; /&gt;&amp;lt;/img&amp;gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-lg-12 col-md-12 col-sm-12 col-xs-12 pw-right&quot; style=&quot;&quot;&gt;
+
+
+&lt;p&gt;This electronic CV was built during &lt;span class=&quot;copy-trigger&quot; data-type=&quot;gob&quot; data-id=&quot;g|1&quot;&gt;my commute&lt;/span&gt;. It's a &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; instance that has been draped over &lt;a href=&quot;http://backbonejs.com&quot;&gt;BackboneJS&lt;/a&gt; with &lt;a href=&quot;http://leafletjs.com&quot;&gt;Leaflet&lt;/a&gt; as the map framework. There is a smattering of smaller other libraries in there, as well (&lt;a href=&quot;http://lesscss.org&quot;&gt;Less&lt;/a&gt;, &lt;a href=&quot;http://underscorejs.org&quot;&gt;Underscore&lt;/a&gt;, &lt;a href=&quot;http://handlebarsjs.com&quot;&gt;Handlebars&lt;/a&gt;, etc.) I chose Jekyll so that I could freely and easily write about my work in Markdown and not worry about formatting and display (or even organization, to some extent).&lt;/p&gt;
+
+&lt;p&gt;But Jekyll is static (by design) and I wanted something more dynamic for the mapping piece. Fortunately, it's pretty easy to wrap static Jekyll content in the logic and MVC-ness of Backbone (or Ember or Angular, et al, but I use Backbone). Check it, from App.js:&lt;/p&gt;
+
+
+			&lt;code&gt;\{\% capture posts \%\}
+						\[
+						\{\% for post in site.categories.menud reversed \%\}
+						\{
+							&quot;title&quot;    : &quot;\{\{ post.title \}\}&quot;,
+							&quot;url&quot;      : &quot;\{\{ post.url \}\}&quot;,
+							&quot;order&quot;      : &quot;\{\{ post.order \}\}&quot;,
+							&quot;slug&quot;      : &quot;\{\{ post.slug \}\}&quot;,
+							&quot;splash&quot;      : &quot;\{\{ post.splash \}\}&quot;,
+							&quot;date&quot;     : &quot;\{\{ post.date | date: &quot;\%B \%d, \%Y&quot; \}\}&quot;,
+							&quot;content&quot;  : &quot;\{\{ post.content | escape \}\}&quot;
+						\} \{\% if forloop.last \%\}\{\% else \%\},\{\% endif \%\}
+						\{\% endfor \%\}
+						\]
+						\{\% endcapture \%\}&lt;/code&gt;
+
+
+&lt;p&gt;...And just like that all of that Jekyll content, front matter intact, is available to do with what we please based on this or that model or method in the GUI. (Although *nota bene* - &lt;a href=&quot;http://gulpjs.com&quot;&gt;Gulp&lt;/a&gt; will squeeze this out of the file so it can't really be minimized into your concatenated app.min.js or whatever). &quot;Hey, genius,&quot; you'll note - &quot;why not just build your big, fat JavaScript app and pipe static html files into it?&quot; Well, because then I wouldn't have a full and complete Jekyll site sitting around for super fast re-theming (should I decide to do so) AND because I wouldn't have learned what I did about coupling Jekyll with a webmapping framework (Leaflet) in the way I like Leaflet to operate. Who wants their Leaflet map to reset/refetch/redraw every time you hop from one static Jekyll html to another?&lt;/p&gt;
+
+&lt;p&gt;P.S. As with several other projects, map data (commute, the locations of my previous positions, etc.) are hosted in &lt;a href=&quot;https://cartodb.com&quot;&gt;CartoDB&lt;/a&gt;, a cloud spatial database with an easy SQL API. In this particular case the data are prefetched and served statically out of the generated Jekyll dir. If for no other reason than it's easier to work on the T that way.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;!-- ******************************* /INSTANCE --&gt;&lt;/p&gt;
+
+&lt;!-- ******************************* INSTANCE-LEFT --&gt;
+&lt;div class=&quot;portfolio-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12&quot;&gt;&lt;h3&gt;Only the Lonely: The 6 Loneliest Hubway Bikes of 2016&lt;/h3&gt;&lt;div class=&quot;col-lg-12 col-md-12 col-sm-12 col-xs-12&quot; style=&quot;max-height:150px;overflow:hidden;&quot;&gt;
+&lt;a href=&quot;http://cecois.github.io&quot;&gt;&lt;img width=&quot;100%&quot; class=&quot;pull-right&quot; src=&quot;/assets/img/splash-cv-portfolio-digital.jpg&quot; /&gt;&amp;lt;/img&amp;gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-lg-12 col-md-12 col-sm-12 col-xs-12 pw-left&quot; style=&quot;&quot;&gt;
+
+&lt;p&gt;In Spring 2017, Boston's &lt;a href=&quot;https://www.motivateco.com/&quot;&gt;Motivate&lt;/a&gt;-based bike sharing system, &lt;a href=&quot;https://www.thehubway.com/&quot;&gt;Hubway&lt;/a&gt;, announced a data visualization/analysis contest. My entry, &quot;&lt;a href=&quot;http://cecois.github.io&quot;&gt;Only the Lonely&lt;/a&gt;,&quot; &lt;a href=&quot;https://www.bostonglobe.com/lifestyle/2017/04/14/how-lonely-are-loneliest-hubway-bikes-one-was-ridden-for-minutes-all-year/3e2jnNIYgLh6CrTmoOPFgJ/story.html&quot;&gt;got some press&lt;/a&gt; and then &lt;a href=&quot;https://www.thehubway.com/blog/2017-datachallenge-winners&quot;&gt;won &lt;em&gt;Best Data Narrative&lt;/em&gt;&lt;/a&gt;. The app itself describes &lt;a href=&quot;http://cecois.github.io/#about/pencil/out/&quot;&gt;how it was built&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;!-- ******************************* /INSTANCE --&gt;&lt;/p&gt;
+
+&lt;!-- ******************************* INSTANCE-RIGHT --&gt;
+&lt;div class=&quot;portfolio-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12&quot;&gt;&lt;h3&gt;2014 Boston Garbage Atlas&lt;/h3&gt;&lt;div class=&quot;col-lg-12 col-md-12 col-sm-12 col-xs-12&quot; style=&quot;max-height:150px;overflow:hidden;&quot;&gt;
+&lt;img width=&quot;100%&quot; class=&quot;pull-right&quot; src=&quot;/assets/img/portfolio-wapp-garbage-atlas.jpg&quot; /&gt;&amp;lt;/img&amp;gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-lg-12 col-md-12 col-sm-12 col-xs-12 pw-right&quot; style=&quot;&quot;&gt;
+
+&lt;p&gt;Not long after the 2017 Hubway Data Challenge, and with just a couple of days to enter, I submitted the &quot;2014 Boston Garbage Atlas&quot; to the &lt;a href=&quot;https://data.boston.gov/pages/opendatachallenge&quot;&gt;2017 Analyze Boston Open Data Challenge&lt;/a&gt;. A serious misnomer, this. It was hardly an &quot;atlas&quot; (although it could become one), and instead I merely grabbed a 2014 feed of &quot;Big Belly&quot; data (solar-powered, communicative garbage compressors all around town) and spatio-temporally mapped their statuses during various ~citywide events such as the &lt;a href=&quot;http://garbage.milleria.org/#baa/carto_darkmatter/out/1395577860/-71.08205795288087,42.34785606651052,-71.02330684661867,42.37252735093426&quot;&gt;Boston Marathon&lt;/a&gt; and &lt;a href=&quot;http://garbage.milleria.org/#riot/carto_darkmatter/out/1395577860/-71.08205795288087,42.34785606651052,-71.02330684661867,42.37252735093426&quot;&gt;Wine Riot&lt;/a&gt;, manually making snarky guesses at their probable contents.
+&lt;/p&gt;
+&lt;p&gt;I didn't win, can you believe that?! My entry was runner-up in the &quot;Telling a Story Through Data&quot; track - I gave a talk at &lt;a href=&quot;http://districthallboston.org&quot;&gt;District Hall&lt;/a&gt; that basically was a cheerleading routine for open data. Worth it.&lt;/p&gt;
+&lt;p&gt;A little more about the procedure can be found at &lt;a href=&quot;http://garbage.milleria.org/#about/carto_darkmatter/out/1395577860/-71.08205795288087,42.34785606651052,-71.02330684661867,42.37252735093426&quot;&gt;the app itself&lt;/a&gt;, still live.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;!-- ******************************* /INSTANCE --&gt;&lt;/p&gt;
+
+&lt;!-- ******************************* INSTANCE-LEFT --&gt;
+&lt;div class=&quot;portfolio-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12&quot;&gt;&lt;h3&gt;311 Garbage Bot: Automated Garbage Guesser&lt;/h3&gt;&lt;div class=&quot;col-lg-12 col-md-12 col-sm-12 col-xs-12&quot; style=&quot;max-height:150px;overflow:hidden;&quot;&gt;
+&lt;a href=&quot;https://twitter.com/311GarbageBot&quot;&gt;&lt;img width=&quot;100%&quot; class=&quot;pull-right&quot; src=&quot;/assets/img/portfolio-wapp-311.jpg&quot; /&gt;&amp;lt;/img&amp;gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-lg-12 col-md-12 col-sm-12 col-xs-12 pw-left&quot; style=&quot;&quot;&gt;
+&lt;p&gt;
+	Following the work I did for the 2017 Analyze Boston Challenge it seemed only appropriate, if not ovious, if not a MORAL IMPERATIVE to make a robot that would run 24/7, guessing the contents of various garbage overflows and litterings throughout the city.
+&lt;/p&gt;
+&lt;p&gt;
+	...Which is pretty easy in 4 steps:
+	&lt;ol&gt;
+&lt;li&gt;Manually add to a &lt;a href=&quot;https://cloud.mongodb.com&quot;&gt;hosted MongoDB&lt;/a&gt; collection some spatially-arranged guesses at what might appear in garbage there.&lt;/li&gt;
+&lt;li&gt;Write a Node API that reaches into &lt;a href=&quot;https://mayors24.cityofboston.gov/open311&quot;&gt;Boston's Open311 Instance&lt;/a&gt; ('s API) for any new calls having to do with garbage, litter, etc. and shops the location of each against the Mongo collection to find the nearest guess (spatially).&lt;/li&gt;
+&lt;li&gt;For each, tweet the result from &lt;a href=&quot;https://twitter.com/311GarbageBot&quot;&gt;an account set up specifically for this&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Trigger the bot with an &lt;a href=&quot;https://ifttt.com&quot;&gt;IFTT&lt;/a&gt; applet that fires to the API (hosted in &lt;a href=&quot;https://www.heroku.com&quot;&gt;Heroku&lt;/a&gt;) every time &lt;a href=&quot;https://twitter.com/BOS311x&quot;&gt;BOS' 311 Twitter&lt;/a&gt; posts&lt;/li&gt;
+	&lt;/ol&gt;
+&lt;/p&gt;
+&lt;p&gt;The time it took putting in guesses to keep it fresh felt...excessive, however, so I shut it down. Worked, though!&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;!-- ******************************* /INSTANCE --&gt;&lt;/p&gt;
+
+&lt;!-- ******************************* INSTANCE-RIGHT --&gt;
+&lt;div class=&quot;portfolio-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12&quot;&gt;&lt;h3&gt;Doctoring&lt;/h3&gt;&lt;div class=&quot;col-lg-12 col-md-12 col-sm-12 col-xs-12&quot; style=&quot;max-height:150px;overflow:hidden;&quot;&gt;
+&lt;img width=&quot;100%&quot; class=&quot;pull-right&quot; src=&quot;/assets/img/portfolio-wapp-marks.jpg&quot; /&gt;&amp;lt;/img&amp;gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-lg-12 col-md-12 col-sm-12 col-xs-12 pw-right&quot; style=&quot;&quot;&gt;
+
+&lt;p&gt;
+	An odd thing happened in Spring 2017. I became a web doctor for small business owners whose &quot;web developers&quot; had delivered to them unmanageable, un-updatable, and poorly-performing sites with little-to-zero responsivity and got paid for it. And then walked away, of course.
+&lt;/p&gt;
+&lt;p&gt;
+	The first of these is &lt;a href=&quot;http://wendymarks.com/&quot;&gt;WendyMarks.com&lt;/a&gt; - a site whose design (and, tbh, content) I don't condone but whose structure was in bad, bad shape. The site was plagued with performance issues. The ultimate cause was that someobody pretty clearly had found a ~single-page application~ template online somewhere and stuffed all of the client's content into it with no regard for navigation, routing, load optimization, style consistency, or responsiveness. Or SEO, probably obviously. Over the course of a couple of weeks I fixed all of these problems, largely preserving the original style as per client's preference.
+&lt;/p&gt;
+&lt;p&gt;Another contract is pending so I won't include it here.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;!-- ******************************* /INSTANCE --&gt;&lt;/p&gt;
+
+&lt;!-- ******************************* INSTANCE-LEFT --&gt;
+&lt;div class=&quot;portfolio-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12&quot;&gt;&lt;h3&gt;The Clothes I Own&lt;/h3&gt;&lt;div class=&quot;col-lg-12 col-md-12 col-sm-12 col-xs-12&quot; style=&quot;max-height:150px;overflow:hidden;&quot;&gt;
+&lt;a href=&quot;http://clothes.milleria.org&quot;&gt;&lt;img width=&quot;100%&quot; class=&quot;pull-right&quot; src=&quot;/assets/img/portfolio-wapp-clothes.jpg&quot; /&gt;&amp;lt;/img&amp;gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-lg-12 col-md-12 col-sm-12 col-xs-12 pw-left&quot; style=&quot;&quot;&gt;
+&lt;p&gt;
+If I were a rich man I would be stylish. Instead these are the clothes I've worn over and over and over again for many years. One morning I decided to menagerize them and &lt;a href=&quot;http://clothes.milleria.org/&quot;&gt;the result&lt;/a&gt;, I confess, I've visited more than once because I think it's beautiful and hilarious.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;!-- ******************************* /INSTANCE --&gt;&lt;/p&gt;
+
+&lt;!-- ******************************* INSTANCE-RIGHT --&gt;
+&lt;div class=&quot;portfolio-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12&quot;&gt;&lt;h3&gt;CBB BitMap&lt;/h3&gt;&lt;div class=&quot;col-lg-12 col-md-12 col-sm-12 col-xs-12&quot; style=&quot;max-height:150px;overflow:hidden;&quot;&gt;
+&lt;a href=&quot;http://cbb.milleria.org&quot;&gt;&lt;img width=&quot;100%&quot; class=&quot;pull-right&quot; src=&quot;/assets/img/portfolio-wapp-cbb.png&quot; /&gt;&amp;lt;/img&amp;gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-lg-12 col-md-12 col-sm-12 col-xs-12 pw-right&quot; style=&quot;&quot;&gt;
+
+&lt;p&gt;
+This takes some explaining. &lt;a href=&quot;http://www.earwolf.com/show/comedy-bang-bang/&quot;&gt;Comedy Bang! Bang!&lt;/a&gt; is a long-form improv comedy podcast that A) is often genius, and B) has developed a considerable canon over the years. It's dear to me, so I did what any red-blooded American stan would do and &lt;a href=&quot;http://trainertothestarsseekingstars.org/#huh&quot;&gt;built an application&lt;/a&gt; that delivers A) every mappable location mentioned on the show, and B) every single recurring bit that occurs throughout its entire 8+ year run. I did it because I love the show and it's legitimately joyful labor. But I include it here because it's not &lt;em&gt;not&lt;/em&gt; a successful example of reducing what is actually a pretty complex dataset into manageable units and delivering those data as cleanly as possible.
+&lt;/p&gt;
+&lt;p&gt;
+	The thing was originally built with the now-common chain of &lt;a href=&quot;http://leafletjs.com&quot;&gt;Leaflet&lt;/a&gt;, &lt;a href=&quot;http://backbonejs.com&quot;&gt;Backbone&lt;/a&gt;, &lt;a href=&quot;http://lucene.apache.org/solr&quot;&gt;Solr&lt;/a&gt;, and &lt;a href=&quot;http://getbootstrap.com&quot;&gt;Bootstrap&lt;/a&gt;. It &lt;em&gt;used to be&lt;/em&gt; hosted on a &lt;a href=&quot;https://www.openshift.com&quot;&gt;Red Hat OpenShift&lt;/a&gt; instance and the location data &lt;em&gt;used to be&lt;/em&gt; in &lt;a href=&quot;https://cartodb.com/&quot;&gt;CartoDB&lt;/a&gt;. 
+&lt;/p&gt;
+&lt;p&gt;However...&lt;/p&gt;
+&lt;p&gt;In Fall 2017 both OpenShift and Carto changed their plans and I bolted. The bits data are still in a hosted &lt;a href=&quot;https://www.mongodb.com&quot;&gt;MongoDB&lt;/a&gt; instance (&lt;a href=&quot;https://mlab.com/&quot;&gt;mLab&lt;/a&gt;), but the geospatials are now in a different Mongo instance (MongoDB's &lt;a href=&quot;https://cloud.mongodb.com&quot;&gt;Atlas service&lt;/a&gt;); they are indexed in &lt;a href=&quot;http://elastic.co&quot;&gt;ElasticSearch&lt;/a&gt; rather than Solr; &lt;a href=&quot;http://bulma.io&quot;&gt;Bulma&lt;/a&gt; is now providing style rather than Bootstrap; oh, and I completely rewrote the GUI in &lt;a href=&quot;https://vuejs.org&quot;&gt;VueJS&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;!-- ******************************* /INSTANCE --&gt;&lt;/p&gt;
+
+&lt;!-- ******************************* INSTANCE-LEFT --&gt;
+&lt;div class=&quot;portfolio-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12&quot;&gt;&lt;h3&gt;Dalyverse&lt;/h3&gt;&lt;div class=&quot;col-lg-12 col-md-12 col-sm-12 col-xs-12&quot; style=&quot;max-height:150px;overflow:hidden;&quot;&gt;
+&lt;a href=&quot;http://trainertothestarsseekingstars.org&quot;&gt;&lt;img width=&quot;100%&quot; class=&quot;pull-right&quot; src=&quot;/assets/img/portfolio-wapp-dv.png&quot; /&gt;&amp;lt;/img&amp;gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-lg-12 col-md-12 col-sm-12 col-xs-12 pw-left&quot; style=&quot;&quot;&gt;
+&lt;p&gt;
+This one also needs some context. Evidently not burdened enough by having to, every week, log the recurring jokes in a 90-minute comedy podcast, I decided to learn some knowledge graph techniques by digitizing the entire canon built up by comedian &lt;a href=&quot;https://en.wikipedia.org/wiki/Andy_Daly&quot;&gt;Andy Daly&lt;/a&gt; over the course of his appearances on various shows over the last decade or so. So, sure, I went back through every appearance of his on Comedy Bang! Bang!, Andy Daly Podcast Pilot Project, Womp it Up, Super Ego, Great American Cabinet of Curiosities, even his one-off on Bajillion Dollar Propertie$. And what I did was simply &lt;em&gt;record every person, place, thing, and event&lt;/em&gt; he ever mentioned.
+&lt;/p&gt;
+&lt;p&gt;Then the work began. All of those entities and their relations were imported into an &lt;a href=&quot;https://www.arangodb.com&quot;&gt;ArangoDB&lt;/a&gt; Docker container and sliced up from several angles in order to best illustrate the incredible and meticulous work Daly has done with his characters and their (almost universal) canon over the years.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;!-- ******************************* /INSTANCE --&gt;&lt;/p&gt;
+
+&lt;!-- ******************************* INSTANCE-RIGHT --&gt;
+&lt;div class=&quot;portfolio-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12&quot;&gt;&lt;h3&gt;Spatial Track&lt;/h3&gt;&lt;div class=&quot;col-lg-12 col-md-12 col-sm-12 col-xs-12&quot; style=&quot;max-height:150px;overflow:hidden;&quot;&gt;
+&lt;a href=&quot;http://spatialtrack.milleria.org&quot;&gt;&lt;img width=&quot;100%&quot; class=&quot;pull-right&quot; src=&quot;https://dzwonsemrish7.cloudfront.net/items/342D10090E25280z0X37/thumb-spatialtrack.jpg?v=0e5dc5b2&quot; /&gt;&amp;lt;/img&amp;gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-lg-12 col-md-12 col-sm-12 col-xs-12 pw-right&quot; style=&quot;&quot;&gt;
+&lt;p&gt;
+Another instance where more became less (became more) is my conversion of an old &lt;a href=&quot;https://wordpress.org&quot;&gt;WordPress&lt;/a&gt; blog into a &lt;a href=&quot;http://spatialtrack.milleria.org&quot;&gt;more svelte and muuuuch faster Jekyll+Leaflet coupling&lt;/a&gt;. None of the map plugins for WordPress ever gave enough map, always felt like afterthoughts. When web applications force primary content into little side boxes -- especially map content -- it drives me crazy. Using a custom Leaflet+Jekyll pairing again allows a user to engage the blog copy normally but also allows them to immerse themselves into a full-frame map and access primary content that way, too. More about its guts &lt;a href=&quot;http://spatialtrack.milleria.org/this/&quot;&gt;at itself&lt;/a&gt;. That's a syntactically-legitimate sentence, right?
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;!-- ******************************* /INSTANCE --&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;select-olderofflineobsolete-work&quot;&gt;Select Older/Offline/Obsolete Work&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;At Purdue and Texas A&amp;amp;M International, I was not strictly-speaking in a developer position. I was faculty in both places, charged at TAMIU with developing out library-based spatial data &amp;amp; GIS services and at Purdue with a steeper mission of developing library data services and education to better support and collaborate with other cyberinfrastructure-building projects across campus. It just so happened that effectively _all_ of this work required web-facing development. At times I directed the work of others (post-docs, graduate RAs, and undergrads), but typically I did all of my own authoring.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Spatial Data Catalog Project (MADA@P)&lt;/em&gt; - Purdue, 2008-2012
+    &lt;ul&gt;
+      &lt;li&gt;an open source­-built metadata+data+GUI stack to deliver spatial data&lt;/li&gt;
+      &lt;li&gt;built (by me) with &lt;a href=&quot;http://geoserver.org&quot;&gt;GeoServer&lt;/a&gt; (&lt;a href=&quot;http://mapserver.org&quot;&gt;MapServer&lt;/a&gt;, early on), &lt;a href=&quot;http://openlayers.org&quot;&gt;OpenLayers&lt;/a&gt;, &lt;a href=&quot;http://jquery.com&quot;&gt;jQuery&lt;/a&gt;, on top of a metadata store in &lt;a href=&quot;http://geonetwork-opensource.org&quot;&gt;GeoNetwork OpenSource&lt;/a&gt; that I re-re-indexed with a &lt;a href=&quot;http://lucene.apache.org/solr&quot;&gt;Solr&lt;/a&gt;.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Targeted Metadata Crawler&lt;/em&gt; - Purdue, 2008-2011
+    &lt;ul&gt;
+      &lt;li&gt;web crawler side project that harvested specifically spatial metadata from social data streams&lt;/li&gt;
+      &lt;li&gt;design by me, parser written in Java by one of my graduate assistants&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;IsoMAP: Isoscape Modeling, Analysis and Prediction&lt;/em&gt; - Purdue, 2008-2012
+    &lt;ul&gt;
+      &lt;li&gt;spatial data processing and organization workflows&lt;/li&gt;
+      &lt;li&gt;web app (in &lt;a href=&quot;http://openlayers.org&quot;&gt;OpenLayers&lt;/a&gt;) that interfaces with metadata stores, spatial database contents, and TeraGrid job managing software&lt;/li&gt;
+      &lt;li&gt;metadata authoring, metadata indexing, and metadata search mechanism&lt;/li&gt;
+      &lt;li&gt;I built the spatial component of this NSF-funded cyberinfrastructure project that delivers powerful environmental isotope modeling, analysis, and visualization over the web&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;ISEE: Integrating Spatial Educational Experiences into Crop, Soil, and Environmental Science&lt;/em&gt; - Purdue, 2008-2012
+    &lt;ul&gt;
+      &lt;li&gt;100s of GBs of soil imagery prepared and delivered to web and other clients (Google Earth) in soil science classrooms&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Geoinformatics Course&lt;/em&gt;: 2008, 2010
+    &lt;ul&gt;
+      &lt;li&gt;graduate-level course taught by me in which geoscientific technologies, data, and workflows are examined and practiced together as irrevocably interrelated pieces of a growing geocyberinfrastructure&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Spatialized Repository Collections&lt;/em&gt; - Purdue, 2010-2012
+    &lt;ul&gt;
+      &lt;li&gt;a side-project that was building mostly­-automated workflows designed to extract semantically useful placenames and other location data from fulltext scholarly repository documents&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Automated Georeferencer (PLAutoGeoRef)&lt;/em&gt; - Purdue, 2010-2012
+    &lt;ul&gt;
+      &lt;li&gt;in-house research designed to automate the laborious georeferencing of historic aerial photo collections&lt;/li&gt;
+      &lt;li&gt;design and direction by me - processing algorithm by my GA, Jae Sung Kim&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;1906 Soil Survey Resurrection&lt;/em&gt; - Purdue, 2007­-2008
+    &lt;ul&gt;
+      &lt;li&gt;historic map digitization and data extraction ­a 1906 soil survey document was digitized and deposited into the Purdue Libraries institutional repository; its map was further georeferenced and run through a segmentation algorithm (Jae Sung Kim) which helped us pull out real polygonal vector data for use in modern GISs&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Pilot PTO Dailies&lt;/em&gt; - Purdue, 2010-2012
+    &lt;ul&gt;
+      &lt;li&gt;an automated data publishing workflow incorporates extant library data APIs to push Purdue Terrestrial Observatory remote sensing data to the web&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 22 Mar 2016 02:18:42 -0400</pubDate>
+        <link>http://cv.milleria.org/cv/menud/2016/03/22/cv-portfolio-digital.html</link>
+        <guid isPermaLink="true">http://cv.milleria.org/cv/menud/2016/03/22/cv-portfolio-digital.html</guid>
+        
+        <category>apps</category>
+        
+        
+        <category>cv</category>
+        
+        <category>menud</category>
+        
+      </item>
+    
+      <item>
+        <title>Current &amp; Past Positions</title>
+        <description>&lt;h3 id=&quot;current-position&quot;&gt;CURRENT POSITION:&lt;/h3&gt;
+
+&lt;h4 id=&quot;gis-specialistapplications-specialist-2012-present&quot;&gt;GIS Specialist/Applications Specialist, 2012-present&lt;/h4&gt;
+
+&lt;div class=&quot;cv-info-block&quot;&gt;
+Knowledge Services Sector&lt;br /&gt;
+&lt;span class=&quot;copy-trigger&quot; data-type=&quot;gob&quot; data-id=&quot;gD19&quot;&gt;Massachusetts Institute of Technology - Lincoln Laboratory&lt;/span&gt;&lt;br /&gt;
+244 Wood St., Lexington, Mass
+&lt;/div&gt;
+
+&lt;h3 id=&quot;previous-positions&quot;&gt;PREVIOUS POSITIONS:&lt;/h3&gt;
+
+&lt;h4 id=&quot;associate-professor-of-library-sciencegis-specialist-2012&quot;&gt;Associate Professor of Library Science/GIS Specialist, 2012&lt;/h4&gt;
+
+&lt;div class=&quot;cv-info-block&quot;&gt;&lt;span class=&quot;copy-trigger&quot; data-type=&quot;gob&quot; data-id=&quot;gD16&quot;&gt;Purdue University Libraries&lt;/span&gt;&lt;br /&gt;
+504 West State Street&lt;br /&gt;
+West Lafayette, IN 47907-2058&lt;br /&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;assistant-professor-of-library-sciencegis-specialist-2006-2012&quot;&gt;Assistant Professor of Library Science/GIS Specialist, 2006-2012&lt;/h4&gt;
+
+&lt;div class=&quot;cv-info-block&quot;&gt;&lt;span class=&quot;copy-trigger&quot; data-type=&quot;gob&quot; data-id=&quot;gD16&quot;&gt;Purdue University Libraries&lt;/span&gt;&lt;br /&gt;
+504 West State Street&lt;br /&gt;
+West Lafayette, IN 47907-2058&lt;br /&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;assistant-professorgovernment-documents-librarian-2003-2006&quot;&gt;Assistant Professor/Government Documents Librarian, 2003-2006&lt;/h4&gt;
+
+&lt;div class=&quot;cv-info-block&quot;&gt;&lt;span class=&quot;copy-trigger&quot; data-type=&quot;gob&quot; data-id=&quot;gD17&quot;&gt;Sue &amp;amp; Radcliffe Killam Library&lt;/span&gt;&lt;br /&gt;
+Texas A&amp;amp;M International University&lt;br /&gt;
+5201 University Blvd, Laredo, TX 78041&lt;br /&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;education&quot;&gt;EDUCATION:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;M.L.S. – &lt;span class=&quot;copy-trigger&quot; data-type=&quot;gob&quot; data-id=&quot;gD18&quot;&gt;University of Iowa&lt;/span&gt; School of Library &amp;amp; Information Science 2002&lt;/li&gt;
+  &lt;li&gt;B.A. in English (with Honors, History minor) – &lt;span class=&quot;copy-trigger&quot; data-type=&quot;gob&quot; data-id=&quot;gD18&quot;&gt;University of Iowa&lt;/span&gt; 2000&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 21 Mar 2016 02:18:42 -0400</pubDate>
+        <link>http://cv.milleria.org/cv/menud/2016/03/21/cv-positions.html</link>
+        <guid isPermaLink="true">http://cv.milleria.org/cv/menud/2016/03/21/cv-positions.html</guid>
+        
+        <category>profession,education</category>
+        
+        
+        <category>cv</category>
+        
+        <category>menud</category>
+        
+      </item>
+    
+      <item>
+        <title>Publications &amp; Presentations</title>
+        <description>&lt;h3 id=&quot;peer-reviewed-publications&quot;&gt;PEER-REVIEWED PUBLICATIONS&lt;/h3&gt;
+
+&lt;p&gt;(for multiple authors, * denotes primary author/contributor)&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;*Weber, Nicole; *Dyehouse, Melissa; Miller, Christopher C.; Fang, Jun; Hua, Inez; Strobel, Johannes; Impact of Household Location on First-Year Engineering Students’ Environmental Awareness and Resistance to Change. Journal of Engineering Education. Vol. 102, No. 4, 603–625, October 2013. DOI: &lt;a href=&quot;http://onlinelibrary.wiley.com/doi/10.1002/jee.20028/abstract&quot;&gt;10.1002/jee.20028&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Carlson, J., Fosmire, M., Miller, C. C, &amp;amp; Sapp­-Nelson, M.. Determining Data Information Literacy Needs: A Study of Students and Research Faculty. portal: Libraries and the Academy. Retrieved from &lt;a href=&quot;http://goo.gl/BXVO9&quot;&gt;http://goo.gl/BXVO9&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Newton, M. P., Miller, C. C, &amp;amp; Bracke, M. S. (2011). Librarian Roles in Institutional Repository Data Set Collecting: Outcomes of a Research Library Task Force. Collection Management. 36(1), 53­67. Retrieved from &lt;a href=&quot;http://www.informaworld.com/10.1080/01462679.2011.530546&quot;&gt;http://www.informaworld.com/10.1080/01462679.2011.530546&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;*Chen, S., Florax, R. J. G. M., Snyder, S., &amp;amp; Miller, C. C. (2010). Obesity and Access to Chain Grocers. Economic Geography, 86(4), 431–452. Retrieved from &lt;a href=&quot;http://bit.ly/fUyhoh&quot;&gt;http://bit.ly/fUyhoh&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;*Kim, J. S., *Miller, Christopher C, &amp;amp; Bethel, J. (2010). Automated Georeferencing of Historic Aerial Photography. Journal of Terrestrial Observation, 2(1). Retrieved from &lt;a href=&quot;http://docs.lib.purdue.edu/jto/vol2/iss1/art6/&quot;&gt;http://docs.lib.purdue.edu/jto/vol2/iss1/art6/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;*Gurney, K. R., Mendoza, D. L., Zhou, Y., Fischer, M. L., Miller, Chris C, Geethakumar, S., &amp;amp; de la Rue du Can, S. (2009). High resolution fossil fuel combustion CO2 emission fluxes for the United States. Environmental Science &amp;amp; Technology, 43(14). Retrieved from &lt;a href=&quot;http://pubs.acs.org/doi/abs/10.1021/es900806c&quot;&gt;http://pubs.acs.org/doi/abs/10.1021/es900806c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;*Bowen, G. J., West, J. B., Vaughn, B. H., Dawson, T. E., Ehleringer, J. R., Fogel, M. L., Hobson, K., et al. (2009). Isoscapes to Address Large­Scale Earth Science Challenges. Eos, Transactions, 30(13), 109­116. Retrieved from &lt;a href=&quot;https://pubs.er.usgs.gov/publication/70036091&quot;&gt;https://pubs.er.usgs.gov/publication/70036091&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;*Stowell­Bracke, M., *Miller, C. C, &amp;amp; Kim, J. S. (2008). Adding value to digitizing with GIS. Library Hi Tech, 26(2), 201­ 212. Retrieved from &lt;a href=&quot;http://dx.doi.org/10.1108/07378830810880315&quot;&gt;http://dx.doi.org/10.1108/07378830810880315&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;*Matei, S. A., Miller, *C C., Arns, L., Rauh, N., Hartman, C., &amp;amp; Bruno, R. (2007). Visible Past: Learning and discovering in real and virtual space and time. First Monday, 12(5). Retrieved from &lt;a href=&quot;http://dx.doi.org/10.5210/fm.v12i5.1836&quot;&gt;http://dx.doi.org/10.5210/fm.v12i5.1836&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Miller, C. C. (2006). A Beast in the Field: The Google Maps Mashup as GIS/2. Cartographica, 41(3), 187–199. Retrieved from &lt;a href=&quot;https://doi.org/10.3138/J0L0-5301-2262-N779&quot;&gt;https://doi.org/10.3138/J0L0-5301-2262-N779&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;other-select-publications&quot;&gt;OTHER (SELECT) PUBLICATIONS&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Kocur*, L. A., Glotzbach, R. J., Schulze, D. G., &amp;amp; Miller, C. C. “Usability of educational soil mapping software,” Proceedings of the 22nd international conference of the Society for Information Technology and Teacher Education (SITE 2011). Retrieved from &lt;a href=&quot;https://www.researchgate.net/publication/279444747_Usability_of_Educational_Soil_Mapping_Software&quot;&gt;https://www.researchgate.net/publication/279444747_Usability_of_Educational_Soil_Mapping_Software&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Miller, C.C. “Library applications, collaborations, and courses for geodata and geoinformatics” in 31st Annual International Association of Scientific and Technological University Libraries Conference, Proceedings, 2010. &amp;lt;&lt;a href=&quot;http://docs.lib.purdue.edu/iatul2010/conf/day2/6/&quot;&gt;http://docs.lib.purdue.edu/iatul2010/conf/day2/6/&lt;/a&gt;&amp;gt;&lt;/li&gt;
+  &lt;li&gt;Miller, C.C. “Geocommunication Literacy: More than a Toilet Finder iPhone App” Base line: a newsletter of the Map &amp;amp; Geography Roundtable, &lt;a href=&quot;http://www.ala.org/magirt/sites/ala.org.magirt/files/content/publicationsab/baseline/30_6.pdf&quot;&gt;30, No. 6, December 2009&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Miller, C.C. “Geography? Where’s That?” Base line: a newsletter of the Map &amp;amp; Geography Roundtable, &lt;a href=&quot;http://www.ala.org/magirt/sites/ala.org.magirt/files/content/publicationsab/baseline/30_1.pdf&quot;&gt;30, No. 1, February 2009&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Miller, C.C. “GIS Contributes to Groundbreaking Carbon Emissions Inventory; Library supports project and GIS use across campus.” ESRI GIS Educator, &lt;a href=&quot;http://www.esri.com/library/newsletters/giseducator/gised-winter08.pdf&quot;&gt;Winter (2008): 1­2&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Miller, C.C. Geoinformatics on the Front Lines: Purdue’s Inaugural Geoinformatics Course in “Geoinformatics 2008—Data to Knowledge, Proceedings: U.S. Geological Survey Scientific Investigations &lt;a href=&quot;https://pubs.usgs.gov/sir/2008/5172/sir2008-5172.pdf&quot;&gt;Report 2008­5172&lt;/a&gt;,” 76 p., Brady, S.R., Sinha, A.K., and Gundersen, L.C., editors, 2008&lt;/li&gt;
+  &lt;li&gt;Miller, C.C. &amp;amp; Fosmire, M. 2008, “Do and teach: geoinformatics as a function of the university library”; Geological Society of America, 2008 annual meeting, Abstracts with Programs – Geological Society of America, &lt;a href=&quot;https://gsa.confex.com/gsa/2008AM/finalprogram/abstract_150738.htm&quot;&gt;vol. 40, no. 6, pp. 527&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Fosmire, M. &amp;amp; Miller, C.C. 2008, “Data information literacy: new competencies in a cyberinfrastructure­-enabled world”; Geological Society of America, 2008 annual meeting, Abstracts with Programs – Geological Society of America, &lt;a href=&quot;https://gsa.confex.com/gsa/2008AM/webprogram/Paper148220.html&quot;&gt;vol. 40, no. 6, pp. 527&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Miller, C.C. “Metadata in the Workflow.” Base line: a newsletter of the Map &amp;amp; Geography Roundtable. &lt;a href=&quot;http://www.ala.org/magirt/sites/ala.org.magirt/files/content/publicationsab/baseline/29_5.pdf&quot;&gt;29, No. 5, October, 2008&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Fosmire, Michael, and C.C. Miller. “Creating a culture of data integration and interoperability: librarians and Earth Science Faculty collaborate on a geoinformatics course,” &lt;a href=&quot;http://docs.lib.purdue.edu/iatul/2008/papers/16/&quot;&gt;2008 Proceedings&lt;/a&gt;, International Association of Technological University Libraries (Spring 2008)&lt;/li&gt;
+  &lt;li&gt;Bowen*, G., West*, J., Zhao, L. &amp;amp; Miller, C. 2007, “Geospatial data products as a transformational resource for stable isotope science”; Geological Society of America, 2007 annual meeting, Abstracts with Programs – Geological Society of America, &lt;a href=&quot;https://gsa.confex.com/gsa/2007AM/finalprogram/abstract_129518.htm&quot;&gt;vol. 39. no. 6, pp. 154&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Maps I made for Dr. Kevin Gurney’s “Vulcan” Project (a high spatio­temporal resolution CO2 inventory) often accompanied stories about the project in the months following the initial release of the inventory (April 2008). A sampling:
+    &lt;ul&gt;
+      &lt;li&gt;Gore, Albert. 2009. Our choice: a plan to solve the climate crisis. Emmaus, PA: Rodale.&lt;/li&gt;
+      &lt;li&gt;Lugar, Dick. “Dear Colleague” Letter distributed to U.S. Senate, April 2008. (Letter itself seems to not have been distributed electronically, but references are online here: &lt;a href=&quot;https://www.scribd.com/document/328960822/SENATE-HEARING-110TH-CONGRESS-INTERNATIONAL-DEFORESTATION-AND-CLIMATE-CHANGE&quot;&gt;https://www.scribd.com/document/328960822/SENATE-HEARING-110TH-CONGRESS-INTERNATIONAL-DEFORESTATION-AND-CLIMATE-CHANGE&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Battles, Matthew. “From C to shining C – A new map gives a detailed picture of America’s carbon emissions.” The Boston Globe. (27 April 2008).&lt;/li&gt;
+      &lt;li&gt;“‘Revolutionary’ Carbon Dioxide Maps Zoom In On Greenhouse Gas Sources.” ScienceDaily. (April 8, 2008). &amp;lt;&lt;a href=&quot;http://www.sciencedaily.com/releases/2008/04/080407172656.htm&quot;&gt;http://www.sciencedaily.com/releases/2008/04/080407172656.htm&lt;/a&gt;&amp;gt;&lt;/li&gt;
+      &lt;li&gt;Revkin, Andrew C. “Dot Earth: Breath of a Nation ­­ Animated CO2 Map.” The New York Times (April 7, 2008; Section A; Column 0) &amp;lt;&lt;a href=&quot;https://dotearth.blogs.nytimes.com/2008/04/07/breath-of-a-nation-animated-co2-map/&quot;&gt;https://dotearth.blogs.nytimes.com/2008/04/07/breath-of-a-nation-animated-co2-map/&lt;/a&gt;&amp;gt;&lt;/li&gt;
+      &lt;li&gt;Madrigal, Alexis. “Scientists Unveil High­Res Map of the U.S. Carbon Footprint,” Wired Science, (April 07, 2008). &amp;lt;&lt;a href=&quot;https://www.wired.com/2008/04/scientists-unve/&quot;&gt;https://www.wired.com/2008/04/scientists-unve/&lt;/a&gt;&amp;gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Miller, C.C. “Why You Gotta Break My Heart? Using Web Feature Services.” Base line: a newsletter of the Map &amp;amp; Geography Roundtable. &lt;a href=&quot;http://www.ala.org/magirt/sites/ala.org.magirt/files/content/publicationsab/baseline/29_1.pdf&quot;&gt;29, No. 1, February 2008&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Miller, C.C. “I Might Be the Reason Libraries are Slow to Innovate” Base line: a newsletter of the Map and Geography Round Table. &lt;a href=&quot;http://www.ala.org/magirt/sites/ala.org.magirt/files/content/publicationsab/baseline/28_5.pdf&quot;&gt;October 2007&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;invited-lecturespresentations&quot;&gt;INVITED LECTURES/PRESENTATIONS&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Miller, C.C. “GEOSHARE: User/Contributor Experience.” Presentation at Kickoff Workshop: the GEOSHARE (Geospatial, Open­Source Hosting of Agricultural and Environmental Data) pilot project. West Lafayette, Indiana, May 24­25, 2011.&lt;/li&gt;
+  &lt;li&gt;Miller, C.C. “GIS in Every Library,” American Library Association Annual Conference. Washington, D.C., June 26, 2010.&lt;/li&gt;
+  &lt;li&gt;Miller, C.C. “Library applications, collaborations, and courses for geodata and geoinformatics,” International Association of Technological University Libraries. 31st Annual Conference of the Association of Technological University Libraries. West Lafayette, IN, June 2010.&lt;/li&gt;
+  &lt;li&gt;Miller, C.C. “Guerilla Geoinformatics Education: Promoting Geoinformatics in Collaboration, Curricula, and ‘Other.’” Cyberinfrastructure Summer Institute for Geoscientists. San Diego Supercomputer Center, San Diego, CA, August 10 2009.Other (Select) Publications&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;other-lecturespresentations&quot;&gt;OTHER LECTURES/PRESENTATIONS&lt;/h3&gt;
+
+&lt;p&gt;(for multiple authors, * denotes major author/contributor)&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;*Zhao, Lan and *Hyojeong Lee, Tonglin Zhang, Gabriel Bowen, C.C. Miller, Jason West, Ajay Kalangi. “Enabling Online Geospatial Isotopic Model Development and Analysis.” TG ’11 Proceedings of the 2011 TeraGrid Conference. ACM New York, NY, USA&lt;/li&gt;
+  &lt;li&gt;*Miller, C.C. and Lan Zhao, Ajay Kalangi, Hyojeong Lee, Gabriel Bowen, Jason West, Tonglin Zhang, Zhongfang Liu. “The IsoMAP CI Stack: The Open Source, Grid­Enabled Technologies Behind the IsoMAP Project.” Poster presented at the 2011 conference on The Roles of Stable Isotopes in Water Cycle Research. Keystone, Colorado, March 29­31, 2011&lt;/li&gt;
+  &lt;li&gt;*Zhang, Tonglin and Zhongfang Liu, Ajay Kalangi, Hyojeong Lee, Chris Miller, Jason West, Lan Zaho, Gabriel Bowen. An Automated Geostatistical Toolkit for Mapping Stable Isotope Ratios of Precipitation over Space and Time. 2011&lt;/li&gt;
+  &lt;li&gt;Conference on the Roles of Stable Isotopes in Water Cycle Research. Keystone, CO, March 2011.&lt;/li&gt;
+  &lt;li&gt;*Fosmire, Michael and Jacob Carlson, C.C. Miller, Megan Sapp­Nelson. “E­Science Information Literacy: What It Is and How We Can Teach It.” ACRL 2011, Association of College &amp;amp; Research Libraries. Philadelphia, PA, March 30­ April 2, 2011.&lt;/li&gt;
+  &lt;li&gt;*Weber, N., *Dyehouse, M., Miller, C., Fang, J., Hua, I., &amp;amp; Strobel, J. Impact of Household Location on First­year Engineering Students’ Environmental Knowledge and Awareness. American Educational Research Association Annual Meeting, New Orleans, LA, April 2011.&lt;/li&gt;
+  &lt;li&gt;Kocur*, L. A., Glotzbach, R. J., Schulze, D. G., &amp;amp; Miller, C.C. Usability of educational soil mapping software. 22nd international conference of the Society for Information Technology and Teacher Education (SITE 2011). Nashville, TN, March 2011.&lt;/li&gt;
+  &lt;li&gt;*Schulze, Darrell G. and Phillip R. Owens, Stephanie Mitzman, Lori Unruh Snyder, George E. Van Scoyoc, John G. Graveel, Gary C. Steinhardt, Christopher C. Miller, Marianne Stowell Bracke, Ronald J. Glotzbach, Laura A. Kocur, Bedrich Benes, Travis Neely, Mike Wiggington, Rick Nielson. “Isee – Integrating spatial educational experiences into soil, crop, and environmental sciences” 19th World Congress of Soil Science. Brisbaine, Australia, August 2010.&lt;/li&gt;
+  &lt;li&gt;*Hughes, Tracey and C.C. Miller, Amanda Henley, Gregory March. “GIS Can be Delicious for Everyone,” Environmental Systems Research Institute (ESRI) Annual Education Users Conference – Using GIS in Libraries and Museums Track. San Diego, CA, July 15, 2010&lt;/li&gt;
+  &lt;li&gt;*Matei, Sorin; Rauh, Nick; Miller, Christopher. “Visible Past: Collaborating across Print, Mobile, and Online Media.” Spaces &amp;amp; Flows. International Conference. Los Angeles, CA, December 2010.&lt;/li&gt;
+  &lt;li&gt;Miller, C.C. “Soil Geodata Going Fast: Purdue’s Isee Project and Web App.” United States Agricultural Information Network (USAIN). Annual Conference. West Lafayette, IN, May 2010.&lt;/li&gt;
+  &lt;li&gt;*Miller, C.C. and G.J. Bowen, G. J., T. Zhang, L. Zhao, J.B. West, J. B., Z. Liu, N Rapolu. “IsoMAP (Isoscape Modeling, Analysis, and Prediction),” poster presented at the American Geophysical Union Fall Meeting, 2009. San Francisco, CA. December 17, 2009.&lt;/li&gt;
+  &lt;li&gt;Miller, C.C. “Filling Librarian­Sized Gaps in Geoinformatics: Tactics for Librarian Entrée into the Revolution,” 2009 Portland GSA (Geological Society of America) Annual Meeting. Portland, Oregon, October 18­21, 2009.&lt;/li&gt;
+  &lt;li&gt;*Rapolu, Naresh and Gabriel Bowen, Lan Zhao, C.C. Miller, Tonglin Zhang, Jason West. “Building IsoMAP (Isoscape Modeling, Analysis, and Prediction) on TeraGrid,” Teragrid 2009 conference. Arlington, Va, June 22­25, 2009.&lt;/li&gt;
+  &lt;li&gt;*Gurney, Kevin R. and D. Mendoza, S. Geethakumar, Y. Zhou, M. Fischer, K. Corbin, C. Miller, B. Benes, N. Andrysco, S. Ilyushchenko, S. Denning, D. Ojima, “The Vulcan Project: Methods, Results, and Evaluation,” presentation by Dr. Kevin Gurney to the American Geophysical Union conference. San Francisco, CA. December, 2009.&lt;/li&gt;
+  &lt;li&gt;Miller, C.C. “Mash Something.” Tutorial presented at Purdue’s GIS Day celebration. West Lafayette, IN. November 18, 2008. &lt;a href=&quot;http://docs.lib.purdue.edu/gisday/8&quot;&gt;http://docs.lib.purdue.edu/gisday/8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Miller, C.C. “Modular, Distributed Spatial Metadata Repository on the Services Principle.” Presented at Purdue’s GIS Day celebration. West Lafayette, IN. November 18, 2008. &lt;a href=&quot;http://docs.lib.purdue.edu/gisday/9&quot;&gt;http://docs.lib.purdue.edu/gisday/9&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Miller, C.C. “Geoinformatics on the Front Lines: Purdue’s Inaugural Geoinformatics Course.” Geoinformatics 2008.&lt;/li&gt;
+  &lt;li&gt;Potsdam, Germany, June 2008.&lt;/li&gt;
+  &lt;li&gt;*Bracke­Stowell, Marianne and *C.C. Miller. “Using GIS to Breathe New Life Into Historic Soil Surveys,” United States Agricultural Information Network (USAIN) Biannual Meeting. Wooster, Oh, April 29, 2008.&lt;/li&gt;
+  &lt;li&gt;*Miller, C.C., *Fosmire, Michael and James G. Ogg, “Creating a Culture of Data Integration and Interoperability: Librarians Collaborate on a Geoinformatics Course.” 29th Annual Conference of the Association of Technological University Libraries. Auckland, New Zealand, April 2008.&lt;/li&gt;
+  &lt;li&gt;*Miller, C.C. and Chiung­shiuan Fu, Jae Sung Kim. “Mosaic of Wabash River and Valley.” Poster presented at Purdue’s GIS Day celebration. West Lafayette, IN. November 14, 2007.&lt;/li&gt;
+  &lt;li&gt;*Miller, C.C. and Chiung­shiuan Fu, Jae Sung Kim. “Vulcan Spot Check Maps: dynamic, immediate geospatial data visualizations for carbon emissions researchers.” Poster presented at Purdue’s GIS Day celebration. West Lafayette, IN. November 14, 2007.&lt;/li&gt;
+  &lt;li&gt;*Miller, C.C. and Chiung­shiuan Fu, Jae Sung Kim. “Wrapping Content in Geography: Enabling digital content for proximity/geographic delivery.” Poster presented at Purdue’s GIS Day celebration. West Lafayette, IN. November 14, 2007.&lt;/li&gt;
+  &lt;li&gt;Miller, C.C. “Something to Say About That Piece of Earth: Enabling Interaction With Geoscience Map Data.” Presentation within Geological Society of America’s Topical Session “GeoScience Information: Making the Earth Sciences Accessible for Everyone,” GSA Annual Meeting. Denver, CO, October 29, 2007.&lt;/li&gt;
+  &lt;li&gt;*Miller, C.C. and Marianne Stowell Bracke. “Preserving Soil Survey Data with GIS.” Poster presented at the American Library Association Annual Conference, STS Poster Session, June 2007.&lt;/li&gt;
+  &lt;li&gt;*Stowell Bracke, Marianne; *Miller, *C.C. “Adding Value to Digitization with GIS.” Coalition of Networked Information. Task Force Meeting Project Briefing. Phoenix, Az, April 17 2007.&lt;/li&gt;
+  &lt;li&gt;Miller, C.C. “This Seems Familiar. What is it? Library­Based Interdisciplinary GIS.” Indiana Geographic Information Council. Indiana GIS Conference, 2007. Indianapolis, IN, March 14, 2007.&lt;/li&gt;
+  &lt;li&gt;*Mendoza, Daniel; Gurney, Kevin and Chris Miller. “US Carbon Dioxide Motor Vehicle Emissions Resolved Hourly at a 1 km Resolution.” Poster Presented by Daniel Mendoza at the American Geophysical Union Fall Meeting, San Francisco, CA, December 12, 2006.&lt;/li&gt;
+  &lt;li&gt;*Gurney, Kevin R. and Daniel Mendoza, C.C. Miller. “Improved Fossil/Industrial CO2 Modeling for the North American Carbon Program (NACP): the Vulcan Project,” presentation by Dr. Kevin Gurney to the American Geophysical Union annual conference. San Francisco, CA, December 11, 2006.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 20 Mar 2016 02:18:42 -0400</pubDate>
+        <link>http://cv.milleria.org/cv/menud/2016/03/20/cv-publications.html</link>
+        <guid isPermaLink="true">http://cv.milleria.org/cv/menud/2016/03/20/cv-publications.html</guid>
+        
+        <category>profession,publications,writing,collaboration</category>
+        
+        
+        <category>cv</category>
+        
+        <category>menud</category>
+        
+      </item>
+    
+      <item>
+        <title>Awards &amp; Recognition</title>
+        <description>&lt;h4 id=&quot;awards&quot;&gt;AWARDS&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;2017 May 6 - Runner-up, “Track 5: Telling a Story Through Data,” &lt;a href=&quot;https://docs.google.com/document/d/1STCtJdz5u2hAj0PAtwz1IcgyB16CM4Ak9artnkywv3U/edit&quot;&gt;Boston Open Data Challenge 2017&lt;/a&gt; - see &lt;span class=&quot;copy-trigger&quot; data-type=&quot;slug&quot; data-id=&quot;cv-portfolio-digital&quot;&gt;Portfolio (Web Apps)&lt;/span&gt; for a gloss on the submission&lt;/li&gt;
+  &lt;li&gt;2017 April 28 - “Best Data Narrative,” &lt;a href=&quot;https://www.thehubway.com/blog/2017-datachallenge-winners&quot;&gt;2017 Hubway Data Challenge&lt;/a&gt; - see &lt;span class=&quot;copy-trigger&quot; data-type=&quot;slug&quot; data-id=&quot;cv-portfolio-digital&quot;&gt;Portfolio (Web Apps)&lt;/span&gt; for a gloss on the submission&lt;/li&gt;
+  &lt;li&gt;2015 June - Special Recognition Award, MIT Lincoln Laboratory&lt;/li&gt;
+  &lt;li&gt;2015 January - MIT Excellence Award (nomination only), MIT&lt;/li&gt;
+  &lt;li&gt;2012 July - tenure/promotion to associate professor, Purdue University&lt;/li&gt;
+  &lt;li&gt;2012 - Best Publication Award, American Society for Engineering Education: Engineering Libraries Division&lt;/li&gt;
+  &lt;li&gt;2009 - John H. Moriarty Award for Excellence in Library Service, Purdue University Libraries&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;recognition&quot;&gt;RECOGNITION&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;In 2019 I was invited to participate in a Mellon-funded project at Columbia University, “Web-Based Digital Mapping Projects Preservation,” which endeavored to study and build up best practices around the preservation of web mapping applications.&lt;/li&gt;
+  &lt;li&gt;represented an “established library GIS program” at “GIS in Every Library,” Maps and Geography Round Table talk and panel, American Library Association Annual Conference, Washington D.C. June 2010.&lt;/li&gt;
+  &lt;li&gt;advisor to/director of Indiana University School of Library and Information Science graduate student “directed reading” project on spatializing library repository full text collections. June, 2010 ­ December, 2010.&lt;/li&gt;
+  &lt;li&gt;The Cyberinfrastructure Summer Institute for Geoscientists (CSIG) is a program held at the San Diego Supercomputer Center, San Diego, CA by the NSF-­funded Geosciences Network (GEON) project and in 2007 was geared toward introducing educators to the tools, methods, applications, and motives behind developing cyberinfrastructure initiatives in the geosciences. I attended in preparation for teaching a course on Geoinformatics in the spring of 2008 and was &lt;a href=&quot;http://www.geongrid.org/index.php/education/si_faculty/csig_2009&quot;&gt;invited back as faculty in 2009&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 13 Feb 2016 01:18:42 -0500</pubDate>
+        <link>http://cv.milleria.org/cv/menud/2016/02/13/cv-awards-and-recognition.html</link>
+        <guid isPermaLink="true">http://cv.milleria.org/cv/menud/2016/02/13/cv-awards-and-recognition.html</guid>
+        
+        <category>profession,awards</category>
+        
+        
+        <category>cv</category>
+        
+        <category>menud</category>
+        
+      </item>
+    
+      <item>
+        <title>Contact</title>
+        <description>&lt;h3&gt;&lt;span class=&quot;email&quot;&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;6175058278&quot;&gt;617.505.8278&lt;/h3&gt;
+</description>
+        <pubDate>Fri, 12 Feb 2016 02:18:42 -0500</pubDate>
+        <link>http://cv.milleria.org/about/menud/2016/02/12/about-contact.html</link>
+        <guid isPermaLink="true">http://cv.milleria.org/about/menud/2016/02/12/about-contact.html</guid>
+        
+        <category>email,phone,contact</category>
+        
+        
+        <category>about</category>
+        
+        <category>menud</category>
+        
+      </item>
+    
+      <item>
+        <title>About</title>
+        <description>&lt;p&gt;I am a GIS Librarian. Eh, &lt;em&gt;kinda.&lt;/em&gt; By degree, certainly (&lt;span class=&quot;copy-trigger&quot; data-type=&quot;gob&quot; data-id=&quot;gD18&quot;&gt;University of Iowa&lt;/span&gt;), and by title in &lt;span class=&quot;copy-trigger&quot; data-type=&quot;slug&quot; data-id=&quot;cv-positions&quot;&gt;previous positions&lt;/span&gt;. But the joy of having such a unique job is that I’ve been able to define, redefine, and refine it over the years and now, at &lt;span class=&quot;copy-trigger&quot; data-type=&quot;gob&quot; data-id=&quot;gD19&quot;&gt;MIT Lincoln Laboratory (MITLL)&lt;/span&gt;, I am a developer, mapmaker, and sys admin who happens to work out of the agency’s library. You can read aaaaaaa-ha-ha-all about it in my “&lt;span class=&quot;copy-trigger&quot; data-type=&quot;slug&quot; data-id=&quot;about-cover-letter-gloss&quot;&gt;narrative&lt;/span&gt;” but suffice it to say I get to write web apps, APIs, and other custom solutions; make maps; find data; fix data; synthesize data; organize data; and connect systems so that smarter people can do smart things with those data.&lt;/p&gt;
+
+&lt;p&gt;…Which is perfect. I believe in data reusability and distribution, cleanliness, interoperability and in the unique opportunity that librarians and other information professionals have to establish, bolster, and progress those values in education &amp;amp; research or just the web generally.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 12 Feb 2016 02:18:42 -0500</pubDate>
+        <link>http://cv.milleria.org/about/menud/2016/02/12/about-about.html</link>
+        <guid isPermaLink="true">http://cv.milleria.org/about/menud/2016/02/12/about-about.html</guid>
+        
+        <category>email,phone,contact</category>
+        
+        
+        <category>about</category>
+        
+        <category>menud</category>
+        
+      </item>
+    
+  </channel>
+</rss>
