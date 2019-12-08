@@ -21,7 +21,7 @@ last_name: Miller
 
 ### CURRENT POSITION:
 
-#### GIS Specialist/Systems Administrator, 2012-present
+#### GIS Specialist/Applications Specialist, 2012-present
 
 <div class="cv-info-block">
 Knowledge Services Sector<br/>

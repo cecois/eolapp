@@ -30,6 +30,7 @@ last_name: Miller
 
 #### RECOGNITION
 
+* In 2019 I was invited to participate in a Mellon-funded project at Columbia University, "Web-Based Digital Mapping Projects Preservation," which endeavored to study and build up best practices around the preservation of web mapping applications.
 * represented an "established library GIS program" at "GIS in Every Library," Maps and Geography Round Table talk and panel, American Library Association Annual Conference, Washington D.C. June 2010.
 * advisor to/director of Indiana University School of Library and Information Science graduate student "directed reading" project on spatializing library repository full text collections. June, 2010 ­ December, 2010.
 * The Cyberinfrastructure Summer Institute for Geoscientists (CSIG) is a program held at the San Diego Supercomputer Center, San Diego, CA by the NSF-­funded Geosciences Network (GEON) project and in 2007 was geared toward introducing educators to the tools, methods, applications, and motives behind developing cyberinfrastructure initiatives in the geosciences. I attended in preparation for teaching a course on Geoinformatics in the spring of 2008 and was [invited back as faculty in 2009](http://www.geongrid.org/index.php/education/si_faculty/csig_2009)

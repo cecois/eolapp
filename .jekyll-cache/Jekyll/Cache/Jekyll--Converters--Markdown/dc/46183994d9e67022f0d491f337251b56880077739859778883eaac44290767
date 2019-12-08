@@ -1,0 +1,17 @@
+I"m<p>My work at MITLL is fun and fulfilling, both personally and professionally. I build web applications, write and consume geospatial (and metadata) APIs, and generally build (or fix) the sinews within and between various usually web-facing library digital systems<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>. The few specifics I <em>can</em> describe can be found <span class="copy-trigger" data-type="slug" data-id="cv-portfolio-digital">here</span> and <span class="copy-trigger" data-type="slug" data-id="cv-portfolio-static">here</span>.</p>
+
+<p>Prior to that I was tenured faculty at <span class="copy-trigger" data-type="gob" data-id="gD16">Purdue University</span>, where I also built library data-delivery systems as well as custom systems for faculty across campus, partnering with them on their cyberinfrastructure-building programs.<sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup> At Purdue I also co-developed and taught a graduate-level course entitled “Geoinformatics” designed to introduce practical, discipline-agnostic GIS techniques and spatial data/metadata concepts with a slight emphasis on contemporary developments in web- and cloud-based spatial data infrastructure (APIs, data repositories, data re-use, etc.)</p>
+
+<p>Security at Lincoln Laboratory is aggressive and thorough and my work there is tightly-sequestered and cordoned off. I also commute to Lexington, Mass at least three times a week. The trip takes about <span class="copy-trigger" data-type="gob" data-id="g|1">two hours each way</span>, which explains all of those <span class="copy-trigger" data-type="slug" data-id="cv-portfolio-digital">joke projects</span>.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>Extant applications there include <a href="https://omeka.org/">Omeka</a>, <a href="https://movabletype.org/">MovableType</a>, <a href="http://vufind.org">VuFind</a>, and BitCurator (in addition to the <span class="copy-trigger" data-type="slug" data-id="cv-portfolio-digital">stack I personally run</span>); back-end technologies include <a href="http://mysql.com">MySQL</a>, <a href="https://www.mongodb.com/">MongoDB</a>, <a href="https://ckan.org">CKAN</a>, <a href="http://www.zend.com/">Zend</a>, <a href="https://kohanaframework.org/">Kohana</a>, and (an almost laughable amount of) <a href="https://www.drupal.org/">Drupals</a> - with tons of shell scripting (<a href="https://www.gnu.org/software/bash/">bash</a> and <a href="http://www.zsh.org/">zsh</a>, typically); a rapidly-growing application of <a href="https://nodejs.org/en/">Node</a>; and a smattering of <a href="https://www.python.org/">python</a> thrown in. I am a master of none of these, a jack of most. Sounds dirty but I’m sure you get it. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>At Purdue, in addition to the stack of open source tech that sat under my spatial data infrastructure, I did a lot of work with <a href="https://wordpress.org/">WordPress</a>es and <a href="https://www.drupal.org/">Drupal</a>s. <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET

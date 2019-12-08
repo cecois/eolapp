@@ -1,0 +1,10 @@
+I"�<p>My work at MITLL is fun and fulfilling, both personally and professionally. I build web applications, write and consume geospatial (and metadata) APIs, and generally build (or fix) the sinews within and between various usually web-facing library digital systems<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>. The few specifics I <em>can</em> describe can be found <span class="copy-trigger" data-type="slug" data-id="cv-portfolio-digital">here</span> and <span class="copy-trigger" data-type="slug" data-id="cv-portfolio-static">here</span>.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>Extant applications there include <a href="https://omeka.org/">Omeka</a>, <a href="https://movabletype.org/">MovableType</a>, <a href="http://vufind.org">VuFind</a>, and BitCurator (in addition to the <span class="copy-trigger" data-type="slug" data-id="cv-portfolio-digital">stack I personally run</span>); back-end technologies include <a href="http://mysql.com">MySQL</a>, <a href="https://www.mongodb.com/">MongoDB</a>, <a href="https://ckan.org">CKAN</a>, <a href="http://www.zend.com/">Zend</a>, <a href="https://kohanaframework.org/">Kohana</a>, and (an almost laughable amount of) <a href="https://www.drupal.org/">Drupals</a> - with tons of shell scripting (<a href="https://www.gnu.org/software/bash/">bash</a> and <a href="http://www.zsh.org/">zsh</a>, typically); a rapidly-growing application of <a href="https://nodejs.org/en/">Node</a>; and a smattering of <a href="https://www.python.org/">python</a> thrown in. I am a master of none of these, a jack of most. Sounds dirty but I’m sure you get it. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET

@@ -1,28 +1,6 @@
----
-layout: post
-title: 'Portfolio (Web Apps, APIs, etc.)'
-splash: 'splash-cv-portfolio-digital.jpg'
-date: 2016-03-22 02:18:42.000000000 -04:00
-type: post
-published: true
-status: publish
-order: 1
-category:
-- cv
-- menud
-tags:
-- apps
-meta:
-author:
-display_name: CCM
-first_name: C.C.
-last_name: Miller
----
-
-
-<!-- ******************************* INSTANCE-LEFT -->
+I"�[<!-- ******************************* INSTANCE-LEFT -->
 <div class="portfolio-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12"><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="max-height:150px;overflow:hidden;">
-<img class="pull-right" src="/assets/img/noun_768916_cc.svg"></img>
+<img class="pull-right" src="/assets/img/noun_768916_cc.svg" />&lt;/img&gt;
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="text-align:left;font-size:.8em;">
 <p>MIT Lincoln Laboratory is a federally-funded research and development center that "applies advanced technology to problems of national security." As such, they take security very seriously and my work there cannot be shown. I can say that my primary objective when I started in 2012 was to build a system for the storage, search, discovery, and delivery of spatial data. Which I did - with <a href="https://www.mongodb.com/">MongoDB</a> and <a href="http://postgis.net/">PostGIS</a> on the back end; <a href="http://lucene.apache.org/solr/">Apache Solr</a>, <a href="http://geoserver.org">GeoServer</a>, <a href="http://geowebcache.org">GeoWebcache</a>, and <a href="https://mapproxy.org">MapProxy</a> in the middle; an API (first in <a href="http://www.slimframework.com">Slim</a>, then <a href="https://nodejs.org">Node</a> that I also consumed with a single-page web app written primarily against <a href="http://backbonejs.com">BackboneJS</a> (but with other fun stuff such as <a href="http://getbootstrap.com">Bootstrap</a>, <a href="http://leafletjs.com">Leaflet</a>, <a href="http://handlebarsjs.com">Handlebars</a>, all that hip stuff). There were numerous third-party APIs and projects in there as well (e.g. the erstwhile <a href="https://www.freebase.com">Freebase</a>, <a href="https://d3js.org">D3.js</a>, <a href="http://open.mapquestapi.com">MapQuest</a>, <a href="https://wiki.openstreetmap.org/wiki/Main_Page">OpenStreetMap</a>, <a href="http://cloudmade.com">CloudMade</a>. The result was pretty, clean, and a success for my sector. But I cannot show it.</p>
@@ -31,12 +9,12 @@ last_name: Miller
 
 <p>There are other projects at MITLL, too, that evidence a growing and diversifying skill set - an API in NodeJS that brokers map routing (against data in PostGIS+pgRouting); a web scraper in NodeJS that harvests web targets based on certain semantic requirements; a MongoDB Map/Reduce workflow that summarizes and reports on many millions of archival items; and numerous ad hoc web apps designed to visualize this or that data problem or to deliver data found on behalf of a lab researcher. However these, too, cannot be copied, distributed, or shown off.</p>
 </div>
-</div> <!-- ******************************* /INSTANCE -->
-
+</div>
+<p><!-- ******************************* /INSTANCE --></p>
 
 <!-- ******************************* INSTANCE-RIGHT -->
 <div class="portfolio-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12"><h3>This Site</h3><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="max-height:150px;overflow:hidden;">
-<img width="100%" class="pull-right" src="/assets/img/portfolio-wapp-this.jpg"></img>
+<img width="100%" class="pull-right" src="/assets/img/portfolio-wapp-this.jpg" />&lt;/img&gt;
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pw-right" style="">
 
@@ -67,25 +45,23 @@ last_name: Miller
 
 <p>P.S. As with several other projects, map data (commute, the locations of my previous positions, etc.) are hosted in <a href="https://cartodb.com">CartoDB</a>, a cloud spatial database with an easy SQL API. In this particular case the data are prefetched and served statically out of the generated Jekyll dir. If for no other reason than it's easier to work on the T that way.</p>
 </div>
-</div> <!-- ******************************* /INSTANCE -->
-
-
+</div>
+<p><!-- ******************************* /INSTANCE --></p>
 
 <!-- ******************************* INSTANCE-LEFT -->
 <div class="portfolio-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12"><h3>Only the Lonely: The 6 Loneliest Hubway Bikes of 2016</h3><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="max-height:150px;overflow:hidden;">
-<a href="http://cecois.github.io"><img width="100%" class="pull-right" src="/assets/img/splash-cv-portfolio-digital.jpg"></img></a>
+<a href="http://cecois.github.io"><img width="100%" class="pull-right" src="/assets/img/splash-cv-portfolio-digital.jpg" />&lt;/img&gt;</a>
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pw-left" style="">
 
 <p>In Spring 2017, Boston's <a href="https://www.motivateco.com/">Motivate</a>-based bike sharing system, <a href="https://www.thehubway.com/">Hubway</a>, announced a data visualization/analysis contest. My entry, "<a href="http://cecois.github.io">Only the Lonely</a>," <a href="https://www.bostonglobe.com/lifestyle/2017/04/14/how-lonely-are-loneliest-hubway-bikes-one-was-ridden-for-minutes-all-year/3e2jnNIYgLh6CrTmoOPFgJ/story.html">got some press</a> and then <a href="https://www.thehubway.com/blog/2017-datachallenge-winners">won <em>Best Data Narrative</em></a>. The app itself describes <a href="http://cecois.github.io/#about/pencil/out/">how it was built</a>.</p>
 </div>
-</div> <!-- ******************************* /INSTANCE -->
-
-
+</div>
+<p><!-- ******************************* /INSTANCE --></p>
 
 <!-- ******************************* INSTANCE-RIGHT -->
 <div class="portfolio-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12"><h3>2014 Boston Garbage Atlas</h3><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="max-height:150px;overflow:hidden;">
-<img width="100%" class="pull-right" src="/assets/img/portfolio-wapp-garbage-atlas.jpg"></img>
+<img width="100%" class="pull-right" src="/assets/img/portfolio-wapp-garbage-atlas.jpg" />&lt;/img&gt;
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pw-right" style="">
 
@@ -94,13 +70,12 @@ last_name: Miller
 <p>I didn't win, can you believe that?! My entry was runner-up in the "Telling a Story Through Data" track - I gave a talk at <a href="http://districthallboston.org">District Hall</a> that basically was a cheerleading routine for open data. Worth it.</p>
 <p>A little more about the procedure can be found at <a href="http://garbage.milleria.org/#about/carto_darkmatter/out/1395577860/-71.08205795288087,42.34785606651052,-71.02330684661867,42.37252735093426">the app itself</a>, still live.</p>
 </div>
-</div> <!-- ******************************* /INSTANCE -->
-
-
+</div>
+<p><!-- ******************************* /INSTANCE --></p>
 
 <!-- ******************************* INSTANCE-LEFT -->
 <div class="portfolio-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12"><h3>311 Garbage Bot: Automated Garbage Guesser</h3><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="max-height:150px;overflow:hidden;">
-<a href="https://twitter.com/311GarbageBot"><img width="100%" class="pull-right" src="/assets/img/portfolio-wapp-311.jpg"></img></a>
+<a href="https://twitter.com/311GarbageBot"><img width="100%" class="pull-right" src="/assets/img/portfolio-wapp-311.jpg" />&lt;/img&gt;</a>
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pw-left" style="">
 <p>
@@ -117,13 +92,12 @@ last_name: Miller
 </p>
 <p>The time it took putting in guesses to keep it fresh felt...excessive, however, so I shut it down. Worked, though!</p>
 </div>
-</div> <!-- ******************************* /INSTANCE -->
-
-
+</div>
+<p><!-- ******************************* /INSTANCE --></p>
 
 <!-- ******************************* INSTANCE-RIGHT -->
 <div class="portfolio-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12"><h3>Doctoring</h3><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="max-height:150px;overflow:hidden;">
-<img width="100%" class="pull-right" src="/assets/img/portfolio-wapp-marks.jpg"></img>
+<img width="100%" class="pull-right" src="/assets/img/portfolio-wapp-marks.jpg" />&lt;/img&gt;
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pw-right" style="">
 
@@ -135,24 +109,24 @@ last_name: Miller
 </p>
 <p>Another contract is pending so I won't include it here.</p>
 </div>
-</div> <!-- ******************************* /INSTANCE -->
-
+</div>
+<p><!-- ******************************* /INSTANCE --></p>
 
 <!-- ******************************* INSTANCE-LEFT -->
 <div class="portfolio-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12"><h3>The Clothes I Own</h3><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="max-height:150px;overflow:hidden;">
-<a href="http://clothes.milleria.org"><img width="100%" class="pull-right" src="/assets/img/portfolio-wapp-clothes.jpg"></img></a>
+<a href="http://clothes.milleria.org"><img width="100%" class="pull-right" src="/assets/img/portfolio-wapp-clothes.jpg" />&lt;/img&gt;</a>
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pw-left" style="">
 <p>
 If I were a rich man I would be stylish. Instead these are the clothes I've worn over and over and over again for many years. One morning I decided to menagerize them and <a href="http://clothes.milleria.org/">the result</a>, I confess, I've visited more than once because I think it's beautiful and hilarious.
 </p>
 </div>
-</div> <!-- ******************************* /INSTANCE -->
-
+</div>
+<p><!-- ******************************* /INSTANCE --></p>
 
 <!-- ******************************* INSTANCE-RIGHT -->
 <div class="portfolio-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12"><h3>CBB BitMap</h3><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="max-height:150px;overflow:hidden;">
-<a href="http://cbb.milleria.org"><img width="100%" class="pull-right" src="/assets/img/portfolio-wapp-cbb.png"></img></a>
+<a href="http://cbb.milleria.org"><img width="100%" class="pull-right" src="/assets/img/portfolio-wapp-cbb.png" />&lt;/img&gt;</a>
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pw-right" style="">
 
@@ -165,13 +139,12 @@ This takes some explaining. <a href="http://www.earwolf.com/show/comedy-bang-ban
 <p>However...</p>
 <p>In Fall 2017 both OpenShift and Carto changed their plans and I bolted. The bits data are still in a hosted <a href="https://www.mongodb.com">MongoDB</a> instance (<a href="https://mlab.com/">mLab</a>), but the geospatials are now in a different Mongo instance (MongoDB's <a href="https://cloud.mongodb.com">Atlas service</a>); they are indexed in <a href="http://elastic.co">ElasticSearch</a> rather than Solr; <a href="http://bulma.io">Bulma</a> is now providing style rather than Bootstrap; oh, and I completely rewrote the GUI in <a href="https://vuejs.org">VueJS</a>.</p>
 </div>
-</div> <!-- ******************************* /INSTANCE -->
-
-
+</div>
+<p><!-- ******************************* /INSTANCE --></p>
 
 <!-- ******************************* INSTANCE-LEFT -->
 <div class="portfolio-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12"><h3>Dalyverse</h3><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="max-height:150px;overflow:hidden;">
-<a href="http://trainertothestarsseekingstars.org"><img width="100%" class="pull-right" src="/assets/img/portfolio-wapp-dv.png"></img></a>
+<a href="http://trainertothestarsseekingstars.org"><img width="100%" class="pull-right" src="/assets/img/portfolio-wapp-dv.png" />&lt;/img&gt;</a>
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pw-left" style="">
 <p>
@@ -179,66 +152,76 @@ This one also needs some context. Evidently not burdened enough by having to, ev
 </p>
 <p>Then the work began. All of those entities and their relations were imported into an <a href="https://www.arangodb.com">ArangoDB</a> Docker container and sliced up from several angles in order to best illustrate the incredible and meticulous work Daly has done with his characters and their (almost universal) canon over the years.</p>
 </div>
-</div> <!-- ******************************* /INSTANCE -->
-
+</div>
+<p><!-- ******************************* /INSTANCE --></p>
 
 <!-- ******************************* INSTANCE-RIGHT -->
 <div class="portfolio-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12"><h3>Spatial Track</h3><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="max-height:150px;overflow:hidden;">
-<a href="http://spatialtrack.milleria.org"><img width="100%" class="pull-right" src="https://dzwonsemrish7.cloudfront.net/items/342D10090E25280z0X37/thumb-spatialtrack.jpg?v=0e5dc5b2"></img></a>
+<a href="http://spatialtrack.milleria.org"><img width="100%" class="pull-right" src="https://dzwonsemrish7.cloudfront.net/items/342D10090E25280z0X37/thumb-spatialtrack.jpg?v=0e5dc5b2" />&lt;/img&gt;</a>
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pw-right" style="">
 <p>
 Another instance where more became less (became more) is my conversion of an old <a href="https://wordpress.org">WordPress</a> blog into a <a href="http://spatialtrack.milleria.org">more svelte and muuuuch faster Jekyll+Leaflet coupling</a>. None of the map plugins for WordPress ever gave enough map, always felt like afterthoughts. When web applications force primary content into little side boxes -- especially map content -- it drives me crazy. Using a custom Leaflet+Jekyll pairing again allows a user to engage the blog copy normally but also allows them to immerse themselves into a full-frame map and access primary content that way, too. More about its guts <a href="http://spatialtrack.milleria.org/this/">at itself</a>. That's a syntactically-legitimate sentence, right?
 </p>
 </div>
-</div> <!-- ******************************* /INSTANCE -->
+</div>
+<p><!-- ******************************* /INSTANCE --></p>
 
+<h3 id="select-olderofflineobsolete-work">Select Older/Offline/Obsolete Work</h3>
 
+<p><em>At Purdue and Texas A&amp;M International, I was not strictly-speaking in a developer position. I was faculty in both places, charged at TAMIU with developing out library-based spatial data &amp; GIS services and at Purdue with a steeper mission of developing library data services and education to better support and collaborate with other cyberinfrastructure-building projects across campus. It just so happened that effectively _all_ of this work required web-facing development. At times I directed the work of others (post-docs, graduate RAs, and undergrads), but typically I did all of my own authoring.</em></p>
 
-
-
-### Select Older/Offline/Obsolete Work
-
-*At Purdue and Texas A&M International, I was not strictly-speaking in a developer position. I was faculty in both places, charged at TAMIU with developing out library-based spatial data & GIS services and at Purdue with a steeper mission of developing library data services and education to better support and collaborate with other cyberinfrastructure-building projects across campus. It just so happened that effectively _all_ of this work required web-facing development. At times I directed the work of others (post-docs, graduate RAs, and undergrads), but typically I did all of my own authoring.*
-
-
-* _Spatial Data Catalog Project (MADA@P)_ - Purdue, 2008-2012
-	* an open source­-built metadata+data+GUI stack to deliver spatial data
-	* built (by me) with [GeoServer](http://geoserver.org) ([MapServer](http://mapserver.org), early on), [OpenLayers](http://openlayers.org), [jQuery](http://jquery.com), on top of a metadata store in [GeoNetwork OpenSource](http://geonetwork-opensource.org) that I re-re-indexed with a [Solr](http://lucene.apache.org/solr).
-
-
-* _Targeted Metadata Crawler_ - Purdue, 2008-2011
-	* web crawler side project that harvested specifically spatial metadata from social data streams
-	* design by me, parser written in Java by one of my graduate assistants
-
-
-* _IsoMAP: Isoscape Modeling, Analysis and Prediction_ - Purdue, 2008-2012
-	* spatial data processing and organization workflows
-	* web app (in [OpenLayers](http://openlayers.org)) that interfaces with metadata stores, spatial database contents, and TeraGrid job managing software
-	* metadata authoring, metadata indexing, and metadata search mechanism
-	* I built the spatial component of this NSF-funded cyberinfrastructure project that delivers powerful environmental isotope modeling, analysis, and visualization over the web
-
-
-* _ISEE: Integrating Spatial Educational Experiences into Crop, Soil, and Environmental Science_ - Purdue, 2008-2012
-	* 100s of GBs of soil imagery prepared and delivered to web and other clients (Google Earth) in soil science classrooms
-
-
-* _Geoinformatics Course_: 2008, 2010
-	* graduate-level course taught by me in which geoscientific technologies, data, and workflows are examined and practiced together as irrevocably interrelated pieces of a growing geocyberinfrastructure
-
-
-* _Spatialized Repository Collections_ - Purdue, 2010-2012
-	* a side-project that was building mostly­-automated workflows designed to extract semantically useful placenames and other location data from fulltext scholarly repository documents
-
-
-* _Automated Georeferencer (PLAutoGeoRef)_ - Purdue, 2010-2012
-	* in-house research designed to automate the laborious georeferencing of historic aerial photo collections
-	* design and direction by me - processing algorithm by my GA, Jae Sung Kim
-
-
-* _1906 Soil Survey Resurrection_ - Purdue, 2007­-2008
-	* historic map digitization and data extraction ­a 1906 soil survey document was digitized and deposited into the Purdue Libraries institutional repository; its map was further georeferenced and run through a segmentation algorithm (Jae Sung Kim) which helped us pull out real polygonal vector data for use in modern GISs
-
-
-* _Pilot PTO Dailies_ - Purdue, 2010-2012
-	* an automated data publishing workflow incorporates extant library data APIs to push Purdue Terrestrial Observatory remote sensing data to the web
+<ul>
+  <li><em>Spatial Data Catalog Project (MADA@P)</em> - Purdue, 2008-2012
+    <ul>
+      <li>an open source­-built metadata+data+GUI stack to deliver spatial data</li>
+      <li>built (by me) with <a href="http://geoserver.org">GeoServer</a> (<a href="http://mapserver.org">MapServer</a>, early on), <a href="http://openlayers.org">OpenLayers</a>, <a href="http://jquery.com">jQuery</a>, on top of a metadata store in <a href="http://geonetwork-opensource.org">GeoNetwork OpenSource</a> that I re-re-indexed with a <a href="http://lucene.apache.org/solr">Solr</a>.</li>
+    </ul>
+  </li>
+  <li><em>Targeted Metadata Crawler</em> - Purdue, 2008-2011
+    <ul>
+      <li>web crawler side project that harvested specifically spatial metadata from social data streams</li>
+      <li>design by me, parser written in Java by one of my graduate assistants</li>
+    </ul>
+  </li>
+  <li><em>IsoMAP: Isoscape Modeling, Analysis and Prediction</em> - Purdue, 2008-2012
+    <ul>
+      <li>spatial data processing and organization workflows</li>
+      <li>web app (in <a href="http://openlayers.org">OpenLayers</a>) that interfaces with metadata stores, spatial database contents, and TeraGrid job managing software</li>
+      <li>metadata authoring, metadata indexing, and metadata search mechanism</li>
+      <li>I built the spatial component of this NSF-funded cyberinfrastructure project that delivers powerful environmental isotope modeling, analysis, and visualization over the web</li>
+    </ul>
+  </li>
+  <li><em>ISEE: Integrating Spatial Educational Experiences into Crop, Soil, and Environmental Science</em> - Purdue, 2008-2012
+    <ul>
+      <li>100s of GBs of soil imagery prepared and delivered to web and other clients (Google Earth) in soil science classrooms</li>
+    </ul>
+  </li>
+  <li><em>Geoinformatics Course</em>: 2008, 2010
+    <ul>
+      <li>graduate-level course taught by me in which geoscientific technologies, data, and workflows are examined and practiced together as irrevocably interrelated pieces of a growing geocyberinfrastructure</li>
+    </ul>
+  </li>
+  <li><em>Spatialized Repository Collections</em> - Purdue, 2010-2012
+    <ul>
+      <li>a side-project that was building mostly­-automated workflows designed to extract semantically useful placenames and other location data from fulltext scholarly repository documents</li>
+    </ul>
+  </li>
+  <li><em>Automated Georeferencer (PLAutoGeoRef)</em> - Purdue, 2010-2012
+    <ul>
+      <li>in-house research designed to automate the laborious georeferencing of historic aerial photo collections</li>
+      <li>design and direction by me - processing algorithm by my GA, Jae Sung Kim</li>
+    </ul>
+  </li>
+  <li><em>1906 Soil Survey Resurrection</em> - Purdue, 2007­-2008
+    <ul>
+      <li>historic map digitization and data extraction ­a 1906 soil survey document was digitized and deposited into the Purdue Libraries institutional repository; its map was further georeferenced and run through a segmentation algorithm (Jae Sung Kim) which helped us pull out real polygonal vector data for use in modern GISs</li>
+    </ul>
+  </li>
+  <li><em>Pilot PTO Dailies</em> - Purdue, 2010-2012
+    <ul>
+      <li>an automated data publishing workflow incorporates extant library data APIs to push Purdue Terrestrial Observatory remote sensing data to the web</li>
+    </ul>
+  </li>
+</ul>
+:ET

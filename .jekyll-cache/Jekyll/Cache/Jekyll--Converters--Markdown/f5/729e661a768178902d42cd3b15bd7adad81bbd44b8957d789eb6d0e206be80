@@ -1,28 +1,7 @@
----
-layout: post
-title: 'Minutiae'
-splash: 'splash-about-minutiae.jpg'
-date: 2017-07-04 02:18:42.000000000 -04:00
-type: post
-published: true
-status: publish
-order: 8
-category:
-- about
-- menud
-tags:
-- technicals
-meta:
-author:
-display_name: CCM
-first_name: C.C.
-last_name: Miller
----
+I"P	<p>This site isn’t <em>nothing</em>. It’s a coupling of <a href="https://jekyllrb.com">Jekyll</a> simplicity, complicated with <a href="http://backbonejs.org">Backbone</a> logic. With <a href="http://leafletjs.com">Leaflet</a> and <a href="http://getbootstrap.com">Bootstrap</a> and all that stuff everybody likes to use. You can read about it <span class="copy-trigger" data-type="slug" data-id="cv-portfolio-digital">here</span>. But for images and icons sprinkled throughout, some credit:</p>
 
-This site isn't *nothing*. It's a coupling of [Jekyll](https://jekyllrb.com) simplicity, complicated with [Backbone](http://backbonejs.org) logic. With [Leaflet](http://leafletjs.com) and [Bootstrap](http://getbootstrap.com) and all that stuff everybody likes to use. You can read about it <span class="copy-trigger" data-type="slug" data-id="cv-portfolio-digital">here</span>. But for images and icons sprinkled throughout, some credit:
-
-<h3>Credits & Citations:</h3>
-Various items, icons, and images used throughout the site:
+<h3>Credits &amp; Citations:</h3>
+<p>Various items, icons, and images used throughout the site:</p>
 <ul><li>(about menu image) <a href="http://www.bostonglobe.com/lifestyle/2017/04/14/how-lonely-are-loneliest-hubway-bikes-one-was-ridden-for-minutes-all-year/3e2jnNIYgLh6CrTmoOPFgJ/story.html">Boston Globe Hubway article image</a> - color-adjusted</li>
 <li>(narrative menu image) <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Minute_Man_Statue_Lexington_Massachusetts.jpg/1200px-Minute_Man_Statue_Lexington_Massachusetts.jpg">Lexington, Mass town image</a> - color-adjusted</li>
 <li>(publications menu image) <a href="http://docs.lib.purdue.edu/jto/vol2/iss1/art6/">Automated GeoReferencing...</a></li>
@@ -33,6 +12,7 @@ Various items, icons, and images used throughout the site:
 <li>favico: <a href="https://thenounproject.com/browse/?i=176247">Globe by Creative Stall</a> from the Noun Project</li>
 <li>paywall-access forbidden graphic <a href="https://thenounproject.com/browse/?i=23428">Copyright Code by Tim Hurt</a> from the Noun Project</li>
 <li>Al Gore "Our Choice" jacket <a href="http://rsrc.pushpoppress.com/ourchoice/images/index/trailer-normal.jpg">Push Pop Press</a> - cropped</li>
-<li><a href="https://thenounproject.com/search/?q=gate&i=768916">Wrought Iron Gate by Andrew Doane</a> from the Noun Project - stamped/cloned</li>
+<li><a href="https://thenounproject.com/search/?q=gate&amp;i=768916">Wrought Iron Gate by Andrew Doane</a> from the Noun Project - stamped/cloned</li>
 <li>(all other items explicitly linked or credited inline)</li>
 </ul>
+:ET
