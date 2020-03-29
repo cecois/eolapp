@@ -68,7 +68,7 @@ Madrigal, Alexis. "Scientists Unveil High­Res Map of the U.S. Carbon Footprint,
 
 <!-- ******************************* INSTANCE-LEFT -->
 <div class="portfolio-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12"><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="max-height:150px;overflow:hidden;">
-<a href="http://www.sciencedaily.com/releases/2008/04/080407172656.htm"><img width="100%" src="https://www.sciencedaily.com/images/2008/04/080407172656_1_540x360.jpg"></img></a>
+<a href="http://www.sciencedaily.com/releases/2008/04/080407172656.htm"><img width="100%" src="https://news.uns.purdue.edu/images/+2008/gurneyvulcan1LO.jpg"></img></a>
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="text-align:left;font-size:.8em;">
 'Revolutionary' Carbon Dioxide Maps Zoom In On Greenhouse Gas Sources." [ScienceDaily. (April 8, 2008)](http://www.sciencedaily.com/releases/2008/04/080407172656.htm).
