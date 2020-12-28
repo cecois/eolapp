@@ -5,8 +5,8 @@
     <description>C.C. Miller - web app CV</description>
     <link>http://cv.milleria.org/</link>
     <atom:link href="http://cv.milleria.org/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 08 Dec 2019 17:54:30 -0500</pubDate>
-    <lastBuildDate>Sun, 08 Dec 2019 17:54:30 -0500</lastBuildDate>
+    <pubDate>Mon, 28 Dec 2020 07:58:33 -0500</pubDate>
+    <lastBuildDate>Mon, 28 Dec 2020 07:58:33 -0500</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -122,7 +122,7 @@ Madrigal, Alexis. &quot;Scientists Unveil High­Res Map of the U.S. Carbon Footp
 
 &lt;!-- ******************************* INSTANCE-LEFT --&gt;
 &lt;div class=&quot;portfolio-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12&quot;&gt;&lt;div class=&quot;col-lg-12 col-md-12 col-sm-12 col-xs-12&quot; style=&quot;max-height:150px;overflow:hidden;&quot;&gt;
-&lt;a href=&quot;http://www.sciencedaily.com/releases/2008/04/080407172656.htm&quot;&gt;&lt;img width=&quot;100%&quot; src=&quot;https://www.sciencedaily.com/images/2008/04/080407172656_1_540x360.jpg&quot; /&gt;&amp;lt;/img&amp;gt;&lt;/a&gt;
+&lt;a href=&quot;http://www.sciencedaily.com/releases/2008/04/080407172656.htm&quot;&gt;&lt;img width=&quot;100%&quot; src=&quot;https://news.uns.purdue.edu/images/+2008/gurneyvulcan1LO.jpg&quot; /&gt;&amp;lt;/img&amp;gt;&lt;/a&gt;
 &lt;/div&gt;
 &lt;div class=&quot;col-lg-12 col-md-12 col-sm-12 col-xs-12&quot; style=&quot;text-align:left;font-size:.8em;&quot;&gt;
 'Revolutionary' Carbon Dioxide Maps Zoom In On Greenhouse Gas Sources.&quot; [ScienceDaily. (April 8, 2008)](http://www.sciencedaily.com/releases/2008/04/080407172656.htm).
@@ -181,7 +181,7 @@ See the &lt;span class=&quot;copy-trigger&quot; data-type=&quot;slug&quot; data-
         <title>Portfolio (Web Apps, APIs, etc.)</title>
         <description>&lt;!-- ******************************* INSTANCE-LEFT --&gt;
 &lt;div class=&quot;portfolio-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12&quot;&gt;&lt;div class=&quot;col-lg-12 col-md-12 col-sm-12 col-xs-12&quot; style=&quot;max-height:150px;overflow:hidden;&quot;&gt;
-&lt;img class=&quot;pull-right&quot; src=&quot;/assets/img/noun_768916_cc.svg&quot; /&gt;&amp;lt;/img&amp;gt;
+&lt;img class=&quot;pull-right&quot; src=&quot;/assets/img/noun_768916_cc.svg&quot; /&gt;
 &lt;/div&gt;
 &lt;div class=&quot;col-lg-12 col-md-12 col-sm-12 col-xs-12&quot; style=&quot;text-align:left;font-size:.8em;&quot;&gt;
 &lt;p&gt;MIT Lincoln Laboratory is a federally-funded research and development center that &quot;applies advanced technology to problems of national security.&quot; As such, they take security very seriously and my work there cannot be shown. I can say that my primary objective when I started in 2012 was to build a system for the storage, search, discovery, and delivery of spatial data. Which I did - with &lt;a href=&quot;https://www.mongodb.com/&quot;&gt;MongoDB&lt;/a&gt; and &lt;a href=&quot;http://postgis.net/&quot;&gt;PostGIS&lt;/a&gt; on the back end; &lt;a href=&quot;http://lucene.apache.org/solr/&quot;&gt;Apache Solr&lt;/a&gt;, &lt;a href=&quot;http://geoserver.org&quot;&gt;GeoServer&lt;/a&gt;, &lt;a href=&quot;http://geowebcache.org&quot;&gt;GeoWebcache&lt;/a&gt;, and &lt;a href=&quot;https://mapproxy.org&quot;&gt;MapProxy&lt;/a&gt; in the middle; an API (first in &lt;a href=&quot;http://www.slimframework.com&quot;&gt;Slim&lt;/a&gt;, then &lt;a href=&quot;https://nodejs.org&quot;&gt;Node&lt;/a&gt; that I also consumed with a single-page web app written primarily against &lt;a href=&quot;http://backbonejs.com&quot;&gt;BackboneJS&lt;/a&gt; (but with other fun stuff such as &lt;a href=&quot;http://getbootstrap.com&quot;&gt;Bootstrap&lt;/a&gt;, &lt;a href=&quot;http://leafletjs.com&quot;&gt;Leaflet&lt;/a&gt;, &lt;a href=&quot;http://handlebarsjs.com&quot;&gt;Handlebars&lt;/a&gt;, all that hip stuff). There were numerous third-party APIs and projects in there as well (e.g. the erstwhile &lt;a href=&quot;https://www.freebase.com&quot;&gt;Freebase&lt;/a&gt;, &lt;a href=&quot;https://d3js.org&quot;&gt;D3.js&lt;/a&gt;, &lt;a href=&quot;http://open.mapquestapi.com&quot;&gt;MapQuest&lt;/a&gt;, &lt;a href=&quot;https://wiki.openstreetmap.org/wiki/Main_Page&quot;&gt;OpenStreetMap&lt;/a&gt;, &lt;a href=&quot;http://cloudmade.com&quot;&gt;CloudMade&lt;/a&gt;. The result was pretty, clean, and a success for my sector. But I cannot show it.&lt;/p&gt;

@@ -52,7 +52,7 @@ var baselayers = {
 		}
 	},{
 		"name": "stamen_toner",
-		"active": false,
+		"active": true,
 		"source": "stame",
 		"nom": "Stamen Toner",
 		"mapis": "dark",
@@ -75,7 +75,7 @@ var baselayers = {
 			"noWrap": true
 		}
 	}
-	,{"name":"pencil","active":true,"source":"mapbox","nom":"Aj Ashton's Pencil Map","definition":{"subdomains":["a","b","c"],"maxZoom":18,"url":"https://{s}.tiles.mapbox.com/v4/aj.03e9e12d/{z}/{x}/{y}@2x.png?access_token=pk.eyJ1IjoiYWoiLCJhIjoiY2lrZW1pczJzMDA1d3VybTJha216azVtdSJ9.vJBkGAq6CvN9vt0IwakQ-A","noWrap":true}}
+	,{"name":"pencil","active":false,"source":"mapbox","nom":"Aj Ashton's Pencil Map","definition":{"subdomains":["a","b","c"],"maxZoom":18,"url":"https://{s}.tiles.mapbox.com/v4/aj.03e9e12d/{z}/{x}/{y}@2x.png?access_token=pk.eyJ1IjoiYWoiLCJhIjoiY2lrZW1pczJzMDA1d3VybTJha216azVtdSJ9.vJBkGAq6CvN9vt0IwakQ-A","noWrap":true}}
 
 	]
 }
